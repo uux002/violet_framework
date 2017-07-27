@@ -1,0 +1,5 @@
+C:\Treasland\violet_framework\DllProjects\VLog\bin\Debug\VLog.dll
+C:\Treasland\violet_framework\DllProjects\VLog\bin\Debug\VLog.pdb
+C:\Treasland\violet_framework\DllProjects\VLog\bin\Debug\UnityEngine.dll
+C:\Treasland\violet_framework\DllProjects\VLog\obj\Debug\VLog.dll
+C:\Treasland\violet_framework\DllProjects\VLog\obj\Debug\VLog.pdb

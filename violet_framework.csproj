@@ -13,13 +13,11 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile>
-    </CompilerResponseFile>
+    <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
     <UnityVersion>2017.2.0b2</UnityVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <LangVersion>4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -222,20 +220,23 @@
     <Reference Include="UnityEngine.Purchasing">
       <HintPath>Library\UnityAssemblies\UnityEngine.Purchasing.dll</HintPath>
     </Reference>
+    <Reference Include="VLog">
+      <HintPath>Assets\Plugins\VLog.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Test\LogTEst.cs" />
     <Compile Include="Assets\VioletFramework\Consts\VioletConst.cs" />
     <Compile Include="Assets\VioletFramework\Core\Listeners.cs" />
     <Compile Include="Assets\VioletFramework\Tasks\Core\DelegateTask.cs" />
+    <Compile Include="Assets\VioletFramework\Tasks\Core\ITask.cs" />
+    <Compile Include="Assets\VioletFramework\Tasks\Core\TaskEnum.cs" />
+    <Compile Include="Assets\VioletFramework\Tasks\InternalClass\TaskChain_Queue.cs" />
     <Compile Include="Assets\VioletFramework\Tasks\InternalClass\TaskChain_RunOneByOne.cs" />
     <Compile Include="Assets\VioletFramework\Tasks\InternalClass\TaskChain_RunParallel.cs" />
-    <Compile Include="Assets\VioletFramework\Tasks\Core\ITask.cs" />
     <Compile Include="Assets\VioletFramework\Tasks\Task.cs" />
-    <Compile Include="Assets\VioletFramework\Tasks\InternalClass\TaskChain_Queue.cs" />
-    <Compile Include="Assets\VioletFramework\Tasks\Core\TaskEnum.cs" />
     <Compile Include="Assets\VioletFramework\Tasks\TaskChain.cs" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
 </Project>
