@@ -120,6 +120,8 @@
     <Compile Include="Assets\VioletFramework\Tasks\TaskChain.cs" />
     <Compile Include="Assets\VioletFramework\Patterns\Command\Command.cs" />
     <Compile Include="Assets\VioletFramework\Patterns\Command\GameActor.cs" />
+    <Compile Include="Assets\VioletFramework\Tasks\InternalClass\TaskChain_RunParallel_IgnoreError.cs" />
+    <Compile Include="Assets\VioletFramework\Tasks\InternalClass\TaskChain_RunOneByOne_IgnoreError.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

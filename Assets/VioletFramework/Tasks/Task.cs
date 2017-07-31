@@ -6,7 +6,7 @@ public class Task : ITask {
     public event Listener<ITask> onEnd;
 
     protected bool running = false;
-    protected bool isSuccess = false;
+    protected bool _isSuccess = false;
 
     public Task() {
 
@@ -33,7 +33,7 @@ public class Task : ITask {
 
     protected virtual void FireOnEnd(bool _isSuccess) {
         this.running = false;
-        this.isSuccess = _isSuccess;
+        this._isSuccess = _isSuccess;
         if(this.onEnd != null) {
             this.onEnd(this);
         }
@@ -41,11 +41,14 @@ public class Task : ITask {
     
     public virtual void StartTask() {
         this.running = true;
-        
     }
 
     public virtual void StopTask() {
         this.running = false;
     }
 
+
+    public bool isSuccess{
+        get { return this._isSuccess; }
+    }
 }

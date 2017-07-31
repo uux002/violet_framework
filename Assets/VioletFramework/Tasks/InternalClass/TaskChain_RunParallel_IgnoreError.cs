@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 
-public class TaskChain_RunParallel : TaskChain_Queue {
+public class TaskChain_RunParallel_IgnoreError : TaskChain_Queue {
 
     private int taskCount = 0;
-    private bool hasError = false;
+    private bool hasSuccess = false;
 
-    ~TaskChain_RunParallel(){
+    ~TaskChain_RunParallel_IgnoreError(){
         this.Dispose();
     }
 
@@ -16,7 +16,7 @@ public class TaskChain_RunParallel : TaskChain_Queue {
 
     public override void StartTask(){
         taskCount = 0;
-        hasError = false;
+        hasSuccess = false;
 
         foreach(ITask task in this.taskList){
             task.AddOnEnd(OnTaskEnd);
@@ -34,16 +34,16 @@ public class TaskChain_RunParallel : TaskChain_Queue {
 
     private void OnTaskEnd(ITask _task){
         ++taskCount;
-        if (_task.isSuccess == false){
-            hasError = true;
+        if (_task.isSuccess){
+            hasSuccess = true;
         }
 
-        if(taskCount == this.taskList.Count){
-            if(hasError){
-                this.FireOnEnd(false);
+        if(taskCount >= this.taskList.Count){
+            if(hasSuccess){
+                this.FireOnEnd(true);
             }
             else{
-                this.FireOnEnd(true);
+                this.FireOnEnd(false);
             }
         }
     }

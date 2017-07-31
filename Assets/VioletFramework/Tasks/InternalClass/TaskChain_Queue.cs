@@ -10,7 +10,7 @@ public class TaskChain_Queue : Task {
     }
 
     ~TaskChain_Queue() {
-
+        this.Dispose();
     }
 
     public override void Dispose() {

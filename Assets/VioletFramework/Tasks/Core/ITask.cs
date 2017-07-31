@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public interface ITask : IDisposable {
+
+    bool isSuccess{
+        get;
+    }
+
     void StartTask();
     void StopTask();
 
