@@ -25,6 +25,9 @@ public class VioletInit {
         Vlog.disable = true;
         QualitySettings.vSyncCount = 0;
         Application.targetFrameRate = 30;
+
+        UnityTicker.Instance.Initialize();
+
         XTheFinalWar.Instance.Initialize();
     }
 
