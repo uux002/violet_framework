@@ -1,49 +1,50 @@
 ﻿using System;
 using System.Collections.Generic;
 
-public class TaskChain_RunParallel_IgnoreError : TaskChain_Queue {
+namespace Violet.Tasks {
+    public class TaskChain_RunParallel_IgnoreError : TaskChain_Queue {
 
-    private int taskCount = 0;
-    private bool hasSuccess = false;
+        private int taskCount = 0;
+        private bool hasSuccess = false;
 
-    ~TaskChain_RunParallel_IgnoreError(){
-        this.Dispose();
-    }
-
-    public override void Dispose(){
-        base.Dispose();
-    }
-
-    public override void StartTask(){
-        taskCount = 0;
-        hasSuccess = false;
-
-        foreach(ITask task in this.taskList){
-            task.AddOnEnd(OnTaskEnd);
-            task.StartTask();
-        }
-        
-    }
-
-    public override void StopTask(){
-        foreach(ITask task in this.taskList){
-            task.RemoveOnEnd(OnTaskEnd);
-            task.StopTask();
-        }
-    }
-
-    private void OnTaskEnd(ITask _task){
-        ++taskCount;
-        if (_task.isSuccess){
-            hasSuccess = true;
+        ~TaskChain_RunParallel_IgnoreError() {
+            this.Dispose();
         }
 
-        if(taskCount >= this.taskList.Count){
-            if(hasSuccess){
-                this.FireOnEnd(true);
+        public override void Dispose() {
+            base.Dispose();
+        }
+
+        public override void StartTask() {
+            taskCount = 0;
+            hasSuccess = false;
+
+            foreach (ITask task in this.taskList) {
+                task.AddOnEnd(OnTaskEnd);
+                task.StartTask();
             }
-            else{
-                this.FireOnEnd(false);
+
+        }
+
+        public override void StopTask() {
+            foreach (ITask task in this.taskList) {
+                task.RemoveOnEnd(OnTaskEnd);
+                task.StopTask();
+            }
+        }
+
+        private void OnTaskEnd(ITask _task) {
+            ++taskCount;
+            if (_task.isSuccess) {
+                hasSuccess = true;
+            }
+
+            if (taskCount >= this.taskList.Count) {
+                if (hasSuccess) {
+                    this.FireOnEnd(true);
+                } else {
+                    this.FireOnEnd(false);
+                }
             }
         }
     }

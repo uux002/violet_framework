@@ -25,6 +25,7 @@ public class VioletInit {
         Vlog.disable = true;
         QualitySettings.vSyncCount = 0;
         Application.targetFrameRate = 30;
+        XTheFinalWar.Instance.Initialize();
     }
 
     private static void AfterStart() {

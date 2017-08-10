@@ -7,7 +7,7 @@ public abstract class VMonoSingleton<T> : MonoBehaviour, IVSingleton where T : V
     private static T instance = null;
 
     public static T Instance {
-        get {
+        get { 
             if(instance == null) {
                 GameObject obj = new GameObject(typeof(T).Name);
                 DontDestroyOnLoad(obj);
