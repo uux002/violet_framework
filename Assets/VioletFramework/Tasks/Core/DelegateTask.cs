@@ -40,5 +40,16 @@ namespace Violet.Tasks {
             this.FireOnEnd(_isSuccess);
         }
 
+
+        void Test() {
+            
+
+            TaskChain taskChain = new TaskChain(TaskChainType.RunOneByOne);
+            taskChain.AddTask(new DelegateTask(delegate (DelegateTask _task) {
+                //_task.OnCallback(true);
+                //_task.OnCallback(false);
+            }));
+            
+        }
     }
 }

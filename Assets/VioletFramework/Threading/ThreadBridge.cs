@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using U3D.Threading.Tasks;
 
 /// <summary>
 /// 线程桥
@@ -10,4 +7,11 @@ using System.Threading.Tasks;
 /// </summary>
 public static class ThreadBridge {
 
+    /// <summary>
+    /// 在主线程中执行
+    /// </summary>
+    /// <param name="_action"></param>
+    public static void RunInMain(Action _action) {
+        Task.RunInMainThread(_action);
+    }
 }

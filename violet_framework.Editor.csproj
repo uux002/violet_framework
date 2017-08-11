@@ -116,6 +116,9 @@
     <Reference Include="VLog">
       <HintPath>Assets\Plugins\VLog.dll</HintPath>
     </Reference>
+    <Reference Include="FlatBuffers">
+      <HintPath>Assets\VioletFramework\ThirdParty\FlatBuffer\FlatBuffers.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="violet_framework.csproj">

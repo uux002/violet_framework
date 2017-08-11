@@ -11,10 +11,9 @@ namespace Violet.Tasks {
 
         void StartTask();
         void StopTask();
-
         void AddOnEnd(Listener<ITask> _onEnd);
-
         void RemoveOnEnd(Listener<ITask> _onEnd);
+        void OnUpdate();
 
     }
 }

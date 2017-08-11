@@ -12,12 +12,15 @@
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
-    <TargetFrameworkProfile></TargetFrameworkProfile>
-    <CompilerResponseFile></CompilerResponseFile>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <CompilerResponseFile>
+    </CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2017.1.0p1</UnityVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <LangVersion>6</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -77,16 +80,20 @@
     <Reference Include="VLog">
       <HintPath>Assets\Plugins\VLog.dll</HintPath>
     </Reference>
+    <Reference Include="FlatBuffers">
+      <HintPath>Assets\VioletFramework\ThirdParty\FlatBuffer\FlatBuffers.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\XTheFinalWar.cs" />
     <Compile Include="Assets\Test\LogTEst.cs" />
+    <Compile Include="Assets\VioletFramework\Audio\AudioManager.cs" />
     <Compile Include="Assets\VioletFramework\Consts\VioletConst.cs" />
     <Compile Include="Assets\VioletFramework\Core\Listeners.cs" />
-    <Compile Include="Assets\VioletFramework\EventSystem\MsgSystem.cs" />
     <Compile Include="Assets\VioletFramework\GridSystem\GridSystem.cs" />
     <Compile Include="Assets\VioletFramework\GridSystem\GridSystemHelper.cs" />
     <Compile Include="Assets\VioletFramework\HexagonSystem\HexagonSystem.cs" />
+    <Compile Include="Assets\VioletFramework\MessageSystem\MsgSystem.cs" />
     <Compile Include="Assets\VioletFramework\Net\Client.cs" />
     <Compile Include="Assets\VioletFramework\Net\Server.cs" />
     <Compile Include="Assets\VioletFramework\Patterns\Command\Command.cs" />
@@ -106,6 +113,7 @@
     <Compile Include="Assets\VioletFramework\Tasks\InternalClass\TaskChain_RunParallel_IgnoreError.cs" />
     <Compile Include="Assets\VioletFramework\Tasks\Task.cs" />
     <Compile Include="Assets\VioletFramework\Tasks\TaskChain.cs" />
+    <Compile Include="Assets\VioletFramework\Tasks\Task_Tutorial.cs" />
     <Compile Include="Assets\VioletFramework\ThirdParty\Arklay\U3D\AggregateException.cs" />
     <Compile Include="Assets\VioletFramework\ThirdParty\Arklay\U3D\Threading\Dispatcher.cs" />
     <Compile Include="Assets\VioletFramework\ThirdParty\Arklay\U3D\Threading\Tasks\Task.cs" />
