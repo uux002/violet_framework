@@ -92,6 +92,7 @@
     <Compile Include="Assets\VioletFramework\Core\Listeners.cs" />
     <Compile Include="Assets\VioletFramework\GridSystem\GridSystem.cs" />
     <Compile Include="Assets\VioletFramework\GridSystem\GridSystemHelper.cs" />
+    <Compile Include="Assets\VioletFramework\GridSystem\GridSystemManager.cs" />
     <Compile Include="Assets\VioletFramework\HexagonSystem\HexagonSystem.cs" />
     <Compile Include="Assets\VioletFramework\MessageSystem\MsgSystem.cs" />
     <Compile Include="Assets\VioletFramework\Net\Client.cs" />

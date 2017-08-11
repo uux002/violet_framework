@@ -27,6 +27,8 @@ public class VioletInit {
         Application.targetFrameRate = 30;
 
         UnityTicker.Instance.Initialize();
+        GridSystem.Initialize();
+
 
         XTheFinalWar.Instance.Initialize();
     }

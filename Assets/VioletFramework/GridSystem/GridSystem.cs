@@ -14,6 +14,10 @@ public static class GridSystem {
     public static int COL = 1000;
     public static float gridSize = 1.0f;
 
+    public static void Initialize() {
+
+    }
+
 
 
    
