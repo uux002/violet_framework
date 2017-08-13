@@ -87,6 +87,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\XTheFinalWar.cs" />
     <Compile Include="Assets\Test\LogTEst.cs" />
+    <Compile Include="Assets\Test\TaskTest.cs" />
     <Compile Include="Assets\VioletFramework\Audio\Audio.cs" />
     <Compile Include="Assets\VioletFramework\Base\BaseModule.cs" />
     <Compile Include="Assets\VioletFramework\ConfigModule\AbstractConfVO.cs" />
@@ -97,6 +98,7 @@
     <Compile Include="Assets\VioletFramework\ConfigModule\FileUtils.cs" />
     <Compile Include="Assets\VioletFramework\ConfigModule\Interfaces\IPoolableObject.cs" />
     <Compile Include="Assets\VioletFramework\ConfigModule\ObjectUtils.cs" />
+    <Compile Include="Assets\VioletFramework\ConfigTable\ConfigTable.cs" />
     <Compile Include="Assets\VioletFramework\Consts\VioletConst.cs" />
     <Compile Include="Assets\VioletFramework\Core\Listeners.cs" />
     <Compile Include="Assets\VioletFramework\GridSystem\GridSystem.cs" />

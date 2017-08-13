@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using System.Threading.Tasks;
 
 public class V : VMonoSingleton<V>
 {
@@ -11,6 +12,7 @@ public class V : VMonoSingleton<V>
     public MsgSystem vMsg = null;
     public ThreadBridge vThread = null;
     public Net vNet = null;
+    public ConfigTable vTable = null;
 
 	public override void Initialize()
     {
@@ -37,10 +39,12 @@ public class V : VMonoSingleton<V>
         vThread = new ThreadBridge();
         vThread.Initialize();
 
+        vTable = new ConfigTable();
+        vTable.Initialize();
+
         vNet = new Net();
         vNet.Initialize();
     }
-
 
     private void Update()
     {
@@ -52,6 +56,7 @@ public class V : VMonoSingleton<V>
         vMsg.OnUpdate();
         vThread.OnUpdate();
         vNet.OnUpdate();
+        vTable.OnUpdate();
     }
 
     private void FixedUpdate()
@@ -64,6 +69,7 @@ public class V : VMonoSingleton<V>
         vMsg.OnFixedUpdate();
         vThread.OnFixedUpdate();
         vNet.OnFixedUpdate();
+        vTable.OnFixedUpdate();
     }
 
 

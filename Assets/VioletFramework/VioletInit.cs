@@ -26,6 +26,7 @@ public class VioletInit {
         QualitySettings.vSyncCount = 0;
         Application.targetFrameRate = 30;
         V.Instance.Initialize();
+        
     }
 
     private static void AfterStart() {

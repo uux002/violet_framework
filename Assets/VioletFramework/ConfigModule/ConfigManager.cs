@@ -28,7 +28,6 @@ public class ConfigManager {
             while (byteArr.bytesAvaliable > 0)
                 ConfigManager.InitializeCSV(_confVoPackageName, byteArr.ReadUTF());
         }
-
     }
 
    

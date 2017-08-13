@@ -33,4 +33,9 @@ public class VioletConst {
     /// </summary>
     public const string LocalResPath = "Assets/Res";
 
+    /// <summary>
+    /// 所有CSV配置表打成的总文件路径
+    /// </summary>
+    public readonly static string ConfigTableFilePath = Application.streamingAssetsPath + "/ConfigTable.byte";
+
 }
