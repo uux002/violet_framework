@@ -10,7 +10,7 @@ namespace Violet.Tasks {
         protected bool _isSuccess = false;
 
         public Task() {
-            UnityTicker.Instance.AddUpdateCallback(this.OnUpdate);
+            V.Instance.vTicker.AddUpdateCallback(this.OnUpdate);
         }
 
         ~Task() {
@@ -18,7 +18,7 @@ namespace Violet.Tasks {
         }
 
         public virtual void Dispose() {
-            UnityTicker.Instance.RemoveUpdateCallback(this.OnUpdate);
+            V.Instance.vTicker.RemoveUpdateCallback(this.OnUpdate);
             if (this.onEnd != null) {
                 System.Delegate.RemoveAll(this.onEnd, this.onEnd);
             }

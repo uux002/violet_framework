@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 /// <summary>
-/// 六边形格子系统
-/// 为上层提供底层寻路支持
+/// 资源模块
+/// 资源的加载 ，更新，销毁，缓存等
 /// </summary>
-public class HexagonSystem : BaseModule {
+public class Resource : BaseModule {
 
 }

@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
+# Visual Studio for Mac
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "violet_framework", "violet_framework.csproj", "{280AE7EA-2B74-923E-A32E-11EEC1F6DB54}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "violet_framework.Editor", "violet_framework.Editor.csproj", "{42C4DF2C-6273-B661-A58B-AE22DF53406A}"

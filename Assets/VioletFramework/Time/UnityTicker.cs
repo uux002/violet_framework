@@ -2,10 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UnityTicker : VMonoSingleton<UnityTicker> {
+/// <summary>
+/// Unity 时间相关
+/// </summary>
+public class UnityTicker : BaseModule {
 
     private event Listener onUpdate;
     private event Listener onFixedUpdate;
+
 
 
     public void AddUpdateCallback(Listener _callback) {
@@ -13,7 +17,7 @@ public class UnityTicker : VMonoSingleton<UnityTicker> {
     }
 
     public void RemoveUpdateCallback(Listener _callback) {
-        onUpdate -= _callback;
+        
     }
 
     public void AddFixedUpdateCallback(Listener _callback) {
@@ -24,15 +28,15 @@ public class UnityTicker : VMonoSingleton<UnityTicker> {
         onFixedUpdate -= _callback;
     }
 
-    private void Update() {
-        if(onUpdate != null) {
-            onUpdate();
-        }
+    public override void OnUpdate()
+    {
+        base.OnUpdate();
+        onUpdate();
     }
 
-    private void FixedUpdate() {
-        if (onFixedUpdate != null) {
-            onFixedUpdate();
-        }
+    public override void OnFixedUpdate()
+    {
+        base.OnFixedUpdate();
+        onFixedUpdate();
     }
 }

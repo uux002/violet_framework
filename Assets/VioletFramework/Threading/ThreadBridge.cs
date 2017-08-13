@@ -5,13 +5,13 @@ using U3D.Threading.Tasks;
 /// 线程桥
 /// NOTE: 引用了第三方代码 Arklay
 /// </summary>
-public static class ThreadBridge {
+public class ThreadBridge : BaseModule {
 
     /// <summary>
     /// 在主线程中执行
     /// </summary>
     /// <param name="_action"></param>
-    public static void RunInMain(Action _action) {
+    public void RunInMain(Action _action) {
         Task.RunInMainThread(_action);
     }
 }

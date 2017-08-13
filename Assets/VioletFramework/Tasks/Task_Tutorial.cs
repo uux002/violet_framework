@@ -19,7 +19,7 @@ public class Task_Tutorial {
         }));
 
         Task task = new Task();
-        taskChain.AddTask(taskChain);
+        taskChain.AddTask(task);
         taskChain.StartTask();
 
         // Normal Task
