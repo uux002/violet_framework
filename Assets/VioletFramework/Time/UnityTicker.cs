@@ -31,12 +31,16 @@ public class UnityTicker : BaseModule {
     public override void OnUpdate()
     {
         base.OnUpdate();
-        onUpdate();
+        if (onUpdate != null) {
+            onUpdate();
+        }
     }
 
     public override void OnFixedUpdate()
     {
         base.OnFixedUpdate();
-        onFixedUpdate();
+        if (onFixedUpdate != null) {
+            onFixedUpdate();
+        }
     }
 }

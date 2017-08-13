@@ -5,8 +5,8 @@ using FunEngine.Utils;
 using System;
 using System.Collections.Generic;
 using System.Reflection;
-using System.Threading.Tasks;
 using UnityEngine.Networking;
+using System.Threading.Tasks;
 
 public class ConfigManager {
     private static string _confVoPackageName;
@@ -28,14 +28,10 @@ public class ConfigManager {
             while (byteArr.bytesAvaliable > 0)
                 ConfigManager.InitializeCSV(_confVoPackageName, byteArr.ReadUTF());
         }
+
     }
 
-    public async Task TestAsyncLoad(){
-        
-        UnityWebRequest request = UnityWebRequest.Get("http://www.baidu.com");
-        await request.Send();
-    }
-
+   
     /// <summary>
     /// 异步加载配置文件
     /// </summary>
@@ -43,17 +39,14 @@ public class ConfigManager {
     /// <param name="_path">Config.conf的异步加载路径</param>
     /// <param name="_encrypted">导出的时候是否是加密过的</param>
     /// <returns></returns>
-    public static async Task LoadConfigDataAsync(string _confVoPackageName, string _path, bool _encrypted = false) {
-
-        if (_init) {
-            return;
-        }
+    public static async void  LoadConfigDataAsync(string _confVoPackageName, string _path, bool _encrypted = false) {
 
         _init = true;
 
         string fullPath = _path;
         UnityWebRequest request = UnityWebRequest.Get(fullPath);
         await request.Send();
+       // await request.Send();
         if (request.isNetworkError) {
 
         } else {
@@ -461,3 +454,9 @@ public class ConfigManager {
 
 }
        
+
+public class AwaitAsyncOperation : UnityEngine.AsyncOperation {
+    public AwaitAsyncOperation GetAwaiter() {
+        return this;
+    }
+}
