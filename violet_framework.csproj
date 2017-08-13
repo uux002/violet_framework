@@ -107,6 +107,15 @@
     <Compile Include="Assets\Scripts\XTheFinalWar.cs" />
     <Compile Include="Assets\Test\LogTEst.cs" />
     <Compile Include="Assets\VioletFramework\Audio\Audio.cs" />
+    <Compile Include="Assets\VioletFramework\Base\BaseModule.cs" />
+    <Compile Include="Assets\VioletFramework\ConfigModule\AbstractConfVO.cs" />
+    <Compile Include="Assets\VioletFramework\ConfigModule\ByteArray.cs" />
+    <Compile Include="Assets\VioletFramework\ConfigModule\ConfigManager.cs" />
+    <Compile Include="Assets\VioletFramework\ConfigModule\CSV.cs" />
+    <Compile Include="Assets\VioletFramework\ConfigModule\DES.cs" />
+    <Compile Include="Assets\VioletFramework\ConfigModule\FileUtils.cs" />
+    <Compile Include="Assets\VioletFramework\ConfigModule\Interfaces\IPoolableObject.cs" />
+    <Compile Include="Assets\VioletFramework\ConfigModule\ObjectUtils.cs" />
     <Compile Include="Assets\VioletFramework\Consts\VioletConst.cs" />
     <Compile Include="Assets\VioletFramework\Core\Listeners.cs" />
     <Compile Include="Assets\VioletFramework\GridSystem\GridSystem.cs" />
@@ -117,7 +126,6 @@
     <Compile Include="Assets\VioletFramework\Singleton\IVSingleton.cs" />
     <Compile Include="Assets\VioletFramework\Singleton\VMonoSingleton.cs" />
     <Compile Include="Assets\VioletFramework\Singleton\VSingleton.cs" />
-    <Compile Include="Assets\VioletFramework\Time\UnityTicker.cs" />
     <Compile Include="Assets\VioletFramework\Tasks\Core\DelegateTask.cs" />
     <Compile Include="Assets\VioletFramework\Tasks\Core\ITask.cs" />
     <Compile Include="Assets\VioletFramework\Tasks\Core\TaskEnum.cs" />
@@ -151,9 +159,9 @@
     <Compile Include="Assets\VioletFramework\ThirdParty\Event System - Dispatcher\MessageDispatcher\Code\Messages\MessageDispatcher.cs" />
     <Compile Include="Assets\VioletFramework\ThirdParty\Event System - Dispatcher\MessageDispatcher\Code\Messages\MessageListenerDefinition.cs" />
     <Compile Include="Assets\VioletFramework\Threading\ThreadBridge.cs" />
+    <Compile Include="Assets\VioletFramework\Time\UnityTicker.cs" />
     <Compile Include="Assets\VioletFramework\V.cs" />
     <Compile Include="Assets\VioletFramework\VioletInit.cs" />
-    <Compile Include="Assets\VioletFramework\Base\BaseModule.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/TheWar/!svn/ver/1284/Client/Fun/Assets/Scripts/Framework/Core/ConfigModule
+END
+DES.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/TheWar/!svn/ver/59/Client/Fun/Assets/Scripts/Framework/Core/ConfigModule/DES.cs
+END
+ObjectUtils.cs.meta
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/TheWar/!svn/ver/59/Client/Fun/Assets/Scripts/Framework/Core/ConfigModule/ObjectUtils.cs.meta
+END
+AbstractConfVO.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/TheWar/!svn/ver/59/Client/Fun/Assets/Scripts/Framework/Core/ConfigModule/AbstractConfVO.cs
+END
+CSV.cs.meta
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/TheWar/!svn/ver/59/Client/Fun/Assets/Scripts/Framework/Core/ConfigModule/CSV.cs.meta
+END
+FileUtils.cs.meta
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/TheWar/!svn/ver/59/Client/Fun/Assets/Scripts/Framework/Core/ConfigModule/FileUtils.cs.meta
+END
+ConfigManager.cs.meta
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/TheWar/!svn/ver/59/Client/Fun/Assets/Scripts/Framework/Core/ConfigModule/ConfigManager.cs.meta
+END
+ObjectUtils.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/TheWar/!svn/ver/59/Client/Fun/Assets/Scripts/Framework/Core/ConfigModule/ObjectUtils.cs
+END
+ByteArray.cs.meta
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/TheWar/!svn/ver/59/Client/Fun/Assets/Scripts/Framework/Core/ConfigModule/ByteArray.cs.meta
+END
+CSV.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/TheWar/!svn/ver/59/Client/Fun/Assets/Scripts/Framework/Core/ConfigModule/CSV.cs
+END
+FileUtils.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/TheWar/!svn/ver/59/Client/Fun/Assets/Scripts/Framework/Core/ConfigModule/FileUtils.cs
+END
+DES.cs.meta
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/TheWar/!svn/ver/59/Client/Fun/Assets/Scripts/Framework/Core/ConfigModule/DES.cs.meta
+END
+ConfigManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/TheWar/!svn/ver/1284/Client/Fun/Assets/Scripts/Framework/Core/ConfigModule/ConfigManager.cs
+END
+ByteArray.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/TheWar/!svn/ver/113/Client/Fun/Assets/Scripts/Framework/Core/ConfigModule/ByteArray.cs
+END
+AbstractConfVO.cs.meta
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TheWar/!svn/ver/59/Client/Fun/Assets/Scripts/Framework/Core/ConfigModule/AbstractConfVO.cs.meta
+END
+Interfaces.meta
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/TheWar/!svn/ver/59/Client/Fun/Assets/Scripts/Framework/Core/ConfigModule/Interfaces.meta
+END
+Editor.meta
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/TheWar/!svn/ver/59/Client/Fun/Assets/Scripts/Framework/Core/ConfigModule/Editor.meta
+END
