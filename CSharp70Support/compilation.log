@@ -1,51 +1,53 @@
 ********************************************************************************
-*                             2017年8月13日 22:46:05                              *
+*                             2017年8月14日 20:17:45                              *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 2.2.1.77
 Platform: Windows
 Target assembly: Assembly-CSharp.dll
-Project directory: D:\TreaslandGames\violet_framework
+Project directory: C:\Treasland\violet_framework
 Target profile directory: C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api
 Unity Mono directory: C:/Program Files/Unity2017.1.0p1/Editor/Data/MonoBleedingEdge
 Compiler: Microsoft C# 7.1 (2.3.1.61919)
 
 - Compilation -----------------------------------------------
 
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -langversion:latest -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\mscorlib.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Core.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Facades/System.Runtime.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Microsoft.CSharp.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Xml.dll" @Temp/UnityTempFile-f543435bbce66454788f1680fd3dfeb9 
+Process: C:\Treasland\violet_framework\CSharp70Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -langversion:latest -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\mscorlib.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Core.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Facades/System.Runtime.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Microsoft.CSharp.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Xml.dll" @Temp/UnityTempFile-763ca06c1344e6c498fada63d7e04d6f 
 Exit code: 0
-Elapsed time: 1.38 sec
+Elapsed time: 4.19 sec
 
 - Compiler output (0 lines):
 
-- Compiler errors (1 line):
-0: Assets\VioletFramework\ConfigModule\ConfigManager.cs(14,25): warning CS0414: The field 'ConfigManager._init' is assigned but its value is never used
+- Compiler errors (3 lines):
+0: Assets\VioletFramework\Time\UnityTicker.cs(70,26): warning CS0649: Field 'UnityTicker._FromToTicker._FromToTickerTask.from' is never assigned to, and will always have its default value 0
+1: Assets\VioletFramework\ConfigModule\ConfigManager.cs(14,25): warning CS0414: The field 'ConfigManager._init' is assigned but its value is never used
+2: Assets\VioletFramework\Time\UnityTicker.cs(12,17): warning CS0414: The field 'UnityTicker.tickerIdIndex' is assigned but its value is never used
 
 - PDB to MDB conversion --------------------------------------
 
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\pdb2mdb.exe
+Process: C:\Treasland\violet_framework\CSharp70Support\Roslyn\pdb2mdb.exe
 Arguments: Temp\Assembly-CSharp.dll
 Exit code: 0
-Elapsed time: 0.06 sec
+Elapsed time: 0.14 sec
 
 - pdb2mdb.exe output (0 lines):
 ********************************************************************************
-*                             2017年8月13日 22:46:07                              *
+*                             2017年8月14日 20:17:50                              *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 2.2.1.77
 Platform: Windows
 Target assembly: Assembly-CSharp-Editor.dll
-Project directory: D:\TreaslandGames\violet_framework
+Project directory: C:\Treasland\violet_framework
 Target profile directory: C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api
 Unity Mono directory: C:/Program Files/Unity2017.1.0p1/Editor/Data/MonoBleedingEdge
 Compiler: Microsoft C# 7.1 (2.3.1.61919)
 
 - Compilation -----------------------------------------------
 
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -langversion:latest -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\mscorlib.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Core.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Facades/System.Runtime.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Microsoft.CSharp.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Xml.dll" @Temp/UnityTempFile-eb27bb6aa25a2ab4781e451afb30a0e7 
+Process: C:\Treasland\violet_framework\CSharp70Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -langversion:latest -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\mscorlib.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Core.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Facades/System.Runtime.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Microsoft.CSharp.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Xml.dll" @Temp/UnityTempFile-dc68ed38b7cfe924788b4c9d883e1065 
 Exit code: 0
-Elapsed time: 0.87 sec
+Elapsed time: 3.11 sec
 
 - Compiler output (0 lines):
 
@@ -53,375 +55,9 @@ Elapsed time: 0.87 sec
 
 - PDB to MDB conversion --------------------------------------
 
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\pdb2mdb.exe
+Process: C:\Treasland\violet_framework\CSharp70Support\Roslyn\pdb2mdb.exe
 Arguments: Temp\Assembly-CSharp-Editor.dll
 Exit code: 0
-Elapsed time: 0.05 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                             2017年8月13日 22:47:12                              *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.2.1.77
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: D:\TreaslandGames\violet_framework
-Target profile directory: C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api
-Unity Mono directory: C:/Program Files/Unity2017.1.0p1/Editor/Data/MonoBleedingEdge
-Compiler: Microsoft C# 7.1 (2.3.1.61919)
-
-- Compilation -----------------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -langversion:latest -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\mscorlib.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Core.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Facades/System.Runtime.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Microsoft.CSharp.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Xml.dll" @Temp/UnityTempFile-bf8ee292148b5034eb7ae070f615ca08 
-Exit code: 0
-Elapsed time: 1.41 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (1 line):
-0: Assets\VioletFramework\ConfigModule\ConfigManager.cs(14,25): warning CS0414: The field 'ConfigManager._init' is assigned but its value is never used
-
-- PDB to MDB conversion --------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp.dll
-Exit code: 0
-Elapsed time: 0.07 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                             2017年8月13日 22:47:14                              *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.2.1.77
-Platform: Windows
-Target assembly: Assembly-CSharp-Editor.dll
-Project directory: D:\TreaslandGames\violet_framework
-Target profile directory: C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api
-Unity Mono directory: C:/Program Files/Unity2017.1.0p1/Editor/Data/MonoBleedingEdge
-Compiler: Microsoft C# 7.1 (2.3.1.61919)
-
-- Compilation -----------------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -langversion:latest -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\mscorlib.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Core.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Facades/System.Runtime.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Microsoft.CSharp.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Xml.dll" @Temp/UnityTempFile-e2d50aa0f02398c428128c79a1cb3de0 
-Exit code: 0
-Elapsed time: 0.91 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (0 lines):
-
-- PDB to MDB conversion --------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp-Editor.dll
-Exit code: 0
-Elapsed time: 0.06 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                             2017年8月13日 22:47:50                              *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.2.1.77
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: D:\TreaslandGames\violet_framework
-Target profile directory: C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api
-Unity Mono directory: C:/Program Files/Unity2017.1.0p1/Editor/Data/MonoBleedingEdge
-Compiler: Microsoft C# 7.1 (2.3.1.61919)
-
-- Compilation -----------------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -langversion:latest -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\mscorlib.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Core.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Facades/System.Runtime.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Microsoft.CSharp.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Xml.dll" @Temp/UnityTempFile-215d785b18936f34ab7983b66912a795 
-Exit code: 0
-Elapsed time: 1.38 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (1 line):
-0: Assets\VioletFramework\ConfigModule\ConfigManager.cs(14,25): warning CS0414: The field 'ConfigManager._init' is assigned but its value is never used
-
-- PDB to MDB conversion --------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp.dll
-Exit code: 0
-Elapsed time: 0.06 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                             2017年8月13日 22:47:52                              *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.2.1.77
-Platform: Windows
-Target assembly: Assembly-CSharp-Editor.dll
-Project directory: D:\TreaslandGames\violet_framework
-Target profile directory: C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api
-Unity Mono directory: C:/Program Files/Unity2017.1.0p1/Editor/Data/MonoBleedingEdge
-Compiler: Microsoft C# 7.1 (2.3.1.61919)
-
-- Compilation -----------------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -langversion:latest -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\mscorlib.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Core.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Facades/System.Runtime.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Microsoft.CSharp.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Xml.dll" @Temp/UnityTempFile-6685ecd30c8c9bc458d45c2dc6e44235 
-Exit code: 0
-Elapsed time: 0.90 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (0 lines):
-
-- PDB to MDB conversion --------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp-Editor.dll
-Exit code: 0
-Elapsed time: 0.05 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                             2017年8月13日 22:48:52                              *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.2.1.77
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: D:\TreaslandGames\violet_framework
-Target profile directory: C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api
-Unity Mono directory: C:/Program Files/Unity2017.1.0p1/Editor/Data/MonoBleedingEdge
-Compiler: Microsoft C# 7.1 (2.3.1.61919)
-
-- Compilation -----------------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -langversion:latest -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\mscorlib.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Core.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Facades/System.Runtime.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Microsoft.CSharp.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Xml.dll" @Temp/UnityTempFile-f6da1c4f7b423434ab7572dd9e6e1dd1 
-Exit code: 0
-Elapsed time: 1.44 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (1 line):
-0: Assets\VioletFramework\ConfigModule\ConfigManager.cs(14,25): warning CS0414: The field 'ConfigManager._init' is assigned but its value is never used
-
-- PDB to MDB conversion --------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp.dll
-Exit code: 0
-Elapsed time: 0.06 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                             2017年8月13日 22:48:54                              *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.2.1.77
-Platform: Windows
-Target assembly: Assembly-CSharp-Editor.dll
-Project directory: D:\TreaslandGames\violet_framework
-Target profile directory: C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api
-Unity Mono directory: C:/Program Files/Unity2017.1.0p1/Editor/Data/MonoBleedingEdge
-Compiler: Microsoft C# 7.1 (2.3.1.61919)
-
-- Compilation -----------------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -langversion:latest -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\mscorlib.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Core.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Facades/System.Runtime.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Microsoft.CSharp.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Xml.dll" @Temp/UnityTempFile-69de225203e067744be871ab43e6639b 
-Exit code: 0
-Elapsed time: 0.86 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (0 lines):
-
-- PDB to MDB conversion --------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp-Editor.dll
-Exit code: 0
-Elapsed time: 0.05 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                             2017年8月13日 22:49:43                              *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.2.1.77
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: D:\TreaslandGames\violet_framework
-Target profile directory: C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api
-Unity Mono directory: C:/Program Files/Unity2017.1.0p1/Editor/Data/MonoBleedingEdge
-Compiler: Microsoft C# 7.1 (2.3.1.61919)
-
-- Compilation -----------------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -langversion:latest -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\mscorlib.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Core.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Facades/System.Runtime.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Microsoft.CSharp.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Xml.dll" @Temp/UnityTempFile-249e9b721ae5b7a4aa859cf1d5c1697b 
-Exit code: 0
-Elapsed time: 1.36 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (1 line):
-0: Assets\VioletFramework\ConfigModule\ConfigManager.cs(14,25): warning CS0414: The field 'ConfigManager._init' is assigned but its value is never used
-
-- PDB to MDB conversion --------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp.dll
-Exit code: 0
-Elapsed time: 0.06 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                             2017年8月13日 22:49:45                              *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.2.1.77
-Platform: Windows
-Target assembly: Assembly-CSharp-Editor.dll
-Project directory: D:\TreaslandGames\violet_framework
-Target profile directory: C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api
-Unity Mono directory: C:/Program Files/Unity2017.1.0p1/Editor/Data/MonoBleedingEdge
-Compiler: Microsoft C# 7.1 (2.3.1.61919)
-
-- Compilation -----------------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -langversion:latest -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\mscorlib.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Core.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Facades/System.Runtime.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Microsoft.CSharp.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Xml.dll" @Temp/UnityTempFile-8126a450a067fb942a3e1acb6f0c35b7 
-Exit code: 0
-Elapsed time: 0.87 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (0 lines):
-
-- PDB to MDB conversion --------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp-Editor.dll
-Exit code: 0
-Elapsed time: 0.05 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                             2017年8月13日 22:52:13                              *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.2.1.77
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: D:\TreaslandGames\violet_framework
-Target profile directory: C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api
-Unity Mono directory: C:/Program Files/Unity2017.1.0p1/Editor/Data/MonoBleedingEdge
-Compiler: Microsoft C# 7.1 (2.3.1.61919)
-
-- Compilation -----------------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -langversion:latest -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\mscorlib.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Core.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Facades/System.Runtime.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Microsoft.CSharp.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Xml.dll" @Temp/UnityTempFile-14b9506f85b6ade4db0369b0d8c8c179 
-Exit code: 0
-Elapsed time: 1.33 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (1 line):
-0: Assets\VioletFramework\ConfigModule\ConfigManager.cs(14,25): warning CS0414: The field 'ConfigManager._init' is assigned but its value is never used
-
-- PDB to MDB conversion --------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp.dll
-Exit code: 0
-Elapsed time: 0.06 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                             2017年8月13日 22:52:15                              *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.2.1.77
-Platform: Windows
-Target assembly: Assembly-CSharp-Editor.dll
-Project directory: D:\TreaslandGames\violet_framework
-Target profile directory: C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api
-Unity Mono directory: C:/Program Files/Unity2017.1.0p1/Editor/Data/MonoBleedingEdge
-Compiler: Microsoft C# 7.1 (2.3.1.61919)
-
-- Compilation -----------------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -langversion:latest -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\mscorlib.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Core.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Facades/System.Runtime.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Microsoft.CSharp.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Xml.dll" @Temp/UnityTempFile-0165a727e2eb5c443b3af7f8a42714ce 
-Exit code: 0
-Elapsed time: 0.85 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (0 lines):
-
-- PDB to MDB conversion --------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp-Editor.dll
-Exit code: 0
-Elapsed time: 0.05 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                             2017年8月13日 22:55:40                              *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.2.1.77
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: D:\TreaslandGames\violet_framework
-Target profile directory: C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api
-Unity Mono directory: C:/Program Files/Unity2017.1.0p1/Editor/Data/MonoBleedingEdge
-Compiler: Microsoft C# 7.1 (2.3.1.61919)
-
-- Compilation -----------------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -langversion:latest -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\mscorlib.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Core.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Facades/System.Runtime.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Microsoft.CSharp.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Xml.dll" @Temp/UnityTempFile-72f947b77c584164982a936d9023000b 
-Exit code: 0
-Elapsed time: 1.38 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (1 line):
-0: Assets\VioletFramework\ConfigModule\ConfigManager.cs(14,25): warning CS0414: The field 'ConfigManager._init' is assigned but its value is never used
-
-- PDB to MDB conversion --------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp.dll
-Exit code: 0
-Elapsed time: 0.06 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                             2017年8月13日 22:55:42                              *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.2.1.77
-Platform: Windows
-Target assembly: Assembly-CSharp-Editor.dll
-Project directory: D:\TreaslandGames\violet_framework
-Target profile directory: C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api
-Unity Mono directory: C:/Program Files/Unity2017.1.0p1/Editor/Data/MonoBleedingEdge
-Compiler: Microsoft C# 7.1 (2.3.1.61919)
-
-- Compilation -----------------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -langversion:latest -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\mscorlib.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Core.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Facades/System.Runtime.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Microsoft.CSharp.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Xml.dll" @Temp/UnityTempFile-72de97d837a8a3540a885de4763ea2cf 
-Exit code: 0
-Elapsed time: 0.89 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (0 lines):
-
-- PDB to MDB conversion --------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp-Editor.dll
-Exit code: 0
-Elapsed time: 0.05 sec
+Elapsed time: 0.13 sec
 
 - pdb2mdb.exe output (0 lines):
