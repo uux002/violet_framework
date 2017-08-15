@@ -12,12 +12,15 @@
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
-    <TargetFrameworkProfile></TargetFrameworkProfile>
-    <CompilerResponseFile></CompilerResponseFile>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <CompilerResponseFile>
+    </CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2017.1.0p1</UnityVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <LangVersion>7.1</LangVersion>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
@@ -88,8 +91,18 @@
     <Compile Include="Assets\Scripts\XTheFinalWar.cs" />
     <Compile Include="Assets\Test\LogTEst.cs" />
     <Compile Include="Assets\Test\TaskTest.cs" />
+    <Compile Include="Assets\VioletFramework\BundleSystem\BundleLoader.cs" />
+    <Compile Include="Assets\VioletFramework\BundleSystem\BundleLoadResult.cs" />
+    <Compile Include="Assets\VioletFramework\_AssetBundle\AssetBundleConst.cs" />
+    <Compile Include="Assets\VioletFramework\_AssetBundle\AssetBundleLoader.cs" />
+    <Compile Include="Assets\VioletFramework\_AssetBundle\AssetBundleManager.cs" />
+    <Compile Include="Assets\VioletFramework\_AssetBundle\AssetBundleResults\AssetBundleResult.cs" />
+    <Compile Include="Assets\VioletFramework\_AssetBundle\AssetLoader.cs" />
+    <Compile Include="Assets\VioletFramework\_AssetBundle\IAssetBundleOperate.cs" />
+    <Compile Include="Assets\VioletFramework\_AssetBundle\ManifestLoader.cs" />
     <Compile Include="Assets\VioletFramework\Audio\Audio.cs" />
     <Compile Include="Assets\VioletFramework\Base\BaseModule.cs" />
+    <Compile Include="Assets\VioletFramework\BundleSystem\BundleSystem.cs" />
     <Compile Include="Assets\VioletFramework\ConfigModule\AbstractConfVO.cs" />
     <Compile Include="Assets\VioletFramework\ConfigModule\ByteArray.cs" />
     <Compile Include="Assets\VioletFramework\ConfigModule\ConfigManager.cs" />
@@ -99,13 +112,14 @@
     <Compile Include="Assets\VioletFramework\ConfigModule\Interfaces\IPoolableObject.cs" />
     <Compile Include="Assets\VioletFramework\ConfigModule\ObjectUtils.cs" />
     <Compile Include="Assets\VioletFramework\ConfigTable\ConfigTable.cs" />
+    <Compile Include="Assets\VioletFramework\Consts\MsgConst.cs" />
     <Compile Include="Assets\VioletFramework\Consts\VioletConst.cs" />
     <Compile Include="Assets\VioletFramework\Core\Listeners.cs" />
     <Compile Include="Assets\VioletFramework\GridSystem\GridSystem.cs" />
     <Compile Include="Assets\VioletFramework\HexagonSystem\HexagonSystem.cs" />
     <Compile Include="Assets\VioletFramework\MessageSystem\MsgSystem.cs" />
     <Compile Include="Assets\VioletFramework\Net\Net.cs" />
-    <Compile Include="Assets\VioletFramework\Resource\Resource.cs" />
+    <Compile Include="Assets\VioletFramework\Resource\ResourceSystem.cs" />
     <Compile Include="Assets\VioletFramework\Singleton\IVSingleton.cs" />
     <Compile Include="Assets\VioletFramework\Singleton\VMonoSingleton.cs" />
     <Compile Include="Assets\VioletFramework\Singleton\VSingleton.cs" />
@@ -148,6 +162,7 @@
     <Compile Include="Assets\VioletFramework\Threading\ThreadBridge.cs" />
     <Compile Include="Assets\VioletFramework\Time\_Internal\_TimeTicker.cs" />
     <Compile Include="Assets\VioletFramework\Time\UnityTicker.cs" />
+    <Compile Include="Assets\VioletFramework\Utils\PlatformUtil.cs" />
     <Compile Include="Assets\VioletFramework\V.cs" />
     <Compile Include="Assets\VioletFramework\VioletInit.cs" />
   </ItemGroup>

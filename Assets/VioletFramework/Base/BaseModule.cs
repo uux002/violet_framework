@@ -3,14 +3,17 @@ using System.Collections;
 using System.Threading.Tasks;
 
 public enum ENModuleState {
-    Normal,
-    Error,
+    Stoped,         // 中途强行终止
+    Running,        // 正在运行
+    Finished,       // 运行完成
+    Error,          // 运行出错
 }
 
 public class BaseModule
 {
-    public ENModuleState moduleState = ENModuleState.Normal;
+    public ENModuleState moduleState = ENModuleState.Stoped;
     public string ERROR_MSG = string.Empty;
+    public string STATE_MSG = string.Empty;
 
     public virtual void Initialize(){
         

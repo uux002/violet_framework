@@ -8,6 +8,6 @@ using System.Threading.Tasks;
 /// 资源模块
 /// 资源的加载 ，更新，销毁，缓存等
 /// </summary>
-public class Resource : BaseModule {
+public class ResourceSystem : BaseModule {
 
 }

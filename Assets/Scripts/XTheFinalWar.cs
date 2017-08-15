@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Violet.Tasks;
 
 public class XTheFinalWar : VMonoSingleton<XTheFinalWar> {
 
@@ -12,11 +13,16 @@ public class XTheFinalWar : VMonoSingleton<XTheFinalWar> {
 
     private async void InitGame() {
         // Open Loading UI
+
         // Load AssetBundles
+        await V.Instance.vBundle.LoadBundlesAsync();
+        if(V.Instance.vBundle.moduleState == ENModuleState.Error) {
+            Debug.LogError(V.Instance.vTable.ERROR_MSG);
+            return;
+        }
 
         // Load Config Tables
-        await V.Instance.vTable.AsyncLoadTables(VioletConst.ConfigTableFilePath);
-        //await V.Instance.vTable.AsyncLoadTables("http://47.94.154.110/ab/OSX/cube1");
+        await V.Instance.vTable.LoadTablesAsync(VioletConst.ConfigTableFilePath);
         if (V.Instance.vTable.moduleState == ENModuleState.Error) {
             Debug.LogError(V.Instance.vTable.ERROR_MSG);
             return;
@@ -25,4 +31,5 @@ public class XTheFinalWar : VMonoSingleton<XTheFinalWar> {
 
         // Init Game Models
     }
+
 }

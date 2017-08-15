@@ -5,7 +5,8 @@ using System.Threading.Tasks;
 public class V : VMonoSingleton<V>
 {
     public Audio vAudio = null;
-    public Resource vResource = null;
+    public ResourceSystem vResource = null;
+    public BundleSystem vBundle = null;
     public UnityTicker vTicker = null;
     public GridSystem vGrid = null;
     public HexagonSystem vHexagon = null;
@@ -21,8 +22,11 @@ public class V : VMonoSingleton<V>
         vAudio = new Audio();
         vAudio.Initialize();
 
-        vResource = new Resource();
+        vResource = new ResourceSystem();
         vResource.Initialize();
+
+        vBundle = new BundleSystem();
+        vBundle.Initialize();
 
         vTicker = new UnityTicker();
         vTicker.Initialize();
@@ -50,6 +54,7 @@ public class V : VMonoSingleton<V>
     {
         vAudio.OnUpdate();
         vResource.OnUpdate();
+        vBundle.OnUpdate();
         vTicker.OnUpdate();
         vGrid.OnUpdate();
         vHexagon.OnUpdate();
@@ -63,6 +68,7 @@ public class V : VMonoSingleton<V>
     {
         vAudio.OnFixedUpdate();
         vResource.OnFixedUpdate();
+        vBundle.OnFixedUpdate();
         vTicker.OnFixedUpdate();
         vGrid.OnFixedUpdate();
         vHexagon.OnFixedUpdate();

@@ -21,7 +21,9 @@ public class ConfigTable : BaseModule {
     /// </summary>
     /// <param name="_tableFilePath"></param>
     /// <returns></returns>
-    public async Task AsyncLoadTables(string _tableFilePath) {
+    public async Task LoadTablesAsync(string _tableFilePath) {
+        moduleState = ENModuleState.Running;
+
         UnityWebRequest request = UnityWebRequest.Get(_tableFilePath);
         await request.Send();
 
@@ -30,8 +32,9 @@ public class ConfigTable : BaseModule {
             ERROR_MSG = "配置表加载失败";
         } else {
             byte[] confBytes = request.downloadHandler.data;
-            await AsyncLoadTables(confBytes);
+            await LoadTablesAsync(confBytes);
         }
+        moduleState = ENModuleState.Finished;
     }
 
     /// <summary>
@@ -39,7 +42,7 @@ public class ConfigTable : BaseModule {
     /// </summary>
     /// <param name="_tableData"></param>
     /// <returns></returns>
-    public async Task AsyncLoadTables(byte[] _tableData) {
+    public async Task LoadTablesAsync(byte[] _tableData) {
         Task t1 = new Task(() => { InitConfigTables(_tableData); });
         t1.Start();
         await t1;
