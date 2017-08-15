@@ -12,15 +12,12 @@
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
-    <TargetFrameworkProfile>
-    </TargetFrameworkProfile>
-    <CompilerResponseFile>
-    </CompilerResponseFile>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2017.1.0p1</UnityVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <LangVersion>7.1</LangVersion>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
@@ -79,11 +76,11 @@
     <Reference Include="VLog">
       <HintPath>Assets\Plugins\VLog.dll</HintPath>
     </Reference>
-    <Reference Include="FlatBuffers">
-      <HintPath>Assets\VioletFramework\ThirdParty\FlatBuffer\FlatBuffers.dll</HintPath>
-    </Reference>
     <Reference Include="System.ValueTuple">
       <HintPath>Assets\VioletFramework\ThirdParty\CSharp vNext Support\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="FlatBuffers">
+      <HintPath>Assets\VioletFramework\ThirdParty\FlatBuffer\FlatBuffers.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
@@ -149,17 +146,13 @@
     <Compile Include="Assets\VioletFramework\ThirdParty\Event System - Dispatcher\MessageDispatcher\Code\Messages\MessageDispatcher.cs" />
     <Compile Include="Assets\VioletFramework\ThirdParty\Event System - Dispatcher\MessageDispatcher\Code\Messages\MessageListenerDefinition.cs" />
     <Compile Include="Assets\VioletFramework\Threading\ThreadBridge.cs" />
-    <Compile Include="Assets\VioletFramework\Time\UnityTicker.cs" />
     <Compile Include="Assets\VioletFramework\Time\_Internal\_TimeTicker.cs" />
+    <Compile Include="Assets\VioletFramework\Time\UnityTicker.cs" />
     <Compile Include="Assets\VioletFramework\V.cs" />
     <Compile Include="Assets\VioletFramework\VioletInit.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\VioletFramework\ThirdParty\CSharp vNext Support\System.ValueTuple.xml" />
-    <None Include="Assets\VioletFramework\Utils\.keep" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Assets\VioletFramework\Utils\Tasks\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

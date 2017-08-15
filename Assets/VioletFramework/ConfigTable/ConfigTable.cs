@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Threading.Tasks;
 using UnityEngine.Networking;
+using System;
+using System.Linq;
 
 /// <summary>
 /// 异步加载所有配置表，
@@ -73,4 +75,28 @@ public class ConfigTable : BaseModule {
     private void InitConfigTables(byte[] _tableData) {
 
     }
+
+
+    // ---------- Helper Function ----------
+    //读取csv
+    private const string csvFormat = @"(((?<x>(?=[,\r\n]+))|""(?<x>([^""]|"""")+)""|(?<x>[^,\r\n]+)),?)";
+
+    public static List<string[]> ReadCSV(string csvText) {
+        List<string[]> list = new List<string[]>();
+        string[] lines = csvText.Split('\n');
+
+        for (int i = 0; i < lines.Length; i++) {
+            string rawStr = lines[i];
+            if (!String.IsNullOrEmpty(rawStr) && rawStr != "\r") {
+                string[] content = (from System.Text.RegularExpressions.Match m in System.Text.RegularExpressions.Regex.Matches(rawStr,
+                                    csvFormat,
+                                    System.Text.RegularExpressions.RegexOptions.ExplicitCapture)
+                                    select m.Groups[1].Value).ToArray();
+                list.Add(content);
+            }
+        }
+        return list;
+    }
+
+
 }

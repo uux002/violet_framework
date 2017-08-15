@@ -24,7 +24,6 @@ namespace FunEngine.Encoding
                                         csvFormat,
                                         System.Text.RegularExpressions.RegexOptions.ExplicitCapture)
                                         select m.Groups[1].Value).ToArray();
-                    //string[] content = rawStr.Split(',');
                     list.Add(content);
                 }
             }
