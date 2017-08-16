@@ -7,7 +7,6 @@ public class BundleSystem : BaseModule {
 
     private const string BUNDLE_MANIFEST = "AssetBundleManifest";
 
-
     /// <summary>
     /// 一共要加载多少个Bundle
     /// </summary>
@@ -37,9 +36,30 @@ public class BundleSystem : BaseModule {
         }
 
         AssetBundleManifest manifest = (AssetBundleManifest)result.bundle.LoadAsset(BUNDLE_MANIFEST);
-        
-
     }
+
+
+
+
+
+    /// <summary>
+    /// 从 Manifest 中获取所有的 Bundle 名字和 Bundle Hash128
+    /// </summary>
+    /// <param name="_manifest"></param>
+    /// <returns></returns>
+    private Dictionary<string, Hash128> GetAllBundleInfoFromManifest(AssetBundleManifest _manifest) {
+        Dictionary<string, Hash128> bundleInfoDict = new Dictionary<string, Hash128>();
+        string[] allBundleNames = _manifest.GetAllAssetBundles();
+        for(int i = 0; i < allBundleNames.Length; ++i) {
+            string bundleName = allBundleNames[i];
+            Hash128 bundleHash = _manifest.GetAssetBundleHash(bundleName);
+            bundleInfoDict.Add(bundleName, bundleHash);
+        }
+
+        return bundleInfoDict;
+    }
+
+
 
     private string GetBundleUrl(string _bundleName) {
         return VioletConst.URL_BUNDLE + GetBundleRootByPlatform() + "/" + _bundleName;
