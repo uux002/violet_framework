@@ -1,5 +1,5 @@
 ********************************************************************************
-*                             2017年8月16日 21:51:24                              *
+*                             2017年8月17日 21:11:53                              *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 2.2.1.77
 Platform: Windows
@@ -12,9 +12,9 @@ Compiler: Microsoft C# 7.1 (2.3.1.61919)
 - Compilation -----------------------------------------------
 
 Process: C:\Treasland\violet_framework\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -langversion:latest -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\mscorlib.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Core.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Facades/System.Runtime.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Microsoft.CSharp.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Xml.dll" @Temp/UnityTempFile-9679273d4d22df244ba879d8d684c91a 
+Arguments: -nostdlib+ -noconfig -nologo -langversion:latest -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\mscorlib.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Core.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Facades/System.Runtime.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Microsoft.CSharp.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Xml.dll" @Temp/UnityTempFile-676a90a1dd419af4f808684e0aac9e16 
 Exit code: 1
-Elapsed time: 3.04 sec
+Elapsed time: 3.86 sec
 
 - Compiler output (0 lines):
 

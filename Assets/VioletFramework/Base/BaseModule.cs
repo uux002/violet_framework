@@ -13,7 +13,6 @@ public class BaseModule
 {
     public ENModuleState moduleState = ENModuleState.Stoped;
     public string ERROR_MSG = string.Empty;
-    public string STATE_MSG = string.Empty;
 
     public virtual void Initialize(){
         
