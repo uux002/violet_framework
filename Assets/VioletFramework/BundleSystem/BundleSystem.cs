@@ -95,7 +95,7 @@ public class BundleSystem : BaseModule {
             string bundleName = enumer.Current.Key;
             Hash128 bundleHash = enumer.Current.Value;
 
-            SetBundleSystemState(EN_BundleSystemState.OnLoadingRemoveBundle, totalBundles, bundleName, "");
+            SetBundleSystemState(EN_BundleSystemState.OnLoadingRemoveBundle, totalBundles,  bundleName, "");
         }
 
     }
