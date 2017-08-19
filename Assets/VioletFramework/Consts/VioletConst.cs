@@ -29,7 +29,7 @@ public class VioletConst {
     public readonly static string ConfigTableFilePath = Application.streamingAssetsPath + "/ConfigTable.byte";
 
 
-    // ------------------------------> AssetBundle 配置
+    // ------------------------------> AssetBundle 配置 <------------------------------
     /// <summary>
     /// 调试设置 - 编辑器下使用Bundle加载
     /// </summary>
@@ -38,6 +38,11 @@ public class VioletConst {
     /// <summary>
     /// AssetBundle更新地址
     /// </summary>
-    public const string URL_BUNDLE = "http://127.0.0.1/ab/";
+    public const string URL_BUNDLE = "http://47.94.154.110/abrelease/";
+
+    /// <summary>
+    /// 本地AssetBundle地址
+    /// </summary>
+    public readonly static string URL_LOCAL_BUNDLE = Application.streamingAssetsPath + "/ab/";
    
 }

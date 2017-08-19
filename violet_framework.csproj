@@ -12,15 +12,12 @@
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
-    <TargetFrameworkProfile>
-    </TargetFrameworkProfile>
-    <CompilerResponseFile>
-    </CompilerResponseFile>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2017.1.0p1</UnityVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <LangVersion>7.1</LangVersion>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
@@ -89,10 +86,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\XTheFinalWar.cs" />
+    <Compile Include="Assets\Test\AssetBundleUI.cs" />
     <Compile Include="Assets\Test\LogTEst.cs" />
     <Compile Include="Assets\Test\TaskTest.cs" />
-    <Compile Include="Assets\VioletFramework\BundleSystem\BundleLoader.cs" />
-    <Compile Include="Assets\VioletFramework\BundleSystem\BundleLoadResult.cs" />
     <Compile Include="Assets\VioletFramework\_AssetBundle\AssetBundleConst.cs" />
     <Compile Include="Assets\VioletFramework\_AssetBundle\AssetBundleLoader.cs" />
     <Compile Include="Assets\VioletFramework\_AssetBundle\AssetBundleManager.cs" />
@@ -102,6 +98,8 @@
     <Compile Include="Assets\VioletFramework\_AssetBundle\ManifestLoader.cs" />
     <Compile Include="Assets\VioletFramework\Audio\Audio.cs" />
     <Compile Include="Assets\VioletFramework\Base\BaseModule.cs" />
+    <Compile Include="Assets\VioletFramework\BundleSystem\BundleLoader.cs" />
+    <Compile Include="Assets\VioletFramework\BundleSystem\BundleLoadResult.cs" />
     <Compile Include="Assets\VioletFramework\BundleSystem\BundleSystem.cs" />
     <Compile Include="Assets\VioletFramework\ConfigModule\AbstractConfVO.cs" />
     <Compile Include="Assets\VioletFramework\ConfigModule\ByteArray.cs" />

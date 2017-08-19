@@ -9,7 +9,7 @@ public class TaskTest : MonoBehaviour {
 
     // Use this for initialization
     void Start() {
-        StartTest(); 
+        //StartTest(); 
     }
 	
 	// Update is called once per frame

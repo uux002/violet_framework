@@ -14,12 +14,24 @@ public class XTheFinalWar : VMonoSingleton<XTheFinalWar> {
     private async void InitGame() {
         // Open Loading UI
 
+        // 第一次运行游戏要解压资源包
+        if (!PlayerPrefs.HasKey("XTHeFinalWar_FirstTimeRunGame")) {
+            PlayerPrefs.SetInt("XTHeFinalWar_FirstTimeRunGame", 0);
+            Debug.Log("解压资源");
+            await V.Instance.vBundle.UnZipLocalBundleAsync();
+            if (V.Instance.vBundle.bundleSystemState != EN_BundleSystemState.AllLocalBundleUnZipSuccess) {
+                Debug.LogError("资源解压失败");
+                return;
+            }
+        }
+
         // Load AssetBundles
         await V.Instance.vBundle.LoadBundlesAsync();
-        if(V.Instance.vBundle.moduleState == ENModuleState.Error) {
-            Debug.LogError(V.Instance.vTable.ERROR_MSG);
+        if (V.Instance.vBundle.bundleSystemState != EN_BundleSystemState.AllRemoveBundleLoadSuccess) {
+            Debug.LogError("资源更新失败");
             return;
         }
+
 
         // Load Config Tables
         await V.Instance.vTable.LoadTablesAsync(VioletConst.ConfigTableFilePath);
