@@ -1,0 +1,346 @@
+fileFormatVersion: 2
+guid: 5c908ef66f58e9e4a96d6934e6190339
+timeCreated: 1500522906
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 30000801_fire1
+    100002: 30000801_Turrent
+    100004: 30000801_vRotate
+    100006: //RootNode
+    100008: allies_TA_plane
+    100010: Bone01
+    100012: Bone010
+    100014: Bone011
+    100016: Bone02
+    100018: Bone03
+    100020: Bone04
+    100022: Bone05
+    100024: Bone07
+    100026: Bone08
+    100028: Bone09
+    400000: 30000801_fire1
+    400002: 30000801_Turrent
+    400004: 30000801_vRotate
+    400006: //RootNode
+    400008: allies_TA_plane
+    400010: Bone01
+    400012: Bone010
+    400014: Bone011
+    400016: Bone02
+    400018: Bone03
+    400020: Bone04
+    400022: Bone05
+    400024: Bone07
+    400026: Bone08
+    400028: Bone09
+    4300000: allies_TA_plane
+    7400000: attack
+    7400002: move
+    7400004: death
+    7400006: death_down
+    9500000: //RootNode
+    13700000: allies_TA_plane
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: move
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: allies_TA_plane
+        weight: 1
+      - path: Bone011
+        weight: 1
+      - path: Bone011/Bone08
+        weight: 1
+      - path: Bone011/Bone08/30000801_Turrent
+        weight: 1
+      - path: Bone011/Bone08/30000801_Turrent/30000801_vRotate
+        weight: 1
+      - path: Bone011/Bone08/30000801_Turrent/30000801_vRotate/30000801_fire1
+        weight: 1
+      - path: Bone011/Bone08/30000801_Turrent/Bone07
+        weight: 1
+      - path: Bone011/Bone08/Bone05
+        weight: 1
+      - path: Bone011/Bone08/Bone05/Bone09
+        weight: 1
+      - path: Bone011/Bone08/Bone05/Bone09/Bone03
+        weight: 1
+      - path: Bone011/Bone08/Bone05/Bone09/Bone04
+        weight: 1
+      - path: Bone011/Bone08/Bone05/Bone010
+        weight: 1
+      - path: Bone011/Bone08/Bone05/Bone010/Bone01
+        weight: 1
+      - path: Bone011/Bone08/Bone05/Bone010/Bone02
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 115
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: allies_TA_plane
+        weight: 1
+      - path: Bone011
+        weight: 1
+      - path: Bone011/Bone08
+        weight: 1
+      - path: Bone011/Bone08/30000801_Turrent
+        weight: 1
+      - path: Bone011/Bone08/30000801_Turrent/30000801_vRotate
+        weight: 1
+      - path: Bone011/Bone08/30000801_Turrent/30000801_vRotate/30000801_fire1
+        weight: 1
+      - path: Bone011/Bone08/30000801_Turrent/Bone07
+        weight: 1
+      - path: Bone011/Bone08/Bone05
+        weight: 1
+      - path: Bone011/Bone08/Bone05/Bone09
+        weight: 1
+      - path: Bone011/Bone08/Bone05/Bone09/Bone03
+        weight: 1
+      - path: Bone011/Bone08/Bone05/Bone09/Bone04
+        weight: 1
+      - path: Bone011/Bone08/Bone05/Bone010
+        weight: 1
+      - path: Bone011/Bone08/Bone05/Bone010/Bone01
+        weight: 1
+      - path: Bone011/Bone08/Bone05/Bone010/Bone02
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death
+      takeName: Take 001
+      firstFrame: 117
+      lastFrame: 146
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: allies_TA_plane
+        weight: 1
+      - path: Bone011
+        weight: 1
+      - path: Bone011/Bone08
+        weight: 1
+      - path: Bone011/Bone08/30000801_Turrent
+        weight: 1
+      - path: Bone011/Bone08/30000801_Turrent/30000801_vRotate
+        weight: 1
+      - path: Bone011/Bone08/30000801_Turrent/30000801_vRotate/30000801_fire1
+        weight: 1
+      - path: Bone011/Bone08/30000801_Turrent/Bone07
+        weight: 1
+      - path: Bone011/Bone08/Bone05
+        weight: 1
+      - path: Bone011/Bone08/Bone05/Bone09
+        weight: 1
+      - path: Bone011/Bone08/Bone05/Bone09/Bone03
+        weight: 1
+      - path: Bone011/Bone08/Bone05/Bone09/Bone04
+        weight: 1
+      - path: Bone011/Bone08/Bone05/Bone010
+        weight: 1
+      - path: Bone011/Bone08/Bone05/Bone010/Bone01
+        weight: 1
+      - path: Bone011/Bone08/Bone05/Bone010/Bone02
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death_down
+      takeName: Take 001
+      firstFrame: 151
+      lastFrame: 177
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: allies_TA_plane
+        weight: 1
+      - path: Bone011
+        weight: 1
+      - path: Bone011/Bone08
+        weight: 1
+      - path: Bone011/Bone08/30000801_Turrent
+        weight: 1
+      - path: Bone011/Bone08/30000801_Turrent/30000801_vRotate
+        weight: 1
+      - path: Bone011/Bone08/30000801_Turrent/30000801_vRotate/30000801_fire1
+        weight: 1
+      - path: Bone011/Bone08/30000801_Turrent/Bone07
+        weight: 1
+      - path: Bone011/Bone08/Bone05
+        weight: 1
+      - path: Bone011/Bone08/Bone05/Bone09
+        weight: 1
+      - path: Bone011/Bone08/Bone05/Bone09/Bone03
+        weight: 1
+      - path: Bone011/Bone08/Bone05/Bone09/Bone04
+        weight: 1
+      - path: Bone011/Bone08/Bone05/Bone010
+        weight: 1
+      - path: Bone011/Bone08/Bone05/Bone010/Bone01
+        weight: 1
+      - path: Bone011/Bone08/Bone05/Bone010/Bone02
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.06
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

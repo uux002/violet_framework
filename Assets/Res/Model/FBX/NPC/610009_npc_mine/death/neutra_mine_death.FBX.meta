@@ -1,0 +1,223 @@
+fileFormatVersion: 2
+guid: c529c65a773b3804196ceff3995b5019
+timeCreated: 1502933714
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: neutra_mine00
+    100002: neutra_mine01
+    100004: neutra_mine02
+    100006: neutra_mine03
+    100008: neutra_mine04
+    100010: neutra_mine05
+    100012: neutra_mine06
+    100014: neutra_mine07
+    100016: neutra_mine08
+    100018: neutra_mine09
+    100020: neutra_mine10
+    100022: neutra_mine11
+    100024: neutra_mine12
+    100026: neutra_mine13
+    100028: neutra_mine14
+    100030: neutra_mine15
+    100032: //RootNode
+    400000: neutra_mine00
+    400002: neutra_mine01
+    400004: neutra_mine02
+    400006: neutra_mine03
+    400008: neutra_mine04
+    400010: neutra_mine05
+    400012: neutra_mine06
+    400014: neutra_mine07
+    400016: neutra_mine08
+    400018: neutra_mine09
+    400020: neutra_mine10
+    400022: neutra_mine11
+    400024: neutra_mine12
+    400026: neutra_mine13
+    400028: neutra_mine14
+    400030: neutra_mine15
+    400032: //RootNode
+    2300000: neutra_mine00
+    2300002: neutra_mine01
+    2300004: neutra_mine02
+    2300006: neutra_mine03
+    2300008: neutra_mine04
+    2300010: neutra_mine05
+    2300012: neutra_mine06
+    2300014: neutra_mine07
+    2300016: neutra_mine08
+    2300018: neutra_mine09
+    2300020: neutra_mine10
+    2300022: neutra_mine11
+    2300024: neutra_mine12
+    2300026: neutra_mine13
+    2300028: neutra_mine14
+    2300030: neutra_mine15
+    3300000: neutra_mine00
+    3300002: neutra_mine01
+    3300004: neutra_mine02
+    3300006: neutra_mine03
+    3300008: neutra_mine04
+    3300010: neutra_mine05
+    3300012: neutra_mine06
+    3300014: neutra_mine07
+    3300016: neutra_mine08
+    3300018: neutra_mine09
+    3300020: neutra_mine10
+    3300022: neutra_mine11
+    3300024: neutra_mine12
+    3300026: neutra_mine13
+    3300028: neutra_mine14
+    3300030: neutra_mine15
+    4300000: neutra_mine00
+    4300002: neutra_mine01
+    4300004: neutra_mine02
+    4300006: neutra_mine03
+    4300008: neutra_mine04
+    4300010: neutra_mine05
+    4300012: neutra_mine06
+    4300014: neutra_mine07
+    4300016: neutra_mine08
+    4300018: neutra_mine09
+    4300020: neutra_mine10
+    4300022: neutra_mine11
+    4300024: neutra_mine12
+    4300026: neutra_mine13
+    4300028: neutra_mine14
+    4300030: neutra_mine15
+    7400000: death
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: death
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: neutra_mine00
+        weight: 1
+      - path: neutra_mine01
+        weight: 1
+      - path: neutra_mine02
+        weight: 1
+      - path: neutra_mine03
+        weight: 1
+      - path: neutra_mine04
+        weight: 1
+      - path: neutra_mine05
+        weight: 1
+      - path: neutra_mine06
+        weight: 1
+      - path: neutra_mine07
+        weight: 1
+      - path: neutra_mine08
+        weight: 1
+      - path: neutra_mine09
+        weight: 1
+      - path: neutra_mine10
+        weight: 1
+      - path: neutra_mine11
+        weight: 1
+      - path: neutra_mine12
+        weight: 1
+      - path: neutra_mine13
+        weight: 1
+      - path: neutra_mine14
+        weight: 1
+      - path: neutra_mine15
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

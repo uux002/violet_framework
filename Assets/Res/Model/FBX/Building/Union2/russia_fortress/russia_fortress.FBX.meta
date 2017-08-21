@@ -1,0 +1,457 @@
+fileFormatVersion: 2
+guid: 0224e232e15b23343803ccf4009aa3e3
+timeCreated: 1491905422
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bone01
+    100002: Bone02
+    100004: Bone03
+    100006: Bone031
+    100008: Bone032
+    100010: Bone033
+    100012: Bone034
+    100014: Bone035
+    100016: Bone04
+    100018: Bone05
+    100020: Bone06
+    100022: Bone07
+    100024: Bone08
+    100026: Bone09
+    100028: Bone10
+    100030: Bone11
+    100032: Bone12
+    100034: Bone13
+    100036: Bone14
+    100038: Bone15
+    100040: Bone16
+    100042: Bone17
+    100044: Bone18
+    100046: Bone19
+    100048: Bone20
+    100050: Bone21
+    100052: Bone22
+    100054: Bone23
+    100056: Bone24
+    100058: Bone25
+    100060: Bone26
+    100062: Bone27
+    100064: Bone28
+    100066: Bone29
+    100068: Bone30
+    100070: Object001
+    100072: //RootNode
+    400000: Bone01
+    400002: Bone02
+    400004: Bone03
+    400006: Bone031
+    400008: Bone032
+    400010: Bone033
+    400012: Bone034
+    400014: Bone035
+    400016: Bone04
+    400018: Bone05
+    400020: Bone06
+    400022: Bone07
+    400024: Bone08
+    400026: Bone09
+    400028: Bone10
+    400030: Bone11
+    400032: Bone12
+    400034: Bone13
+    400036: Bone14
+    400038: Bone15
+    400040: Bone16
+    400042: Bone17
+    400044: Bone18
+    400046: Bone19
+    400048: Bone20
+    400050: Bone21
+    400052: Bone22
+    400054: Bone23
+    400056: Bone24
+    400058: Bone25
+    400060: Bone26
+    400062: Bone27
+    400064: Bone28
+    400066: Bone29
+    400068: Bone30
+    400070: Object001
+    400072: //RootNode
+    4300000: Object001
+    7400000: build
+    7400002: open
+    7400004: idle
+    9500000: //RootNode
+    13700000: Object001
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 1
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: build
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone26
+        weight: 1
+      - path: Bone26/Bone01
+        weight: 1
+      - path: Bone26/Bone02
+        weight: 1
+      - path: Bone26/Bone02/Bone04
+        weight: 1
+      - path: Bone26/Bone02/Bone06
+        weight: 1
+      - path: Bone26/Bone03
+        weight: 1
+      - path: Bone26/Bone03/Bone05
+        weight: 1
+      - path: Bone26/Bone03/Bone05/Bone07
+        weight: 1
+      - path: Bone26/Bone08
+        weight: 1
+      - path: Bone26/Bone09
+        weight: 1
+      - path: Bone26/Bone10
+        weight: 1
+      - path: Bone26/Bone11
+        weight: 1
+      - path: Bone26/Bone12
+        weight: 1
+      - path: Bone26/Bone13
+        weight: 1
+      - path: Bone26/Bone13/Bone14
+        weight: 1
+      - path: Bone26/Bone15
+        weight: 1
+      - path: Bone26/Bone15/Bone16
+        weight: 1
+      - path: Bone26/Bone17
+        weight: 1
+      - path: Bone26/Bone18
+        weight: 1
+      - path: Bone26/Bone19
+        weight: 1
+      - path: Bone26/Bone20
+        weight: 1
+      - path: Bone26/Bone21
+        weight: 1
+      - path: Bone26/Bone22
+        weight: 1
+      - path: Bone26/Bone23
+        weight: 1
+      - path: Bone26/Bone24
+        weight: 1
+      - path: Bone26/Bone25
+        weight: 1
+      - path: Bone26/Bone27
+        weight: 1
+      - path: Bone26/Bone28
+        weight: 1
+      - path: Bone26/Bone29
+        weight: 1
+      - path: Bone26/Bone30
+        weight: 1
+      - path: Bone26/Bone031
+        weight: 1
+      - path: Bone26/Bone032
+        weight: 1
+      - path: Bone26/Bone033
+        weight: 1
+      - path: Bone26/Bone034
+        weight: 1
+      - path: Bone26/Bone035
+        weight: 1
+      - path: Object001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: open
+      takeName: Take 001
+      firstFrame: 40
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone26
+        weight: 1
+      - path: Bone26/Bone01
+        weight: 1
+      - path: Bone26/Bone02
+        weight: 1
+      - path: Bone26/Bone02/Bone04
+        weight: 1
+      - path: Bone26/Bone02/Bone06
+        weight: 1
+      - path: Bone26/Bone03
+        weight: 1
+      - path: Bone26/Bone03/Bone05
+        weight: 1
+      - path: Bone26/Bone03/Bone05/Bone07
+        weight: 1
+      - path: Bone26/Bone08
+        weight: 1
+      - path: Bone26/Bone09
+        weight: 1
+      - path: Bone26/Bone10
+        weight: 1
+      - path: Bone26/Bone11
+        weight: 1
+      - path: Bone26/Bone12
+        weight: 1
+      - path: Bone26/Bone13
+        weight: 1
+      - path: Bone26/Bone13/Bone14
+        weight: 1
+      - path: Bone26/Bone15
+        weight: 1
+      - path: Bone26/Bone15/Bone16
+        weight: 1
+      - path: Bone26/Bone17
+        weight: 1
+      - path: Bone26/Bone18
+        weight: 1
+      - path: Bone26/Bone19
+        weight: 1
+      - path: Bone26/Bone20
+        weight: 1
+      - path: Bone26/Bone21
+        weight: 1
+      - path: Bone26/Bone22
+        weight: 1
+      - path: Bone26/Bone23
+        weight: 1
+      - path: Bone26/Bone24
+        weight: 1
+      - path: Bone26/Bone25
+        weight: 1
+      - path: Bone26/Bone27
+        weight: 1
+      - path: Bone26/Bone28
+        weight: 1
+      - path: Bone26/Bone29
+        weight: 1
+      - path: Bone26/Bone30
+        weight: 1
+      - path: Bone26/Bone031
+        weight: 1
+      - path: Bone26/Bone032
+        weight: 1
+      - path: Bone26/Bone033
+        weight: 1
+      - path: Bone26/Bone034
+        weight: 1
+      - path: Bone26/Bone035
+        weight: 1
+      - path: Object001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 39
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone26
+        weight: 1
+      - path: Bone26/Bone01
+        weight: 1
+      - path: Bone26/Bone02
+        weight: 1
+      - path: Bone26/Bone02/Bone04
+        weight: 1
+      - path: Bone26/Bone02/Bone06
+        weight: 1
+      - path: Bone26/Bone03
+        weight: 1
+      - path: Bone26/Bone03/Bone05
+        weight: 1
+      - path: Bone26/Bone03/Bone05/Bone07
+        weight: 1
+      - path: Bone26/Bone08
+        weight: 1
+      - path: Bone26/Bone09
+        weight: 1
+      - path: Bone26/Bone10
+        weight: 1
+      - path: Bone26/Bone11
+        weight: 1
+      - path: Bone26/Bone12
+        weight: 1
+      - path: Bone26/Bone13
+        weight: 1
+      - path: Bone26/Bone13/Bone14
+        weight: 1
+      - path: Bone26/Bone15
+        weight: 1
+      - path: Bone26/Bone15/Bone16
+        weight: 1
+      - path: Bone26/Bone17
+        weight: 1
+      - path: Bone26/Bone18
+        weight: 1
+      - path: Bone26/Bone19
+        weight: 1
+      - path: Bone26/Bone20
+        weight: 1
+      - path: Bone26/Bone21
+        weight: 1
+      - path: Bone26/Bone22
+        weight: 1
+      - path: Bone26/Bone23
+        weight: 1
+      - path: Bone26/Bone24
+        weight: 1
+      - path: Bone26/Bone25
+        weight: 1
+      - path: Bone26/Bone27
+        weight: 1
+      - path: Bone26/Bone28
+        weight: 1
+      - path: Bone26/Bone29
+        weight: 1
+      - path: Bone26/Bone30
+        weight: 1
+      - path: Bone26/Bone031
+        weight: 1
+      - path: Bone26/Bone032
+        weight: 1
+      - path: Bone26/Bone033
+        weight: 1
+      - path: Bone26/Bone034
+        weight: 1
+      - path: Bone26/Bone035
+        weight: 1
+      - path: Object001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.06
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

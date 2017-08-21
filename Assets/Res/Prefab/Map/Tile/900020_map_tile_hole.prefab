@@ -1,0 +1,233 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000011413875314}
+  m_IsPrefabParent: 1
+--- !u!1 &1000011413875314
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000012533600968}
+  - component: {fileID: 33000011814000528}
+  - component: {fileID: 23000011692887756}
+  - component: {fileID: 65000011411064498}
+  m_Layer: 8
+  m_Name: 900020_map_tile_hole
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1342541542459486
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4251263503157560}
+  - component: {fileID: 33544737786349074}
+  - component: {fileID: 23945903613445184}
+  - component: {fileID: 114444980636543138}
+  m_Layer: 0
+  m_Name: water
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000012533600968
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011413875314}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4251263503157560}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!4 &4251263503157560
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1342541542459486}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: -0.4901834, z: -0.14127658}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4000012533600968}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23000011692887756
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011413875314}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: db1d057c712b7f14b84ae16ebbdc1cad, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23945903613445184
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1342541542459486}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 8d2f211f452cf1b4997d63dec4a99c85, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33000011814000528
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011413875314}
+  m_Mesh: {fileID: 4300062, guid: 3d1a58307e8766842b1830a29a34cd2e, type: 3}
+--- !u!33 &33544737786349074
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1342541542459486}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &65000011411064498
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011413875314}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9.000002, y: 1.7101713, z: 9.000002}
+  m_Center: {x: 0, y: -0.8550853, z: 0.00000023841858}
+--- !u!114 &114444980636543138
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1342541542459486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cc7260e5c788434f8949885bb0e0241, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waterColor: {r: 0, g: 0.751822, b: 1, a: 0.734}
+  fresnelColor: {r: 1, g: 1, b: 1, a: 1}
+  rimColor: {r: 0.33088237, g: 0.88924974, b: 1, a: 0.578}
+  transparency: 0.6
+  reflectionCubemap: {fileID: 0}
+  glossiness: 1
+  fresnel: 3
+  surfaceHighlight: 0
+  surfaceHighlightTiling: 1
+  surfaceHighlightSize: 1
+  depth: 1
+  depthDarkness: 0.5
+  rimSize: 1
+  rimFalloff: 1
+  worldSpaceTiling: 0
+  tiling: 0.9
+  rimTiling: 5
+  refractionAmount: 0
+  waveStrength: 0
+  customIntersection: {fileID: 0}
+  customNormal: {fileID: 0}
+  normals: {fileID: 947374229, guid: e3d849a71cf1896458f0932f079b66a3, type: 3}
+  shadermap: {fileID: -1511549886, guid: e3d849a71cf1896458f0932f079b66a3, type: 3}
+  tesselation: 0
+  substance: {fileID: 814258843, guid: e3d849a71cf1896458f0932f079b66a3, type: 3}
+  seed: 0
+  normalStrength: 15.8
+  intersectionStyleList:
+  - None
+  - Windwaker
+  - Foamy
+  - Foamy2
+  - Triangular
+  - Cells
+  intersectionStyle: 3
+  waveStyleList:
+  - Perlin
+  - Plasma
+  - Circular
+  - Stream
+  - Sharp
+  waveStyle: 2
+  waveSpeed: 1
+  useCustomIntersection: 0
+  useCustomNormals: 0
+  material: {fileID: 2100000, guid: 8d2f211f452cf1b4997d63dec4a99c85, type: 2}
+  isMobileAdvanced: 1
+  isMobileBasic: 0
+  shaderName: StylizedWater/Mobile Advanced
+  showColors: 1
+  showSurface: 1
+  showIntersection: 1
+  showHighlights: 1
+  showDepth: 1
+  showWaves: 1
+  hasSubstanceParams: 1

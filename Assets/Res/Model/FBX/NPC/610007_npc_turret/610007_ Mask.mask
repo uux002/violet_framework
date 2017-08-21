@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 610007_ Mask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: 61000701_Turrent
+    m_Weight: 0
+  - m_Path: 61000701_Turrent/61000701_hRotate
+    m_Weight: 0
+  - m_Path: 61000701_Turrent/61000701_hRotate/61000701_fire1
+    m_Weight: 0
+  - m_Path: 61000701_Turrent/61000701_hRotate/61000701_fire2
+    m_Weight: 0
+  - m_Path: 61000701_Turrent/61000701_hRotate/61000701_fire3
+    m_Weight: 0
+  - m_Path: 61000701_Turrent/61000701_hRotate/npc_turret02
+    m_Weight: 0
+  - m_Path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret03
+    m_Weight: 0
+  - m_Path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret03/npc_turret07
+    m_Weight: 0
+  - m_Path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret03/npc_turret07/npc_turret09
+    m_Weight: 0
+  - m_Path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret03/npc_turret07/npc_turret10
+    m_Weight: 0
+  - m_Path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret03/npc_turret07/npc_turret11
+    m_Weight: 0
+  - m_Path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04
+    m_Weight: 0
+  - m_Path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent
+    m_Weight: 0
+  - m_Path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate
+    m_Weight: 0
+  - m_Path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate/61000702_fire1
+    m_Weight: 0
+  - m_Path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate/61000702_fire2
+    m_Weight: 0
+  - m_Path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate/61000702_fire3
+    m_Weight: 0
+  - m_Path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate/61000702_fire4
+    m_Weight: 0
+  - m_Path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate/61000702_fire5
+    m_Weight: 0
+  - m_Path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate/61000702_fire6
+    m_Weight: 0
+  - m_Path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/npc_turret08
+    m_Weight: 0
+  - m_Path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/npc_turret08/npc_turret12
+    m_Weight: 0
+  - m_Path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/npc_turret08/npc_turret13
+    m_Weight: 0
+  - m_Path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/npc_turret08/npc_turret14
+    m_Weight: 0
+  - m_Path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret05
+    m_Weight: 1
+  - m_Path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret06
+    m_Weight: 1
+  - m_Path: npc_turret01
+    m_Weight: 1

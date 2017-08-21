@@ -1,0 +1,385 @@
+fileFormatVersion: 2
+guid: b9ca94365aa757c418af69a8ab5e5e0d
+timeCreated: 1502971063
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 21001701_fire1
+    100002: 21001701_fire2
+    100004: 21001701_hRotate
+    100006: 21001701_Turrent
+    100008: 21001701_vRotate
+    100010: //RootNode
+    100012: BatteryLand01
+    100014: BatteryLand02
+    100016: BatteryLand03
+    100018: BatteryLand04
+    100020: BatteryLand05
+    100022: BatteryLand06
+    400000: 21001701_fire1
+    400002: 21001701_fire2
+    400004: 21001701_hRotate
+    400006: 21001701_Turrent
+    400008: 21001701_vRotate
+    400010: //RootNode
+    400012: BatteryLand01
+    400014: BatteryLand02
+    400016: BatteryLand03
+    400018: BatteryLand04
+    400020: BatteryLand05
+    400022: BatteryLand06
+    2300000: BatteryLand01
+    2300002: BatteryLand02
+    2300004: BatteryLand03
+    2300006: BatteryLand04
+    2300008: BatteryLand05
+    2300010: BatteryLand06
+    3300000: BatteryLand01
+    3300002: BatteryLand02
+    3300004: BatteryLand03
+    3300006: BatteryLand04
+    3300008: BatteryLand05
+    3300010: BatteryLand06
+    4300000: BatteryLand01
+    4300002: BatteryLand02
+    4300004: BatteryLand04
+    4300006: BatteryLand05
+    4300008: BatteryLand03
+    4300010: BatteryLand06
+    7400000: build
+    7400002: attack
+    7400004: idle
+    7400006: take
+    7400008: anim
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: build
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 34
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 21001701_Turrent
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02/21001701_vRotate
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02/21001701_vRotate/21001701_fire1
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02/21001701_vRotate/21001701_fire2
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02/21001701_vRotate/BatteryLand03
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02/21001701_vRotate/BatteryLand03/BatteryLand06
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02/21001701_vRotate/BatteryLand04
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02/21001701_vRotate/BatteryLand04/BatteryLand05
+        weight: 1
+      - path: BatteryLand01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack
+      takeName: Take 001
+      firstFrame: 35
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 21001701_Turrent
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02/21001701_vRotate
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02/21001701_vRotate/21001701_fire1
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02/21001701_vRotate/21001701_fire2
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02/21001701_vRotate/BatteryLand03
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02/21001701_vRotate/BatteryLand03/BatteryLand06
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02/21001701_vRotate/BatteryLand04
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02/21001701_vRotate/BatteryLand04/BatteryLand05
+        weight: 1
+      - path: BatteryLand01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 0.1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 21001701_Turrent
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02/21001701_vRotate
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02/21001701_vRotate/21001701_fire1
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02/21001701_vRotate/21001701_fire2
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02/21001701_vRotate/BatteryLand03
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02/21001701_vRotate/BatteryLand03/BatteryLand06
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02/21001701_vRotate/BatteryLand04
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02/21001701_vRotate/BatteryLand04/BatteryLand05
+        weight: 1
+      - path: BatteryLand01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: take
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 3
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 21001701_Turrent
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02/21001701_vRotate
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02/21001701_vRotate/21001701_fire1
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02/21001701_vRotate/21001701_fire2
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02/21001701_vRotate/BatteryLand03
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02/21001701_vRotate/BatteryLand03/BatteryLand06
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02/21001701_vRotate/BatteryLand04
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02/21001701_vRotate/BatteryLand04/BatteryLand05
+        weight: 1
+      - path: BatteryLand01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: anim
+      takeName: Take 001
+      firstFrame: 45
+      lastFrame: 95
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 21001701_Turrent
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02/21001701_vRotate
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02/21001701_vRotate/21001701_fire1
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02/21001701_vRotate/21001701_fire2
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02/21001701_vRotate/BatteryLand03
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02/21001701_vRotate/BatteryLand03/BatteryLand06
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02/21001701_vRotate/BatteryLand04
+        weight: 1
+      - path: 21001701_Turrent/21001701_hRotate/BatteryLand02/21001701_vRotate/BatteryLand04/BatteryLand05
+        weight: 1
+      - path: BatteryLand01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.8
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

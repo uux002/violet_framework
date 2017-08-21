@@ -1,0 +1,922 @@
+fileFormatVersion: 2
+guid: 74bf3d6015f9a884e9d50e36fa8204fc
+timeCreated: 1501567305
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 30002001_fire1
+    100002: 30002001_fire2
+    100004: 30002001_hRotate
+    100006: 30002001_Turrent
+    100008: 30002002_fire1
+    100010: 30002002_fire2
+    100012: 30002002_fire3
+    100014: 30002002_fire4
+    100016: 30002002_hRotate
+    100018: 30002002_Turrent
+    100020: //RootNode
+    100022: airship01
+    100024: airship0102
+    100026: airship03
+    100028: airship04
+    100030: airship05
+    100032: airship06
+    100034: airship07
+    100036: airship08
+    100038: airship09
+    100040: airship10
+    100042: airship11
+    100044: airship12
+    100046: airship13
+    100048: airship14
+    100050: airship15
+    100052: airship16
+    100054: airship17
+    100056: airship18
+    100058: airship19
+    100060: airship20
+    100062: airship21
+    100064: airship22
+    100066: airship23
+    100068: airship24
+    100070: airship25
+    100072: airship26
+    100074: airship27
+    100076: airship28
+    100078: airship29
+    100080: airship30
+    100082: airship40
+    100084: airship41
+    100086: airship42
+    100088: airship43
+    100090: airship44
+    100092: airship45
+    100094: airship46
+    100096: Dummy001
+    400000: 30002001_fire1
+    400002: 30002001_fire2
+    400004: 30002001_hRotate
+    400006: 30002001_Turrent
+    400008: 30002002_fire1
+    400010: 30002002_fire2
+    400012: 30002002_fire3
+    400014: 30002002_fire4
+    400016: 30002002_hRotate
+    400018: 30002002_Turrent
+    400020: //RootNode
+    400022: airship01
+    400024: airship0102
+    400026: airship03
+    400028: airship04
+    400030: airship05
+    400032: airship06
+    400034: airship07
+    400036: airship08
+    400038: airship09
+    400040: airship10
+    400042: airship11
+    400044: airship12
+    400046: airship13
+    400048: airship14
+    400050: airship15
+    400052: airship16
+    400054: airship17
+    400056: airship18
+    400058: airship19
+    400060: airship20
+    400062: airship21
+    400064: airship22
+    400066: airship23
+    400068: airship24
+    400070: airship25
+    400072: airship26
+    400074: airship27
+    400076: airship28
+    400078: airship29
+    400080: airship30
+    400082: airship40
+    400084: airship41
+    400086: airship42
+    400088: airship43
+    400090: airship44
+    400092: airship45
+    400094: airship46
+    400096: Dummy001
+    2300000: airship01
+    2300002: airship0102
+    2300004: airship03
+    2300006: airship04
+    2300008: airship05
+    2300010: airship06
+    2300012: airship07
+    2300014: airship08
+    2300016: airship09
+    2300018: airship10
+    2300020: airship11
+    2300022: airship12
+    2300024: airship13
+    2300026: airship14
+    2300028: airship15
+    2300030: airship16
+    2300032: airship17
+    2300034: airship18
+    2300036: airship19
+    2300038: airship20
+    2300040: airship21
+    2300042: airship22
+    2300044: airship23
+    2300046: airship24
+    2300048: airship25
+    2300050: airship26
+    2300052: airship27
+    2300054: airship28
+    2300056: airship29
+    2300058: airship30
+    2300060: airship40
+    2300062: airship41
+    2300064: airship42
+    2300066: airship43
+    2300068: airship44
+    2300070: airship45
+    2300072: airship46
+    3300000: airship01
+    3300002: airship0102
+    3300004: airship03
+    3300006: airship04
+    3300008: airship05
+    3300010: airship06
+    3300012: airship07
+    3300014: airship08
+    3300016: airship09
+    3300018: airship10
+    3300020: airship11
+    3300022: airship12
+    3300024: airship13
+    3300026: airship14
+    3300028: airship15
+    3300030: airship16
+    3300032: airship17
+    3300034: airship18
+    3300036: airship19
+    3300038: airship20
+    3300040: airship21
+    3300042: airship22
+    3300044: airship23
+    3300046: airship24
+    3300048: airship25
+    3300050: airship26
+    3300052: airship27
+    3300054: airship28
+    3300056: airship29
+    3300058: airship30
+    3300060: airship40
+    3300062: airship41
+    3300064: airship42
+    3300066: airship43
+    3300068: airship44
+    3300070: airship45
+    3300072: airship46
+    4300000: airship01
+    4300002: airship0102
+    4300004: airship03
+    4300006: airship04
+    4300008: airship05
+    4300010: airship06
+    4300012: airship07
+    4300014: airship08
+    4300016: airship09
+    4300018: airship10
+    4300020: airship19
+    4300022: airship11
+    4300024: airship45
+    4300026: airship12
+    4300028: airship13
+    4300030: airship14
+    4300032: airship18
+    4300034: airship15
+    4300036: airship46
+    4300038: airship17
+    4300040: airship20
+    4300042: airship21
+    4300044: airship26
+    4300046: airship22
+    4300048: airship42
+    4300050: airship23
+    4300052: airship41
+    4300054: airship24
+    4300056: airship43
+    4300058: airship25
+    4300060: airship44
+    4300062: airship27
+    4300064: airship28
+    4300066: airship29
+    4300068: airship30
+    4300070: airship40
+    4300072: airship16
+    7400000: anim
+    7400002: idle
+    7400004: attack
+    7400006: death
+    7400008: death_down
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: anim
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 85
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: airship01
+        weight: 1
+      - path: airship01/30002001_Turrent
+        weight: 1
+      - path: airship01/30002001_Turrent/30002001_hRotate
+        weight: 1
+      - path: airship01/30002001_Turrent/30002001_hRotate/30002001_fire1
+        weight: 1
+      - path: airship01/30002001_Turrent/30002001_hRotate/30002001_fire2
+        weight: 1
+      - path: airship01/30002002_Turrent
+        weight: 1
+      - path: airship01/30002002_Turrent/30002002_hRotate
+        weight: 1
+      - path: airship01/30002002_Turrent/30002002_hRotate/30002002_fire1
+        weight: 1
+      - path: airship01/30002002_Turrent/30002002_hRotate/30002002_fire2
+        weight: 1
+      - path: airship01/30002002_Turrent/30002002_hRotate/30002002_fire3
+        weight: 1
+      - path: airship01/30002002_Turrent/30002002_hRotate/30002002_fire4
+        weight: 1
+      - path: airship01/airship03
+        weight: 1
+      - path: airship01/airship04
+        weight: 1
+      - path: airship01/airship05
+        weight: 1
+      - path: airship01/airship06
+        weight: 1
+      - path: airship01/airship07
+        weight: 1
+      - path: airship01/airship08
+        weight: 1
+      - path: airship01/airship08/airship09
+        weight: 1
+      - path: airship01/airship08/airship09/airship10
+        weight: 1
+      - path: airship01/airship08/airship09/airship10/airship19
+        weight: 1
+      - path: airship01/airship08/airship09/airship11
+        weight: 1
+      - path: airship01/airship08/airship09/airship11/airship45
+        weight: 1
+      - path: airship01/airship12
+        weight: 1
+      - path: airship01/airship12/airship13
+        weight: 1
+      - path: airship01/airship12/airship13/airship14
+        weight: 1
+      - path: airship01/airship12/airship13/airship14/airship18
+        weight: 1
+      - path: airship01/airship12/airship13/airship15
+        weight: 1
+      - path: airship01/airship12/airship13/airship15/airship46
+        weight: 1
+      - path: airship01/airship17
+        weight: 1
+      - path: airship01/airship20
+        weight: 1
+      - path: airship01/airship20/airship16
+        weight: 1
+      - path: airship01/airship20/airship21
+        weight: 1
+      - path: airship01/airship20/airship21/airship26
+        weight: 1
+      - path: airship01/airship20/airship22
+        weight: 1
+      - path: airship01/airship20/airship22/airship42
+        weight: 1
+      - path: airship01/airship20/airship23
+        weight: 1
+      - path: airship01/airship20/airship23/airship41
+        weight: 1
+      - path: airship01/airship20/airship24
+        weight: 1
+      - path: airship01/airship20/airship24/Dummy001
+        weight: 1
+      - path: airship01/airship20/airship24/Dummy001/airship43
+        weight: 1
+      - path: airship01/airship20/airship25
+        weight: 1
+      - path: airship01/airship20/airship25/airship44
+        weight: 1
+      - path: airship01/airship20/airship27
+        weight: 1
+      - path: airship01/airship20/airship27/airship28
+        weight: 1
+      - path: airship01/airship20/airship27/airship29
+        weight: 1
+      - path: airship01/airship20/airship27/airship30
+        weight: 1
+      - path: airship01/airship20/airship27/airship40
+        weight: 1
+      - path: airship01/airship0102
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 85
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: airship01
+        weight: 1
+      - path: airship01/30002001_Turrent
+        weight: 1
+      - path: airship01/30002001_Turrent/30002001_hRotate
+        weight: 1
+      - path: airship01/30002001_Turrent/30002001_hRotate/30002001_fire1
+        weight: 1
+      - path: airship01/30002001_Turrent/30002001_hRotate/30002001_fire2
+        weight: 1
+      - path: airship01/30002002_Turrent
+        weight: 1
+      - path: airship01/30002002_Turrent/30002002_hRotate
+        weight: 1
+      - path: airship01/30002002_Turrent/30002002_hRotate/30002002_fire1
+        weight: 1
+      - path: airship01/30002002_Turrent/30002002_hRotate/30002002_fire2
+        weight: 1
+      - path: airship01/30002002_Turrent/30002002_hRotate/30002002_fire3
+        weight: 1
+      - path: airship01/30002002_Turrent/30002002_hRotate/30002002_fire4
+        weight: 1
+      - path: airship01/airship03
+        weight: 1
+      - path: airship01/airship04
+        weight: 1
+      - path: airship01/airship05
+        weight: 1
+      - path: airship01/airship06
+        weight: 1
+      - path: airship01/airship07
+        weight: 1
+      - path: airship01/airship08
+        weight: 1
+      - path: airship01/airship08/airship09
+        weight: 1
+      - path: airship01/airship08/airship09/airship10
+        weight: 1
+      - path: airship01/airship08/airship09/airship10/airship19
+        weight: 1
+      - path: airship01/airship08/airship09/airship11
+        weight: 1
+      - path: airship01/airship08/airship09/airship11/airship45
+        weight: 1
+      - path: airship01/airship12
+        weight: 1
+      - path: airship01/airship12/airship13
+        weight: 1
+      - path: airship01/airship12/airship13/airship14
+        weight: 1
+      - path: airship01/airship12/airship13/airship14/airship18
+        weight: 1
+      - path: airship01/airship12/airship13/airship15
+        weight: 1
+      - path: airship01/airship12/airship13/airship15/airship46
+        weight: 1
+      - path: airship01/airship17
+        weight: 1
+      - path: airship01/airship20
+        weight: 1
+      - path: airship01/airship20/airship16
+        weight: 1
+      - path: airship01/airship20/airship21
+        weight: 1
+      - path: airship01/airship20/airship21/airship26
+        weight: 1
+      - path: airship01/airship20/airship22
+        weight: 1
+      - path: airship01/airship20/airship22/airship42
+        weight: 1
+      - path: airship01/airship20/airship23
+        weight: 1
+      - path: airship01/airship20/airship23/airship41
+        weight: 1
+      - path: airship01/airship20/airship24
+        weight: 1
+      - path: airship01/airship20/airship24/Dummy001
+        weight: 1
+      - path: airship01/airship20/airship24/Dummy001/airship43
+        weight: 1
+      - path: airship01/airship20/airship25
+        weight: 1
+      - path: airship01/airship20/airship25/airship44
+        weight: 1
+      - path: airship01/airship20/airship27
+        weight: 1
+      - path: airship01/airship20/airship27/airship28
+        weight: 1
+      - path: airship01/airship20/airship27/airship29
+        weight: 1
+      - path: airship01/airship20/airship27/airship30
+        weight: 1
+      - path: airship01/airship20/airship27/airship40
+        weight: 1
+      - path: airship01/airship0102
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: airship01
+        weight: 1
+      - path: airship01/30002001_Turrent
+        weight: 1
+      - path: airship01/30002001_Turrent/30002001_hRotate
+        weight: 1
+      - path: airship01/30002001_Turrent/30002001_hRotate/30002001_fire1
+        weight: 1
+      - path: airship01/30002001_Turrent/30002001_hRotate/30002001_fire2
+        weight: 1
+      - path: airship01/30002002_Turrent
+        weight: 1
+      - path: airship01/30002002_Turrent/30002002_hRotate
+        weight: 1
+      - path: airship01/30002002_Turrent/30002002_hRotate/30002002_fire1
+        weight: 1
+      - path: airship01/30002002_Turrent/30002002_hRotate/30002002_fire2
+        weight: 1
+      - path: airship01/30002002_Turrent/30002002_hRotate/30002002_fire3
+        weight: 1
+      - path: airship01/30002002_Turrent/30002002_hRotate/30002002_fire4
+        weight: 1
+      - path: airship01/airship03
+        weight: 1
+      - path: airship01/airship04
+        weight: 1
+      - path: airship01/airship05
+        weight: 1
+      - path: airship01/airship06
+        weight: 1
+      - path: airship01/airship07
+        weight: 1
+      - path: airship01/airship08
+        weight: 1
+      - path: airship01/airship08/airship09
+        weight: 1
+      - path: airship01/airship08/airship09/airship10
+        weight: 1
+      - path: airship01/airship08/airship09/airship10/airship19
+        weight: 1
+      - path: airship01/airship08/airship09/airship11
+        weight: 1
+      - path: airship01/airship08/airship09/airship11/airship45
+        weight: 1
+      - path: airship01/airship12
+        weight: 1
+      - path: airship01/airship12/airship13
+        weight: 1
+      - path: airship01/airship12/airship13/airship14
+        weight: 1
+      - path: airship01/airship12/airship13/airship14/airship18
+        weight: 1
+      - path: airship01/airship12/airship13/airship15
+        weight: 1
+      - path: airship01/airship12/airship13/airship15/airship46
+        weight: 1
+      - path: airship01/airship17
+        weight: 1
+      - path: airship01/airship20
+        weight: 1
+      - path: airship01/airship20/airship16
+        weight: 1
+      - path: airship01/airship20/airship21
+        weight: 1
+      - path: airship01/airship20/airship21/airship26
+        weight: 1
+      - path: airship01/airship20/airship22
+        weight: 1
+      - path: airship01/airship20/airship22/airship42
+        weight: 1
+      - path: airship01/airship20/airship23
+        weight: 1
+      - path: airship01/airship20/airship23/airship41
+        weight: 1
+      - path: airship01/airship20/airship24
+        weight: 1
+      - path: airship01/airship20/airship24/Dummy001
+        weight: 1
+      - path: airship01/airship20/airship24/Dummy001/airship43
+        weight: 1
+      - path: airship01/airship20/airship25
+        weight: 1
+      - path: airship01/airship20/airship25/airship44
+        weight: 1
+      - path: airship01/airship20/airship27
+        weight: 1
+      - path: airship01/airship20/airship27/airship28
+        weight: 1
+      - path: airship01/airship20/airship27/airship29
+        weight: 1
+      - path: airship01/airship20/airship27/airship30
+        weight: 1
+      - path: airship01/airship20/airship27/airship40
+        weight: 1
+      - path: airship01/airship0102
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death
+      takeName: Take 001
+      firstFrame: 110
+      lastFrame: 118
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: airship01
+        weight: 1
+      - path: airship01/30002001_Turrent
+        weight: 1
+      - path: airship01/30002001_Turrent/30002001_hRotate
+        weight: 1
+      - path: airship01/30002001_Turrent/30002001_hRotate/30002001_fire1
+        weight: 1
+      - path: airship01/30002001_Turrent/30002001_hRotate/30002001_fire2
+        weight: 1
+      - path: airship01/30002002_Turrent
+        weight: 1
+      - path: airship01/30002002_Turrent/30002002_hRotate
+        weight: 1
+      - path: airship01/30002002_Turrent/30002002_hRotate/30002002_fire1
+        weight: 1
+      - path: airship01/30002002_Turrent/30002002_hRotate/30002002_fire2
+        weight: 1
+      - path: airship01/30002002_Turrent/30002002_hRotate/30002002_fire3
+        weight: 1
+      - path: airship01/30002002_Turrent/30002002_hRotate/30002002_fire4
+        weight: 1
+      - path: airship01/airship03
+        weight: 1
+      - path: airship01/airship04
+        weight: 1
+      - path: airship01/airship05
+        weight: 1
+      - path: airship01/airship06
+        weight: 1
+      - path: airship01/airship07
+        weight: 1
+      - path: airship01/airship08
+        weight: 1
+      - path: airship01/airship08/airship09
+        weight: 1
+      - path: airship01/airship08/airship09/airship10
+        weight: 1
+      - path: airship01/airship08/airship09/airship10/airship19
+        weight: 1
+      - path: airship01/airship08/airship09/airship11
+        weight: 1
+      - path: airship01/airship08/airship09/airship11/airship45
+        weight: 1
+      - path: airship01/airship12
+        weight: 1
+      - path: airship01/airship12/airship13
+        weight: 1
+      - path: airship01/airship12/airship13/airship14
+        weight: 1
+      - path: airship01/airship12/airship13/airship14/airship18
+        weight: 1
+      - path: airship01/airship12/airship13/airship15
+        weight: 1
+      - path: airship01/airship12/airship13/airship15/airship46
+        weight: 1
+      - path: airship01/airship17
+        weight: 1
+      - path: airship01/airship20
+        weight: 1
+      - path: airship01/airship20/airship16
+        weight: 1
+      - path: airship01/airship20/airship21
+        weight: 1
+      - path: airship01/airship20/airship21/airship26
+        weight: 1
+      - path: airship01/airship20/airship22
+        weight: 1
+      - path: airship01/airship20/airship22/airship42
+        weight: 1
+      - path: airship01/airship20/airship23
+        weight: 1
+      - path: airship01/airship20/airship23/airship41
+        weight: 1
+      - path: airship01/airship20/airship24
+        weight: 1
+      - path: airship01/airship20/airship24/Dummy001
+        weight: 1
+      - path: airship01/airship20/airship24/Dummy001/airship43
+        weight: 1
+      - path: airship01/airship20/airship25
+        weight: 1
+      - path: airship01/airship20/airship25/airship44
+        weight: 1
+      - path: airship01/airship20/airship27
+        weight: 1
+      - path: airship01/airship20/airship27/airship28
+        weight: 1
+      - path: airship01/airship20/airship27/airship29
+        weight: 1
+      - path: airship01/airship20/airship27/airship30
+        weight: 1
+      - path: airship01/airship20/airship27/airship40
+        weight: 1
+      - path: airship01/airship0102
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death_down
+      takeName: Take 001
+      firstFrame: 125
+      lastFrame: 140
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: airship01
+        weight: 1
+      - path: airship01/30002001_Turrent
+        weight: 1
+      - path: airship01/30002001_Turrent/30002001_hRotate
+        weight: 1
+      - path: airship01/30002001_Turrent/30002001_hRotate/30002001_fire1
+        weight: 1
+      - path: airship01/30002001_Turrent/30002001_hRotate/30002001_fire2
+        weight: 1
+      - path: airship01/30002002_Turrent
+        weight: 1
+      - path: airship01/30002002_Turrent/30002002_hRotate
+        weight: 1
+      - path: airship01/30002002_Turrent/30002002_hRotate/30002002_fire1
+        weight: 1
+      - path: airship01/30002002_Turrent/30002002_hRotate/30002002_fire2
+        weight: 1
+      - path: airship01/30002002_Turrent/30002002_hRotate/30002002_fire3
+        weight: 1
+      - path: airship01/30002002_Turrent/30002002_hRotate/30002002_fire4
+        weight: 1
+      - path: airship01/airship03
+        weight: 1
+      - path: airship01/airship04
+        weight: 1
+      - path: airship01/airship05
+        weight: 1
+      - path: airship01/airship06
+        weight: 1
+      - path: airship01/airship07
+        weight: 1
+      - path: airship01/airship08
+        weight: 1
+      - path: airship01/airship08/airship09
+        weight: 1
+      - path: airship01/airship08/airship09/airship10
+        weight: 1
+      - path: airship01/airship08/airship09/airship10/airship19
+        weight: 1
+      - path: airship01/airship08/airship09/airship11
+        weight: 1
+      - path: airship01/airship08/airship09/airship11/airship45
+        weight: 1
+      - path: airship01/airship12
+        weight: 1
+      - path: airship01/airship12/airship13
+        weight: 1
+      - path: airship01/airship12/airship13/airship14
+        weight: 1
+      - path: airship01/airship12/airship13/airship14/airship18
+        weight: 1
+      - path: airship01/airship12/airship13/airship15
+        weight: 1
+      - path: airship01/airship12/airship13/airship15/airship46
+        weight: 1
+      - path: airship01/airship17
+        weight: 1
+      - path: airship01/airship20
+        weight: 1
+      - path: airship01/airship20/airship16
+        weight: 1
+      - path: airship01/airship20/airship21
+        weight: 1
+      - path: airship01/airship20/airship21/airship26
+        weight: 1
+      - path: airship01/airship20/airship22
+        weight: 1
+      - path: airship01/airship20/airship22/airship42
+        weight: 1
+      - path: airship01/airship20/airship23
+        weight: 1
+      - path: airship01/airship20/airship23/airship41
+        weight: 1
+      - path: airship01/airship20/airship24
+        weight: 1
+      - path: airship01/airship20/airship24/Dummy001
+        weight: 1
+      - path: airship01/airship20/airship24/Dummy001/airship43
+        weight: 1
+      - path: airship01/airship20/airship25
+        weight: 1
+      - path: airship01/airship20/airship25/airship44
+        weight: 1
+      - path: airship01/airship20/airship27
+        weight: 1
+      - path: airship01/airship20/airship27/airship28
+        weight: 1
+      - path: airship01/airship20/airship27/airship29
+        weight: 1
+      - path: airship01/airship20/airship27/airship30
+        weight: 1
+      - path: airship01/airship20/airship27/airship40
+        weight: 1
+      - path: airship01/airship0102
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.06
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

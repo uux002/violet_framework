@@ -1,0 +1,363 @@
+fileFormatVersion: 2
+guid: 434d0a0292fbf0b48a57a5e210e735b6
+timeCreated: 1502933635
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: rocket00
+    100004: rocket01
+    100006: rocket02
+    100008: rocket03
+    100010: rocket04
+    100012: rocket05
+    100014: rocket06
+    100016: rocket07
+    100018: rocket08
+    100020: rocket09
+    100022: rocket10
+    100024: rocket11
+    100026: rocket12
+    100028: rocket13
+    100030: rocket14
+    100032: rocket15
+    100034: rocket16
+    100036: rocket17
+    100038: rocket18
+    100040: rocket19
+    100042: rocket20
+    100044: rocket21
+    100046: rocket22
+    100048: rocket23
+    100050: rocket24
+    100052: rocket25
+    100054: rocket26
+    100056: rocket27
+    100058: rocket28
+    100060: rocket29
+    100062: rocket30
+    100064: rocket31
+    100066: rocket32
+    100068: rocket33
+    100070: rocket34
+    100072: rocket35
+    400000: //RootNode
+    400002: rocket00
+    400004: rocket01
+    400006: rocket02
+    400008: rocket03
+    400010: rocket04
+    400012: rocket05
+    400014: rocket06
+    400016: rocket07
+    400018: rocket08
+    400020: rocket09
+    400022: rocket10
+    400024: rocket11
+    400026: rocket12
+    400028: rocket13
+    400030: rocket14
+    400032: rocket15
+    400034: rocket16
+    400036: rocket17
+    400038: rocket18
+    400040: rocket19
+    400042: rocket20
+    400044: rocket21
+    400046: rocket22
+    400048: rocket23
+    400050: rocket24
+    400052: rocket25
+    400054: rocket26
+    400056: rocket27
+    400058: rocket28
+    400060: rocket29
+    400062: rocket30
+    400064: rocket31
+    400066: rocket32
+    400068: rocket33
+    400070: rocket34
+    400072: rocket35
+    2300000: rocket00
+    2300002: rocket01
+    2300004: rocket02
+    2300006: rocket03
+    2300008: rocket04
+    2300010: rocket05
+    2300012: rocket06
+    2300014: rocket07
+    2300016: rocket08
+    2300018: rocket09
+    2300020: rocket10
+    2300022: rocket11
+    2300024: rocket12
+    2300026: rocket13
+    2300028: rocket14
+    2300030: rocket15
+    2300032: rocket16
+    2300034: rocket17
+    2300036: rocket18
+    2300038: rocket19
+    2300040: rocket20
+    2300042: rocket21
+    2300044: rocket22
+    2300046: rocket23
+    2300048: rocket24
+    2300050: rocket25
+    2300052: rocket26
+    2300054: rocket27
+    2300056: rocket28
+    2300058: rocket29
+    2300060: rocket30
+    2300062: rocket31
+    2300064: rocket32
+    2300066: rocket33
+    2300068: rocket34
+    2300070: rocket35
+    3300000: rocket00
+    3300002: rocket01
+    3300004: rocket02
+    3300006: rocket03
+    3300008: rocket04
+    3300010: rocket05
+    3300012: rocket06
+    3300014: rocket07
+    3300016: rocket08
+    3300018: rocket09
+    3300020: rocket10
+    3300022: rocket11
+    3300024: rocket12
+    3300026: rocket13
+    3300028: rocket14
+    3300030: rocket15
+    3300032: rocket16
+    3300034: rocket17
+    3300036: rocket18
+    3300038: rocket19
+    3300040: rocket20
+    3300042: rocket21
+    3300044: rocket22
+    3300046: rocket23
+    3300048: rocket24
+    3300050: rocket25
+    3300052: rocket26
+    3300054: rocket27
+    3300056: rocket28
+    3300058: rocket29
+    3300060: rocket30
+    3300062: rocket31
+    3300064: rocket32
+    3300066: rocket33
+    3300068: rocket34
+    3300070: rocket35
+    4300000: rocket00
+    4300002: rocket01
+    4300004: rocket02
+    4300006: rocket03
+    4300008: rocket04
+    4300010: rocket05
+    4300012: rocket06
+    4300014: rocket07
+    4300016: rocket08
+    4300018: rocket09
+    4300020: rocket10
+    4300022: rocket11
+    4300024: rocket12
+    4300026: rocket13
+    4300028: rocket14
+    4300030: rocket15
+    4300032: rocket16
+    4300034: rocket17
+    4300036: rocket18
+    4300038: rocket19
+    4300040: rocket20
+    4300042: rocket21
+    4300044: rocket22
+    4300046: rocket23
+    4300048: rocket24
+    4300050: rocket25
+    4300052: rocket26
+    4300054: rocket27
+    4300056: rocket28
+    4300058: rocket29
+    4300060: rocket30
+    4300062: rocket31
+    4300064: rocket32
+    4300066: rocket33
+    4300068: rocket34
+    4300070: rocket35
+    7400000: death
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: death
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: rocket00
+        weight: 1
+      - path: rocket01
+        weight: 1
+      - path: rocket02
+        weight: 1
+      - path: rocket03
+        weight: 1
+      - path: rocket04
+        weight: 1
+      - path: rocket05
+        weight: 1
+      - path: rocket05/rocket06
+        weight: 1
+      - path: rocket05/rocket07
+        weight: 1
+      - path: rocket05/rocket08
+        weight: 1
+      - path: rocket05/rocket09
+        weight: 1
+      - path: rocket05/rocket10
+        weight: 1
+      - path: rocket05/rocket11
+        weight: 1
+      - path: rocket05/rocket12
+        weight: 1
+      - path: rocket05/rocket13
+        weight: 1
+      - path: rocket05/rocket14
+        weight: 1
+      - path: rocket05/rocket15
+        weight: 1
+      - path: rocket05/rocket16
+        weight: 1
+      - path: rocket05/rocket17
+        weight: 1
+      - path: rocket05/rocket18
+        weight: 1
+      - path: rocket05/rocket19
+        weight: 1
+      - path: rocket05/rocket20
+        weight: 1
+      - path: rocket05/rocket21
+        weight: 1
+      - path: rocket05/rocket22
+        weight: 1
+      - path: rocket05/rocket23
+        weight: 1
+      - path: rocket24
+        weight: 1
+      - path: rocket25
+        weight: 1
+      - path: rocket26
+        weight: 1
+      - path: rocket27
+        weight: 1
+      - path: rocket28
+        weight: 1
+      - path: rocket28/rocket29
+        weight: 1
+      - path: rocket30
+        weight: 1
+      - path: rocket31
+        weight: 1
+      - path: rocket32
+        weight: 1
+      - path: rocket33
+        weight: 1
+      - path: rocket34
+        weight: 1
+      - path: rocket35
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.65
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

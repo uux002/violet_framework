@@ -1,0 +1,1095 @@
+fileFormatVersion: 2
+guid: 5c01caabb33587348829571df2459bec
+timeCreated: 1501560014
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 30001901_fire1
+    100002: 30001901_fire2
+    100004: 30001901_hRotate
+    100006: 30001901_Turrent
+    100008: 30001902_fire1
+    100010: 30001902_fire2
+    100012: 30001902_hRotate
+    100014: 30001902_Turrent
+    100016: //RootNode
+    100018: Bone001
+    100020: Bone002
+    100022: Bone003
+    100024: Bone004
+    100026: Bone005
+    100028: Bone006
+    100030: Bone007
+    100032: Bone008
+    100034: Bone009
+    100036: Bone010
+    100038: Bone011
+    100040: Bone012
+    100042: zaiju_01
+    100044: zaiju_010
+    100046: zaiju_011
+    100048: zaiju_012
+    100050: zaiju_013
+    100052: zaiju_015
+    100054: zaiju_016
+    100056: zaiju_017
+    100058: zaiju_018
+    100060: zaiju_02
+    100062: zaiju_020
+    100064: zaiju_022
+    100066: zaiju_025
+    100068: zaiju_028
+    100070: zaiju_03
+    100072: zaiju_030
+    100074: zaiju_031
+    100076: zaiju_032
+    100078: zaiju_033
+    100080: zaiju_04
+    100082: zaiju_05
+    100084: zaiju_06
+    100086: zaiju_07
+    100088: zaiju_08
+    100090: zaiju_09
+    100092: 30001902_fire3
+    100094: 30001902_fire4
+    400000: 30001901_fire1
+    400002: 30001901_fire2
+    400004: 30001901_hRotate
+    400006: 30001901_Turrent
+    400008: 30001902_fire1
+    400010: 30001902_fire2
+    400012: 30001902_hRotate
+    400014: 30001902_Turrent
+    400016: //RootNode
+    400018: Bone001
+    400020: Bone002
+    400022: Bone003
+    400024: Bone004
+    400026: Bone005
+    400028: Bone006
+    400030: Bone007
+    400032: Bone008
+    400034: Bone009
+    400036: Bone010
+    400038: Bone011
+    400040: Bone012
+    400042: zaiju_01
+    400044: zaiju_010
+    400046: zaiju_011
+    400048: zaiju_012
+    400050: zaiju_013
+    400052: zaiju_015
+    400054: zaiju_016
+    400056: zaiju_017
+    400058: zaiju_018
+    400060: zaiju_02
+    400062: zaiju_020
+    400064: zaiju_022
+    400066: zaiju_025
+    400068: zaiju_028
+    400070: zaiju_03
+    400072: zaiju_030
+    400074: zaiju_031
+    400076: zaiju_032
+    400078: zaiju_033
+    400080: zaiju_04
+    400082: zaiju_05
+    400084: zaiju_06
+    400086: zaiju_07
+    400088: zaiju_08
+    400090: zaiju_09
+    400092: 30001902_fire3
+    400094: 30001902_fire4
+    2300000: zaiju_01
+    2300002: zaiju_010
+    2300004: zaiju_011
+    2300006: zaiju_012
+    2300008: zaiju_013
+    2300010: zaiju_015
+    2300012: zaiju_017
+    2300014: zaiju_018
+    2300016: zaiju_02
+    2300018: zaiju_020
+    2300020: zaiju_022
+    2300022: zaiju_025
+    2300024: zaiju_028
+    2300026: zaiju_03
+    2300028: zaiju_030
+    2300030: zaiju_031
+    2300032: zaiju_032
+    2300034: zaiju_033
+    2300036: zaiju_04
+    2300038: zaiju_05
+    2300040: zaiju_06
+    2300042: zaiju_07
+    2300044: zaiju_08
+    2300046: zaiju_09
+    3300000: zaiju_01
+    3300002: zaiju_010
+    3300004: zaiju_011
+    3300006: zaiju_012
+    3300008: zaiju_013
+    3300010: zaiju_015
+    3300012: zaiju_017
+    3300014: zaiju_018
+    3300016: zaiju_02
+    3300018: zaiju_020
+    3300020: zaiju_022
+    3300022: zaiju_025
+    3300024: zaiju_028
+    3300026: zaiju_03
+    3300028: zaiju_030
+    3300030: zaiju_031
+    3300032: zaiju_032
+    3300034: zaiju_033
+    3300036: zaiju_04
+    3300038: zaiju_05
+    3300040: zaiju_06
+    3300042: zaiju_07
+    3300044: zaiju_08
+    3300046: zaiju_09
+    4300000: zaiju_016
+    4300002: zaiju_020
+    4300004: zaiju_013
+    4300006: zaiju_022
+    4300008: zaiju_028
+    4300010: zaiju_025
+    4300012: zaiju_012
+    4300014: zaiju_011
+    4300016: zaiju_010
+    4300018: zaiju_015
+    4300020: zaiju_033
+    4300022: zaiju_07
+    4300024: zaiju_017
+    4300026: zaiju_08
+    4300028: zaiju_032
+    4300030: zaiju_09
+    4300032: zaiju_018
+    4300034: zaiju_05
+    4300036: zaiju_01
+    4300038: zaiju_030
+    4300040: zaiju_03
+    4300042: zaiju_02
+    4300044: zaiju_04
+    4300046: zaiju_06
+    4300048: zaiju_031
+    7400000: move01
+    7400002: anim
+    7400004: move02
+    7400006: attack01
+    7400008: attack02
+    7400010: idle
+    7400012: death
+    9500000: //RootNode
+    13700000: zaiju_016
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: move01
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: zaiju_016
+        weight: 1
+      - path: zaiju_020
+        weight: 1
+      - path: zaiju_020/30001901_Turrent
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/30001901_fire1
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/30001901_fire2
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate/30001902_fire1
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate/30001902_fire2
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate/zaiju_04
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate/zaiju_04/zaiju_06
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate/zaiju_04/zaiju_031
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/zaiju_01
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/zaiju_02
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/zaiju_03
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/zaiju_030
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_07
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_07/zaiju_017
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_08
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_08/zaiju_032
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_09
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_09/zaiju_018
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_012
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_012/zaiju_010
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_012/zaiju_011
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_015
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_033
+        weight: 1
+      - path: zaiju_020/Bone001
+        weight: 1
+      - path: zaiju_020/Bone001/Bone002
+        weight: 1
+      - path: zaiju_020/Bone001/Bone002/Bone003
+        weight: 1
+      - path: zaiju_020/Bone001/Bone002/zaiju_013
+        weight: 1
+      - path: zaiju_020/Bone004
+        weight: 1
+      - path: zaiju_020/Bone004/Bone005
+        weight: 1
+      - path: zaiju_020/Bone004/Bone005/Bone006
+        weight: 1
+      - path: zaiju_020/Bone004/Bone005/zaiju_022
+        weight: 1
+      - path: zaiju_020/Bone009
+        weight: 1
+      - path: zaiju_020/Bone009/Bone010
+        weight: 1
+      - path: zaiju_020/Bone009/Bone010/Bone011
+        weight: 1
+      - path: zaiju_020/Bone009/Bone010/zaiju_025
+        weight: 1
+      - path: zaiju_020/Bone012
+        weight: 1
+      - path: zaiju_020/Bone012/Bone007
+        weight: 1
+      - path: zaiju_020/Bone012/Bone007/Bone008
+        weight: 1
+      - path: zaiju_020/Bone012/Bone007/zaiju_028
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: anim
+      takeName: Take 001
+      firstFrame: 20
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: zaiju_016
+        weight: 1
+      - path: zaiju_020
+        weight: 1
+      - path: zaiju_020/30001901_Turrent
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/30001901_fire1
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/30001901_fire2
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate/30001902_fire1
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate/30001902_fire2
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate/zaiju_04
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate/zaiju_04/zaiju_06
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate/zaiju_04/zaiju_031
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/zaiju_01
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/zaiju_02
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/zaiju_03
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/zaiju_030
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_07
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_07/zaiju_017
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_08
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_08/zaiju_032
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_09
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_09/zaiju_018
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_012
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_012/zaiju_010
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_012/zaiju_011
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_015
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_033
+        weight: 1
+      - path: zaiju_020/Bone001
+        weight: 1
+      - path: zaiju_020/Bone001/Bone002
+        weight: 1
+      - path: zaiju_020/Bone001/Bone002/Bone003
+        weight: 1
+      - path: zaiju_020/Bone001/Bone002/zaiju_013
+        weight: 1
+      - path: zaiju_020/Bone004
+        weight: 1
+      - path: zaiju_020/Bone004/Bone005
+        weight: 1
+      - path: zaiju_020/Bone004/Bone005/Bone006
+        weight: 1
+      - path: zaiju_020/Bone004/Bone005/zaiju_022
+        weight: 1
+      - path: zaiju_020/Bone009
+        weight: 1
+      - path: zaiju_020/Bone009/Bone010
+        weight: 1
+      - path: zaiju_020/Bone009/Bone010/Bone011
+        weight: 1
+      - path: zaiju_020/Bone009/Bone010/zaiju_025
+        weight: 1
+      - path: zaiju_020/Bone012
+        weight: 1
+      - path: zaiju_020/Bone012/Bone007
+        weight: 1
+      - path: zaiju_020/Bone012/Bone007/Bone008
+        weight: 1
+      - path: zaiju_020/Bone012/Bone007/zaiju_028
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: move02
+      takeName: Take 001
+      firstFrame: 121
+      lastFrame: 141
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: zaiju_016
+        weight: 1
+      - path: zaiju_020
+        weight: 1
+      - path: zaiju_020/30001901_Turrent
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/30001901_fire1
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/30001901_fire2
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate/30001902_fire1
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate/30001902_fire2
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate/zaiju_04
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate/zaiju_04/zaiju_06
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate/zaiju_04/zaiju_031
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/zaiju_01
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/zaiju_02
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/zaiju_03
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/zaiju_030
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_07
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_07/zaiju_017
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_08
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_08/zaiju_032
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_09
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_09/zaiju_018
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_012
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_012/zaiju_010
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_012/zaiju_011
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_015
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_033
+        weight: 1
+      - path: zaiju_020/Bone001
+        weight: 1
+      - path: zaiju_020/Bone001/Bone002
+        weight: 1
+      - path: zaiju_020/Bone001/Bone002/Bone003
+        weight: 1
+      - path: zaiju_020/Bone001/Bone002/zaiju_013
+        weight: 1
+      - path: zaiju_020/Bone004
+        weight: 1
+      - path: zaiju_020/Bone004/Bone005
+        weight: 1
+      - path: zaiju_020/Bone004/Bone005/Bone006
+        weight: 1
+      - path: zaiju_020/Bone004/Bone005/zaiju_022
+        weight: 1
+      - path: zaiju_020/Bone009
+        weight: 1
+      - path: zaiju_020/Bone009/Bone010
+        weight: 1
+      - path: zaiju_020/Bone009/Bone010/Bone011
+        weight: 1
+      - path: zaiju_020/Bone009/Bone010/zaiju_025
+        weight: 1
+      - path: zaiju_020/Bone012
+        weight: 1
+      - path: zaiju_020/Bone012/Bone007
+        weight: 1
+      - path: zaiju_020/Bone012/Bone007/Bone008
+        weight: 1
+      - path: zaiju_020/Bone012/Bone007/zaiju_028
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack01
+      takeName: Take 001
+      firstFrame: 142
+      lastFrame: 153
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: zaiju_016
+        weight: 1
+      - path: zaiju_020
+        weight: 1
+      - path: zaiju_020/30001901_Turrent
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/30001901_fire1
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/30001901_fire2
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate/30001902_fire1
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate/30001902_fire2
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate/zaiju_04
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate/zaiju_04/zaiju_06
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate/zaiju_04/zaiju_031
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/zaiju_01
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/zaiju_02
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/zaiju_03
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/zaiju_030
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_07
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_07/zaiju_017
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_08
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_08/zaiju_032
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_09
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_09/zaiju_018
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_012
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_012/zaiju_010
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_012/zaiju_011
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_015
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_033
+        weight: 1
+      - path: zaiju_020/Bone001
+        weight: 1
+      - path: zaiju_020/Bone001/Bone002
+        weight: 1
+      - path: zaiju_020/Bone001/Bone002/Bone003
+        weight: 1
+      - path: zaiju_020/Bone001/Bone002/zaiju_013
+        weight: 1
+      - path: zaiju_020/Bone004
+        weight: 1
+      - path: zaiju_020/Bone004/Bone005
+        weight: 1
+      - path: zaiju_020/Bone004/Bone005/Bone006
+        weight: 1
+      - path: zaiju_020/Bone004/Bone005/zaiju_022
+        weight: 1
+      - path: zaiju_020/Bone009
+        weight: 1
+      - path: zaiju_020/Bone009/Bone010
+        weight: 1
+      - path: zaiju_020/Bone009/Bone010/Bone011
+        weight: 1
+      - path: zaiju_020/Bone009/Bone010/zaiju_025
+        weight: 1
+      - path: zaiju_020/Bone012
+        weight: 1
+      - path: zaiju_020/Bone012/Bone007
+        weight: 1
+      - path: zaiju_020/Bone012/Bone007/Bone008
+        weight: 1
+      - path: zaiju_020/Bone012/Bone007/zaiju_028
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack02
+      takeName: Take 001
+      firstFrame: 153
+      lastFrame: 165
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: zaiju_016
+        weight: 1
+      - path: zaiju_020
+        weight: 1
+      - path: zaiju_020/30001901_Turrent
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/30001901_fire1
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/30001901_fire2
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate/30001902_fire1
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate/30001902_fire2
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate/zaiju_04
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate/zaiju_04/zaiju_06
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate/zaiju_04/zaiju_031
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/zaiju_01
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/zaiju_02
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/zaiju_03
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/zaiju_030
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_07
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_07/zaiju_017
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_08
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_08/zaiju_032
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_09
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_09/zaiju_018
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_012
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_012/zaiju_010
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_012/zaiju_011
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_015
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_033
+        weight: 1
+      - path: zaiju_020/Bone001
+        weight: 1
+      - path: zaiju_020/Bone001/Bone002
+        weight: 1
+      - path: zaiju_020/Bone001/Bone002/Bone003
+        weight: 1
+      - path: zaiju_020/Bone001/Bone002/zaiju_013
+        weight: 1
+      - path: zaiju_020/Bone004
+        weight: 1
+      - path: zaiju_020/Bone004/Bone005
+        weight: 1
+      - path: zaiju_020/Bone004/Bone005/Bone006
+        weight: 1
+      - path: zaiju_020/Bone004/Bone005/zaiju_022
+        weight: 1
+      - path: zaiju_020/Bone009
+        weight: 1
+      - path: zaiju_020/Bone009/Bone010
+        weight: 1
+      - path: zaiju_020/Bone009/Bone010/Bone011
+        weight: 1
+      - path: zaiju_020/Bone009/Bone010/zaiju_025
+        weight: 1
+      - path: zaiju_020/Bone012
+        weight: 1
+      - path: zaiju_020/Bone012/Bone007
+        weight: 1
+      - path: zaiju_020/Bone012/Bone007/Bone008
+        weight: 1
+      - path: zaiju_020/Bone012/Bone007/zaiju_028
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 165
+      lastFrame: 185
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: zaiju_016
+        weight: 1
+      - path: zaiju_020
+        weight: 1
+      - path: zaiju_020/30001901_Turrent
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/30001901_fire1
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/30001901_fire2
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate/30001902_fire1
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate/30001902_fire2
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate/zaiju_04
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate/zaiju_04/zaiju_06
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate/zaiju_04/zaiju_031
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/zaiju_01
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/zaiju_02
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/zaiju_03
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/zaiju_030
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_07
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_07/zaiju_017
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_08
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_08/zaiju_032
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_09
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_09/zaiju_018
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_012
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_012/zaiju_010
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_012/zaiju_011
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_015
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_033
+        weight: 1
+      - path: zaiju_020/Bone001
+        weight: 1
+      - path: zaiju_020/Bone001/Bone002
+        weight: 1
+      - path: zaiju_020/Bone001/Bone002/Bone003
+        weight: 1
+      - path: zaiju_020/Bone001/Bone002/zaiju_013
+        weight: 1
+      - path: zaiju_020/Bone004
+        weight: 1
+      - path: zaiju_020/Bone004/Bone005
+        weight: 1
+      - path: zaiju_020/Bone004/Bone005/Bone006
+        weight: 1
+      - path: zaiju_020/Bone004/Bone005/zaiju_022
+        weight: 1
+      - path: zaiju_020/Bone009
+        weight: 1
+      - path: zaiju_020/Bone009/Bone010
+        weight: 1
+      - path: zaiju_020/Bone009/Bone010/Bone011
+        weight: 1
+      - path: zaiju_020/Bone009/Bone010/zaiju_025
+        weight: 1
+      - path: zaiju_020/Bone012
+        weight: 1
+      - path: zaiju_020/Bone012/Bone007
+        weight: 1
+      - path: zaiju_020/Bone012/Bone007/Bone008
+        weight: 1
+      - path: zaiju_020/Bone012/Bone007/zaiju_028
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death
+      takeName: Take 001
+      firstFrame: 185
+      lastFrame: 209
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: zaiju_016
+        weight: 1
+      - path: zaiju_020
+        weight: 1
+      - path: zaiju_020/30001901_Turrent
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/30001901_fire1
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/30001901_fire2
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate/30001902_fire1
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate/30001902_fire2
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate/zaiju_04
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate/zaiju_04/zaiju_06
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/30001902_Turrent/30001902_hRotate/zaiju_04/zaiju_031
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/zaiju_01
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/zaiju_02
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/zaiju_03
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_05/zaiju_030
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_07
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_07/zaiju_017
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_08
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_08/zaiju_032
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_09
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_09/zaiju_018
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_012
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_012/zaiju_010
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_012/zaiju_011
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_015
+        weight: 1
+      - path: zaiju_020/30001901_Turrent/30001901_hRotate/zaiju_033
+        weight: 1
+      - path: zaiju_020/Bone001
+        weight: 1
+      - path: zaiju_020/Bone001/Bone002
+        weight: 1
+      - path: zaiju_020/Bone001/Bone002/Bone003
+        weight: 1
+      - path: zaiju_020/Bone001/Bone002/zaiju_013
+        weight: 1
+      - path: zaiju_020/Bone004
+        weight: 1
+      - path: zaiju_020/Bone004/Bone005
+        weight: 1
+      - path: zaiju_020/Bone004/Bone005/Bone006
+        weight: 1
+      - path: zaiju_020/Bone004/Bone005/zaiju_022
+        weight: 1
+      - path: zaiju_020/Bone009
+        weight: 1
+      - path: zaiju_020/Bone009/Bone010
+        weight: 1
+      - path: zaiju_020/Bone009/Bone010/Bone011
+        weight: 1
+      - path: zaiju_020/Bone009/Bone010/zaiju_025
+        weight: 1
+      - path: zaiju_020/Bone012
+        weight: 1
+      - path: zaiju_020/Bone012/Bone007
+        weight: 1
+      - path: zaiju_020/Bone012/Bone007/Bone008
+        weight: 1
+      - path: zaiju_020/Bone012/Bone007/zaiju_028
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.22
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

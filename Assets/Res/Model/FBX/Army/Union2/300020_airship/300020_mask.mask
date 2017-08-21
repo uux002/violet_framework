@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 300020_mask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: airship01
+    m_Weight: 0
+  - m_Path: airship01/30002001_Turrent
+    m_Weight: 0
+  - m_Path: airship01/30002001_Turrent/30002001_hRotate
+    m_Weight: 0
+  - m_Path: airship01/30002001_Turrent/30002001_hRotate/30002001_fire1
+    m_Weight: 0
+  - m_Path: airship01/30002001_Turrent/30002001_hRotate/30002001_fire2
+    m_Weight: 0
+  - m_Path: airship01/30002002_Turrent
+    m_Weight: 0
+  - m_Path: airship01/30002002_Turrent/30002002_hRotate
+    m_Weight: 0
+  - m_Path: airship01/30002002_Turrent/30002002_hRotate/30002002_fire1
+    m_Weight: 0
+  - m_Path: airship01/30002002_Turrent/30002002_hRotate/30002002_fire2
+    m_Weight: 0
+  - m_Path: airship01/30002002_Turrent/30002002_hRotate/30002002_fire3
+    m_Weight: 0
+  - m_Path: airship01/30002002_Turrent/30002002_hRotate/30002002_fire4
+    m_Weight: 0
+  - m_Path: airship01/airship03
+    m_Weight: 0
+  - m_Path: airship01/airship04
+    m_Weight: 0
+  - m_Path: airship01/airship05
+    m_Weight: 0
+  - m_Path: airship01/airship06
+    m_Weight: 0
+  - m_Path: airship01/airship07
+    m_Weight: 0
+  - m_Path: airship01/airship08
+    m_Weight: 0
+  - m_Path: airship01/airship08/airship09
+    m_Weight: 0
+  - m_Path: airship01/airship08/airship09/airship10
+    m_Weight: 1
+  - m_Path: airship01/airship08/airship09/airship10/airship19
+    m_Weight: 1
+  - m_Path: airship01/airship08/airship09/airship11
+    m_Weight: 1
+  - m_Path: airship01/airship08/airship09/airship11/airship45
+    m_Weight: 1
+  - m_Path: airship01/airship12
+    m_Weight: 0
+  - m_Path: airship01/airship12/airship13
+    m_Weight: 0
+  - m_Path: airship01/airship12/airship13/airship14
+    m_Weight: 1
+  - m_Path: airship01/airship12/airship13/airship14/airship18
+    m_Weight: 1
+  - m_Path: airship01/airship12/airship13/airship15
+    m_Weight: 1
+  - m_Path: airship01/airship12/airship13/airship15/airship46
+    m_Weight: 1
+  - m_Path: airship01/airship17
+    m_Weight: 0
+  - m_Path: airship01/airship20
+    m_Weight: 0
+  - m_Path: airship01/airship20/airship16
+    m_Weight: 0
+  - m_Path: airship01/airship20/airship21
+    m_Weight: 0
+  - m_Path: airship01/airship20/airship21/airship26
+    m_Weight: 0
+  - m_Path: airship01/airship20/airship22
+    m_Weight: 0
+  - m_Path: airship01/airship20/airship22/airship42
+    m_Weight: 0
+  - m_Path: airship01/airship20/airship23
+    m_Weight: 0
+  - m_Path: airship01/airship20/airship23/airship41
+    m_Weight: 0
+  - m_Path: airship01/airship20/airship24
+    m_Weight: 0
+  - m_Path: airship01/airship20/airship24/Dummy001
+    m_Weight: 0
+  - m_Path: airship01/airship20/airship24/Dummy001/airship43
+    m_Weight: 0
+  - m_Path: airship01/airship20/airship25
+    m_Weight: 0
+  - m_Path: airship01/airship20/airship25/airship44
+    m_Weight: 0
+  - m_Path: airship01/airship20/airship27
+    m_Weight: 0
+  - m_Path: airship01/airship20/airship27/airship28
+    m_Weight: 0
+  - m_Path: airship01/airship20/airship27/airship29
+    m_Weight: 0
+  - m_Path: airship01/airship20/airship27/airship30
+    m_Weight: 0
+  - m_Path: airship01/airship20/airship27/airship40
+    m_Weight: 0
+  - m_Path: airship01/airship0102
+    m_Weight: 0

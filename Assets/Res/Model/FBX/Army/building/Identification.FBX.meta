@@ -1,0 +1,317 @@
+fileFormatVersion: 2
+guid: 8ed5eb38f6858814b9811c8415cdc46d
+timeCreated: 1500869172
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: core
+    100002: down_l
+    100004: down_r
+    100006: //RootNode
+    100008: Identification
+    100010: Identification006
+    100012: Identification007
+    100014: Identification008
+    100016: Identification009
+    100018: Identification010
+    100020: Identification011
+    100022: Identification012
+    100024: Identification013
+    100026: Identification014
+    100028: Identification015
+    100030: Identification016
+    100032: Identification017
+    100034: Identification018
+    100036: Identification019
+    100038: Identification02
+    100040: Identification020
+    100042: Identification021
+    100044: Identification022
+    100046: Identification023
+    100048: Identification024
+    100050: Identification025
+    100052: Identification03
+    100054: Identification04
+    100056: Identification05
+    100058: up_l
+    100060: up_r
+    100062: 1
+    100064: 2
+    100066: 3
+    100068: 4
+    100070: 5
+    400000: core
+    400002: down_l
+    400004: down_r
+    400006: //RootNode
+    400008: Identification
+    400010: Identification006
+    400012: Identification007
+    400014: Identification008
+    400016: Identification009
+    400018: Identification010
+    400020: Identification011
+    400022: Identification012
+    400024: Identification013
+    400026: Identification014
+    400028: Identification015
+    400030: Identification016
+    400032: Identification017
+    400034: Identification018
+    400036: Identification019
+    400038: Identification02
+    400040: Identification020
+    400042: Identification021
+    400044: Identification022
+    400046: Identification023
+    400048: Identification024
+    400050: Identification025
+    400052: Identification03
+    400054: Identification04
+    400056: Identification05
+    400058: up_l
+    400060: up_r
+    400062: 1
+    400064: 2
+    400066: 3
+    400068: 4
+    400070: 5
+    2300000: Identification
+    2300002: Identification006
+    2300004: Identification007
+    2300006: Identification008
+    2300008: Identification009
+    2300010: Identification010
+    2300012: Identification011
+    2300014: Identification012
+    2300016: Identification013
+    2300018: Identification014
+    2300020: Identification015
+    2300022: Identification016
+    2300024: Identification017
+    2300026: Identification018
+    2300028: Identification019
+    2300030: Identification02
+    2300032: Identification020
+    2300034: Identification021
+    2300036: Identification022
+    2300038: Identification023
+    2300040: Identification024
+    2300042: Identification025
+    2300044: Identification03
+    2300046: Identification04
+    2300048: Identification05
+    3300000: Identification
+    3300002: Identification006
+    3300004: Identification007
+    3300006: Identification008
+    3300008: Identification009
+    3300010: Identification010
+    3300012: Identification011
+    3300014: Identification012
+    3300016: Identification013
+    3300018: Identification014
+    3300020: Identification015
+    3300022: Identification016
+    3300024: Identification017
+    3300026: Identification018
+    3300028: Identification019
+    3300030: Identification02
+    3300032: Identification020
+    3300034: Identification021
+    3300036: Identification022
+    3300038: Identification023
+    3300040: Identification024
+    3300042: Identification025
+    3300044: Identification03
+    3300046: Identification04
+    3300048: Identification05
+    4300000: Identification02
+    4300002: Identification03
+    4300004: Identification04
+    4300006: Identification05
+    4300008: Identification
+    4300010: Identification006
+    4300012: Identification007
+    4300014: Identification008
+    4300016: Identification009
+    4300018: Identification010
+    4300020: Identification011
+    4300022: Identification012
+    4300024: Identification013
+    4300026: Identification014
+    4300028: Identification015
+    4300030: Identification016
+    4300032: Identification017
+    4300034: Identification018
+    4300036: Identification019
+    4300038: Identification020
+    4300040: Identification021
+    4300042: Identification022
+    4300044: Identification023
+    4300046: Identification024
+    4300048: Identification025
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: core
+        weight: 1
+      - path: core/Identification
+        weight: 1
+      - path: core/Identification02
+        weight: 1
+      - path: core/Identification03
+        weight: 1
+      - path: core/Identification04
+        weight: 1
+      - path: core/Identification05
+        weight: 1
+      - path: down_l
+        weight: 1
+      - path: down_l/Identification021
+        weight: 1
+      - path: down_l/Identification022
+        weight: 1
+      - path: down_l/Identification023
+        weight: 1
+      - path: down_l/Identification024
+        weight: 1
+      - path: down_l/Identification025
+        weight: 1
+      - path: down_r
+        weight: 1
+      - path: down_r/Identification016
+        weight: 1
+      - path: down_r/Identification017
+        weight: 1
+      - path: down_r/Identification018
+        weight: 1
+      - path: down_r/Identification019
+        weight: 1
+      - path: down_r/Identification020
+        weight: 1
+      - path: up_l
+        weight: 1
+      - path: up_l/Identification006
+        weight: 1
+      - path: up_l/Identification007
+        weight: 1
+      - path: up_l/Identification008
+        weight: 1
+      - path: up_l/Identification009
+        weight: 1
+      - path: up_l/Identification010
+        weight: 1
+      - path: up_r
+        weight: 1
+      - path: up_r/Identification011
+        weight: 1
+      - path: up_r/Identification012
+        weight: 1
+      - path: up_r/Identification013
+        weight: 1
+      - path: up_r/Identification014
+        weight: 1
+      - path: up_r/Identification015
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

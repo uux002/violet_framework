@@ -1,0 +1,251 @@
+fileFormatVersion: 2
+guid: db7c005eb75866d4387a9a27ccecc4c2
+timeCreated: 1502933997
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: turret00
+    100004: turret01
+    100006: turret02
+    100008: turret03
+    100010: turret04
+    100012: turret05
+    100014: turret06
+    100016: turret07
+    100018: turret08
+    100020: turret09
+    100022: turret10
+    100024: turret11
+    100026: turret12
+    100028: turret13
+    100030: turret14
+    100032: turret15
+    100034: turret16
+    100036: turret17
+    100038: turret18
+    100040: turret19
+    400000: //RootNode
+    400002: turret00
+    400004: turret01
+    400006: turret02
+    400008: turret03
+    400010: turret04
+    400012: turret05
+    400014: turret06
+    400016: turret07
+    400018: turret08
+    400020: turret09
+    400022: turret10
+    400024: turret11
+    400026: turret12
+    400028: turret13
+    400030: turret14
+    400032: turret15
+    400034: turret16
+    400036: turret17
+    400038: turret18
+    400040: turret19
+    2300000: turret00
+    2300002: turret01
+    2300004: turret02
+    2300006: turret03
+    2300008: turret04
+    2300010: turret05
+    2300012: turret06
+    2300014: turret07
+    2300016: turret08
+    2300018: turret09
+    2300020: turret10
+    2300022: turret11
+    2300024: turret12
+    2300026: turret13
+    2300028: turret14
+    2300030: turret15
+    2300032: turret16
+    2300034: turret17
+    2300036: turret18
+    2300038: turret19
+    3300000: turret00
+    3300002: turret01
+    3300004: turret02
+    3300006: turret03
+    3300008: turret04
+    3300010: turret05
+    3300012: turret06
+    3300014: turret07
+    3300016: turret08
+    3300018: turret09
+    3300020: turret10
+    3300022: turret11
+    3300024: turret12
+    3300026: turret13
+    3300028: turret14
+    3300030: turret15
+    3300032: turret16
+    3300034: turret17
+    3300036: turret18
+    3300038: turret19
+    4300000: turret00
+    4300002: turret01
+    4300004: turret02
+    4300006: turret03
+    4300008: turret04
+    4300010: turret05
+    4300012: turret06
+    4300014: turret07
+    4300016: turret08
+    4300018: turret09
+    4300020: turret10
+    4300022: turret11
+    4300024: turret12
+    4300026: turret13
+    4300028: turret14
+    4300030: turret15
+    4300032: turret16
+    4300034: turret17
+    4300036: turret18
+    4300038: turret19
+    7400000: death
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: death
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: turret00
+        weight: 1
+      - path: turret01
+        weight: 1
+      - path: turret02
+        weight: 1
+      - path: turret02/turret03
+        weight: 1
+      - path: turret02/turret04
+        weight: 1
+      - path: turret02/turret05
+        weight: 1
+      - path: turret06
+        weight: 1
+      - path: turret06/turret07
+        weight: 1
+      - path: turret06/turret08
+        weight: 1
+      - path: turret06/turret09
+        weight: 1
+      - path: turret10
+        weight: 1
+      - path: turret10/turret11
+        weight: 1
+      - path: turret12
+        weight: 1
+      - path: turret12/turret13
+        weight: 1
+      - path: turret14
+        weight: 1
+      - path: turret15
+        weight: 1
+      - path: turret16
+        weight: 1
+      - path: turret17
+        weight: 1
+      - path: turret18
+        weight: 1
+      - path: turret19
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.6
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

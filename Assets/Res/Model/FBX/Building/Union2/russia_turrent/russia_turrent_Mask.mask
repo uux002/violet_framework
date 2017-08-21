@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &101100000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: russia_turrent_Mask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Root
+    m_Weight: 0
+  - m_Path: Root/Bone01
+    m_Weight: 0
+  - m_Path: Root/Bone01/22000204_Turrent
+    m_Weight: 0
+  - m_Path: Root/Bone01/22000204_Turrent/22000204_vRotate
+    m_Weight: 0
+  - m_Path: Root/Bone01/22000204_Turrent/22000204_vRotate/22000204_hRotate
+    m_Weight: 0
+  - m_Path: Root/Bone01/22000204_Turrent/22000204_vRotate/22000204_hRotate/22000204_fire1
+    m_Weight: 0
+  - m_Path: Root/Bone01/22000204_Turrent/22000204_vRotate/22000204_hRotate/Bone15
+    m_Weight: 0
+  - m_Path: Root/Bone01/22000204_Turrent/22000204_vRotate/22000204_hRotate/Bone15/Bone16
+    m_Weight: 0
+  - m_Path: Root/Bone01/22000204_Turrent/22000204_vRotate/Bone13
+    m_Weight: 0
+  - m_Path: Root/Bone01/22000204_Turrent/22000204_vRotate/Bone14
+    m_Weight: 0
+  - m_Path: Root/Bone02
+    m_Weight: 0
+  - m_Path: Root/Bone03
+    m_Weight: 0
+  - m_Path: Root/Bone04
+    m_Weight: 0
+  - m_Path: Root/Bone04/22000202_Turrent
+    m_Weight: 0
+  - m_Path: Root/Bone04/22000202_Turrent/22000202_vRotate
+    m_Weight: 0
+  - m_Path: Root/Bone04/22000202_Turrent/22000202_vRotate/22000202_hRotate
+    m_Weight: 0
+  - m_Path: Root/Bone04/22000202_Turrent/22000202_vRotate/22000202_hRotate/22000202_fire1
+    m_Weight: 0
+  - m_Path: Root/Bone04/22000202_Turrent/22000202_vRotate/22000202_hRotate/Bone17
+    m_Weight: 1
+  - m_Path: Root/Bone04/22000202_Turrent/22000202_vRotate/22000202_hRotate/Bone17/Bone18
+    m_Weight: 1
+  - m_Path: Root/Bone04/22000202_Turrent/22000202_vRotate/Bone19
+    m_Weight: 0
+  - m_Path: Root/Bone04/22000202_Turrent/22000202_vRotate/Bone20
+    m_Weight: 0
+  - m_Path: Root/Bone05
+    m_Weight: 0
+  - m_Path: Root/Bone06
+    m_Weight: 0
+  - m_Path: Root/Bone06/22000201_Turrent
+    m_Weight: 0
+  - m_Path: Root/Bone06/22000201_Turrent/22000201_hRotate
+    m_Weight: 0
+  - m_Path: Root/Bone06/22000201_Turrent/22000201_hRotate/22000201_vRotate
+    m_Weight: 0
+  - m_Path: Root/Bone06/22000201_Turrent/22000201_hRotate/22000201_vRotate/22000201_fire1
+    m_Weight: 0
+  - m_Path: Root/Bone06/22000201_Turrent/22000201_hRotate/22000201_vRotate/Bone22
+    m_Weight: 0
+  - m_Path: Root/Bone06/22000201_Turrent/22000201_hRotate/22000201_vRotate/Bone22/Bone23
+    m_Weight: 0
+  - m_Path: Root/Bone06/22000201_Turrent/22000201_hRotate/22000201_vRotate/Bone22/Bone23/Bone24
+    m_Weight: 0
+  - m_Path: Root/Bone06/22000201_Turrent/22000201_hRotate/Bone21
+    m_Weight: 0
+  - m_Path: Root/Bone07
+    m_Weight: 0
+  - m_Path: Root/Bone08
+    m_Weight: 0
+  - m_Path: Root/Bone09
+    m_Weight: 0
+  - m_Path: Root/Bone09/22000205_Turrent
+    m_Weight: 0
+  - m_Path: Root/Bone09/22000205_Turrent/22000205_hRotate
+    m_Weight: 0
+  - m_Path: Root/Bone09/22000205_Turrent/22000205_hRotate/22000205_vRotate
+    m_Weight: 0
+  - m_Path: Root/Bone09/22000205_Turrent/22000205_hRotate/22000205_vRotate/22000205_fire1
+    m_Weight: 0
+  - m_Path: Root/Bone09/22000205_Turrent/22000205_hRotate/22000205_vRotate/Bone26
+    m_Weight: 0
+  - m_Path: Root/Bone09/22000205_Turrent/22000205_hRotate/Bone25
+    m_Weight: 0
+  - m_Path: Root/Bone10
+    m_Weight: 0
+  - m_Path: Root/Bone10/22000203_Turrent
+    m_Weight: 0
+  - m_Path: Root/Bone10/22000203_Turrent/22000203_hRotate
+    m_Weight: 0
+  - m_Path: Root/Bone10/22000203_Turrent/22000203_hRotate/22000203_vRotate
+    m_Weight: 0
+  - m_Path: Root/Bone10/22000203_Turrent/22000203_hRotate/22000203_vRotate/22000203_fire1
+    m_Weight: 0
+  - m_Path: Root/Bone10/22000203_Turrent/22000203_hRotate/22000203_vRotate/Bone28
+    m_Weight: 0
+  - m_Path: Root/Bone10/22000203_Turrent/22000203_hRotate/Bone27
+    m_Weight: 0
+  - m_Path: russia_turrent
+    m_Weight: 1

@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: ad02f8001de6d4e4bb95581688f72443
+timeCreated: 1502887699
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 61001301_fire1
+    100002: 61001301_fire2
+    100004: 61001301_hRotate
+    100006: 61001301_Turrent
+    100008: 61001302_fire1
+    100010: 61001302_fire2
+    100012: 61001302_hRotate
+    100014: 61001302_Turrent
+    100016: 61001303_fire1
+    100018: 61001303_hRotate
+    100020: 61001303_Turrent
+    100022: 61001304_fire1
+    100024: 61001304_hRotate
+    100026: 61001304_Turrent
+    100028: //RootNode
+    100030: city00
+    100032: city01
+    100034: city02
+    100036: city03
+    100038: city04
+    100040: city05
+    100042: city06
+    100044: city07
+    100046: city08
+    100048: city09
+    100050: city10
+    100052: city11
+    100054: city12
+    100056: city13
+    100058: door01
+    100060: door02
+    100062: door03
+    100064: window01
+    100066: window02
+    400000: 61001301_fire1
+    400002: 61001301_fire2
+    400004: 61001301_hRotate
+    400006: 61001301_Turrent
+    400008: 61001302_fire1
+    400010: 61001302_fire2
+    400012: 61001302_hRotate
+    400014: 61001302_Turrent
+    400016: 61001303_fire1
+    400018: 61001303_hRotate
+    400020: 61001303_Turrent
+    400022: 61001304_fire1
+    400024: 61001304_hRotate
+    400026: 61001304_Turrent
+    400028: //RootNode
+    400030: city00
+    400032: city01
+    400034: city02
+    400036: city03
+    400038: city04
+    400040: city05
+    400042: city06
+    400044: city07
+    400046: city08
+    400048: city09
+    400050: city10
+    400052: city11
+    400054: city12
+    400056: city13
+    400058: door01
+    400060: door02
+    400062: door03
+    400064: window01
+    400066: window02
+    2300000: city00
+    2300002: city01
+    2300004: city02
+    2300006: city03
+    2300008: city04
+    2300010: city05
+    2300012: city06
+    2300014: city07
+    2300016: city08
+    2300018: city09
+    2300020: city10
+    2300022: city11
+    2300024: city12
+    2300026: city13
+    2300028: door01
+    2300030: door02
+    2300032: door03
+    2300034: window01
+    2300036: window02
+    3300000: city00
+    3300002: city01
+    3300004: city02
+    3300006: city03
+    3300008: city04
+    3300010: city05
+    3300012: city06
+    3300014: city07
+    3300016: city08
+    3300018: city09
+    3300020: city10
+    3300022: city11
+    3300024: city12
+    3300026: city13
+    3300028: door01
+    3300030: door02
+    3300032: door03
+    3300034: window01
+    3300036: window02
+    4300000: city07
+    4300002: city00
+    4300004: city02
+    4300006: city11
+    4300008: city01
+    4300010: city03
+    4300012: city13
+    4300014: city12
+    4300016: city08
+    4300018: city09
+    4300020: city05
+    4300022: door03
+    4300024: window01
+    4300026: door01
+    4300028: door02
+    4300030: window02
+    4300032: city04
+    4300034: city06
+    4300036: city10
+    7400000: open
+    7400002: attack01
+    7400004: attack02
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: open
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 61001301_Turrent
+        weight: 1
+      - path: 61001301_Turrent/61001301_hRotate
+        weight: 1
+      - path: 61001301_Turrent/61001301_hRotate/61001301_fire1
+        weight: 1
+      - path: 61001301_Turrent/61001301_hRotate/61001301_fire2
+        weight: 1
+      - path: 61001301_Turrent/61001301_hRotate/city11
+        weight: 1
+      - path: 61001301_Turrent/61001301_hRotate/city11/city01
+        weight: 1
+      - path: 61001301_Turrent/61001301_hRotate/city11/city03
+        weight: 1
+      - path: 61001302_Turrent
+        weight: 1
+      - path: 61001302_Turrent/61001302_hRotate
+        weight: 1
+      - path: 61001302_Turrent/61001302_hRotate/61001302_fire1
+        weight: 1
+      - path: 61001302_Turrent/61001302_hRotate/61001302_fire2
+        weight: 1
+      - path: 61001302_Turrent/61001302_hRotate/city07
+        weight: 1
+      - path: 61001302_Turrent/61001302_hRotate/city07/city00
+        weight: 1
+      - path: 61001302_Turrent/61001302_hRotate/city07/city02
+        weight: 1
+      - path: 61001303_Turrent
+        weight: 1
+      - path: 61001303_Turrent/61001303_hRotate
+        weight: 1
+      - path: 61001303_Turrent/61001303_hRotate/61001303_fire1
+        weight: 1
+      - path: 61001303_Turrent/61001303_hRotate/city08
+        weight: 1
+      - path: 61001303_Turrent/61001303_hRotate/city08/city09
+        weight: 1
+      - path: 61001304_Turrent
+        weight: 1
+      - path: 61001304_Turrent/61001304_hRotate
+        weight: 1
+      - path: 61001304_Turrent/61001304_hRotate/61001304_fire1
+        weight: 1
+      - path: 61001304_Turrent/61001304_hRotate/city13
+        weight: 1
+      - path: 61001304_Turrent/61001304_hRotate/city13/city12
+        weight: 1
+      - path: city04
+        weight: 1
+      - path: city05
+        weight: 1
+      - path: city06
+        weight: 1
+      - path: city10
+        weight: 1
+      - path: door01
+        weight: 1
+      - path: door02
+        weight: 1
+      - path: door03
+        weight: 1
+      - path: window01
+        weight: 1
+      - path: window02
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack01
+      takeName: Take 001
+      firstFrame: 25
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 61001301_Turrent
+        weight: 1
+      - path: 61001301_Turrent/61001301_hRotate
+        weight: 1
+      - path: 61001301_Turrent/61001301_hRotate/61001301_fire1
+        weight: 1
+      - path: 61001301_Turrent/61001301_hRotate/61001301_fire2
+        weight: 1
+      - path: 61001301_Turrent/61001301_hRotate/city11
+        weight: 1
+      - path: 61001301_Turrent/61001301_hRotate/city11/city01
+        weight: 1
+      - path: 61001301_Turrent/61001301_hRotate/city11/city03
+        weight: 1
+      - path: 61001302_Turrent
+        weight: 1
+      - path: 61001302_Turrent/61001302_hRotate
+        weight: 1
+      - path: 61001302_Turrent/61001302_hRotate/61001302_fire1
+        weight: 1
+      - path: 61001302_Turrent/61001302_hRotate/61001302_fire2
+        weight: 1
+      - path: 61001302_Turrent/61001302_hRotate/city07
+        weight: 1
+      - path: 61001302_Turrent/61001302_hRotate/city07/city00
+        weight: 1
+      - path: 61001302_Turrent/61001302_hRotate/city07/city02
+        weight: 1
+      - path: 61001303_Turrent
+        weight: 1
+      - path: 61001303_Turrent/61001303_hRotate
+        weight: 1
+      - path: 61001303_Turrent/61001303_hRotate/61001303_fire1
+        weight: 1
+      - path: 61001303_Turrent/61001303_hRotate/city08
+        weight: 1
+      - path: 61001303_Turrent/61001303_hRotate/city08/city09
+        weight: 1
+      - path: 61001304_Turrent
+        weight: 1
+      - path: 61001304_Turrent/61001304_hRotate
+        weight: 1
+      - path: 61001304_Turrent/61001304_hRotate/61001304_fire1
+        weight: 1
+      - path: 61001304_Turrent/61001304_hRotate/city13
+        weight: 1
+      - path: 61001304_Turrent/61001304_hRotate/city13/city12
+        weight: 1
+      - path: city04
+        weight: 1
+      - path: city05
+        weight: 1
+      - path: city06
+        weight: 1
+      - path: city10
+        weight: 1
+      - path: door01
+        weight: 1
+      - path: door02
+        weight: 1
+      - path: door03
+        weight: 1
+      - path: window01
+        weight: 1
+      - path: window02
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack02
+      takeName: Take 001
+      firstFrame: 35
+      lastFrame: 52
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 61001301_Turrent
+        weight: 1
+      - path: 61001301_Turrent/61001301_hRotate
+        weight: 1
+      - path: 61001301_Turrent/61001301_hRotate/61001301_fire1
+        weight: 1
+      - path: 61001301_Turrent/61001301_hRotate/61001301_fire2
+        weight: 1
+      - path: 61001301_Turrent/61001301_hRotate/city11
+        weight: 1
+      - path: 61001301_Turrent/61001301_hRotate/city11/city01
+        weight: 1
+      - path: 61001301_Turrent/61001301_hRotate/city11/city03
+        weight: 1
+      - path: 61001302_Turrent
+        weight: 1
+      - path: 61001302_Turrent/61001302_hRotate
+        weight: 1
+      - path: 61001302_Turrent/61001302_hRotate/61001302_fire1
+        weight: 1
+      - path: 61001302_Turrent/61001302_hRotate/61001302_fire2
+        weight: 1
+      - path: 61001302_Turrent/61001302_hRotate/city07
+        weight: 1
+      - path: 61001302_Turrent/61001302_hRotate/city07/city00
+        weight: 1
+      - path: 61001302_Turrent/61001302_hRotate/city07/city02
+        weight: 1
+      - path: 61001303_Turrent
+        weight: 1
+      - path: 61001303_Turrent/61001303_hRotate
+        weight: 1
+      - path: 61001303_Turrent/61001303_hRotate/61001303_fire1
+        weight: 1
+      - path: 61001303_Turrent/61001303_hRotate/city08
+        weight: 1
+      - path: 61001303_Turrent/61001303_hRotate/city08/city09
+        weight: 1
+      - path: 61001304_Turrent
+        weight: 1
+      - path: 61001304_Turrent/61001304_hRotate
+        weight: 1
+      - path: 61001304_Turrent/61001304_hRotate/61001304_fire1
+        weight: 1
+      - path: 61001304_Turrent/61001304_hRotate/city13
+        weight: 1
+      - path: 61001304_Turrent/61001304_hRotate/city13/city12
+        weight: 1
+      - path: city04
+        weight: 1
+      - path: city05
+        weight: 1
+      - path: city06
+        weight: 1
+      - path: city10
+        weight: 1
+      - path: door01
+        weight: 1
+      - path: door02
+        weight: 1
+      - path: door03
+        weight: 1
+      - path: window01
+        weight: 1
+      - path: window02
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.15
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

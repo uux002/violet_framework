@@ -1,0 +1,657 @@
+fileFormatVersion: 2
+guid: c94e69e29bb9ee2479a81ff83e88047c
+timeCreated: 1500621696
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 60000101_hRotate
+    100002: 60000101_Turrent
+    100004: 60000102_fire1
+    100006: 60000102_hRotate
+    100008: 60000102_Turrent
+    100010: 60000103_fire1
+    100012: 60000103_hRotate
+    100014: 60000103_Turrent
+    100016: 60000104_fire1
+    100018: 60000104_fire2
+    100020: 60000104_fire3
+    100022: 60000104_hRotate
+    100024: 60000104_Turrent
+    100026: 60000105_fire1
+    100028: 60000105_fire2
+    100030: 60000105_fire3
+    100032: 60000105_hRotate
+    100034: 60000105_Turrent
+    100036: //RootNode
+    100038: Bone005
+    100040: Bone006
+    100042: Bone007
+    100044: Bone008
+    100046: Bone009
+    100048: Bone010
+    100050: Bone011
+    100052: Bone012
+    100054: Bone013
+    100056: Bone014
+    100058: Bone015
+    100060: Bone016
+    100062: Bone017
+    100064: IK Chain001
+    100066: IK Chain002
+    100068: polySurface7
+    100070: root
+    400000: 60000101_hRotate
+    400002: 60000101_Turrent
+    400004: 60000102_fire1
+    400006: 60000102_hRotate
+    400008: 60000102_Turrent
+    400010: 60000103_fire1
+    400012: 60000103_hRotate
+    400014: 60000103_Turrent
+    400016: 60000104_fire1
+    400018: 60000104_fire2
+    400020: 60000104_fire3
+    400022: 60000104_hRotate
+    400024: 60000104_Turrent
+    400026: 60000105_fire1
+    400028: 60000105_fire2
+    400030: 60000105_fire3
+    400032: 60000105_hRotate
+    400034: 60000105_Turrent
+    400036: //RootNode
+    400038: Bone005
+    400040: Bone006
+    400042: Bone007
+    400044: Bone008
+    400046: Bone009
+    400048: Bone010
+    400050: Bone011
+    400052: Bone012
+    400054: Bone013
+    400056: Bone014
+    400058: Bone015
+    400060: Bone016
+    400062: Bone017
+    400064: IK Chain001
+    400066: IK Chain002
+    400068: polySurface7
+    400070: root
+    4300000: polySurface7
+    7400000: idle
+    7400002: move
+    7400004: attack01
+    7400006: attack02
+    7400008: death
+    9500000: //RootNode
+    13700000: polySurface7
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: IK Chain001
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      - path: polySurface7
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/60000101_Turrent
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000102_Turrent
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000102_Turrent/60000102_hRotate
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000102_Turrent/60000102_hRotate/60000102_fire1
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000102_Turrent/60000102_hRotate/Bone009
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000103_Turrent
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000103_Turrent/60000103_hRotate
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000103_Turrent/60000103_hRotate/60000103_fire1
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000103_Turrent/60000103_hRotate/Bone006
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000104_Turrent
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000104_Turrent/60000104_hRotate
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000104_Turrent/60000104_hRotate/60000104_fire1
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000104_Turrent/60000104_hRotate/60000104_fire2
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000104_Turrent/60000104_hRotate/60000104_fire3
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000105_Turrent
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000105_Turrent/60000105_hRotate
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000105_Turrent/60000105_hRotate/60000105_fire1
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000105_Turrent/60000105_hRotate/60000105_fire2
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000105_Turrent/60000105_hRotate/60000105_fire3
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/Bone007
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/Bone008
+        weight: 1
+      - path: root/Bone010
+        weight: 1
+      - path: root/Bone010/Bone011
+        weight: 1
+      - path: root/Bone010/Bone011/Bone012
+        weight: 1
+      - path: root/Bone010/Bone011/Bone012/Bone013
+        weight: 1
+      - path: root/Bone014
+        weight: 1
+      - path: root/Bone014/Bone015
+        weight: 1
+      - path: root/Bone014/Bone015/Bone016
+        weight: 1
+      - path: root/Bone014/Bone015/Bone016/Bone017
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: move
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 132
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: IK Chain001
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      - path: polySurface7
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/60000101_Turrent
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000102_Turrent
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000102_Turrent/60000102_hRotate
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000102_Turrent/60000102_hRotate/60000102_fire1
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000102_Turrent/60000102_hRotate/Bone009
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000103_Turrent
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000103_Turrent/60000103_hRotate
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000103_Turrent/60000103_hRotate/60000103_fire1
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000103_Turrent/60000103_hRotate/Bone006
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000104_Turrent
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000104_Turrent/60000104_hRotate
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000104_Turrent/60000104_hRotate/60000104_fire1
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000104_Turrent/60000104_hRotate/60000104_fire2
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000104_Turrent/60000104_hRotate/60000104_fire3
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000105_Turrent
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000105_Turrent/60000105_hRotate
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000105_Turrent/60000105_hRotate/60000105_fire1
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000105_Turrent/60000105_hRotate/60000105_fire2
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000105_Turrent/60000105_hRotate/60000105_fire3
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/Bone007
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/Bone008
+        weight: 1
+      - path: root/Bone010
+        weight: 1
+      - path: root/Bone010/Bone011
+        weight: 1
+      - path: root/Bone010/Bone011/Bone012
+        weight: 1
+      - path: root/Bone010/Bone011/Bone012/Bone013
+        weight: 1
+      - path: root/Bone014
+        weight: 1
+      - path: root/Bone014/Bone015
+        weight: 1
+      - path: root/Bone014/Bone015/Bone016
+        weight: 1
+      - path: root/Bone014/Bone015/Bone016/Bone017
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack01
+      takeName: Take 001
+      firstFrame: 134
+      lastFrame: 141
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: IK Chain001
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      - path: polySurface7
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/60000101_Turrent
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000102_Turrent
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000102_Turrent/60000102_hRotate
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000102_Turrent/60000102_hRotate/60000102_fire1
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000102_Turrent/60000102_hRotate/Bone009
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000103_Turrent
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000103_Turrent/60000103_hRotate
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000103_Turrent/60000103_hRotate/60000103_fire1
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000103_Turrent/60000103_hRotate/Bone006
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000104_Turrent
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000104_Turrent/60000104_hRotate
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000104_Turrent/60000104_hRotate/60000104_fire1
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000104_Turrent/60000104_hRotate/60000104_fire2
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000104_Turrent/60000104_hRotate/60000104_fire3
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000105_Turrent
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000105_Turrent/60000105_hRotate
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000105_Turrent/60000105_hRotate/60000105_fire1
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000105_Turrent/60000105_hRotate/60000105_fire2
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000105_Turrent/60000105_hRotate/60000105_fire3
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/Bone007
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/Bone008
+        weight: 1
+      - path: root/Bone010
+        weight: 1
+      - path: root/Bone010/Bone011
+        weight: 1
+      - path: root/Bone010/Bone011/Bone012
+        weight: 1
+      - path: root/Bone010/Bone011/Bone012/Bone013
+        weight: 1
+      - path: root/Bone014
+        weight: 1
+      - path: root/Bone014/Bone015
+        weight: 1
+      - path: root/Bone014/Bone015/Bone016
+        weight: 1
+      - path: root/Bone014/Bone015/Bone016/Bone017
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack02
+      takeName: Take 001
+      firstFrame: 142
+      lastFrame: 148
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: IK Chain001
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      - path: polySurface7
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/60000101_Turrent
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000102_Turrent
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000102_Turrent/60000102_hRotate
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000102_Turrent/60000102_hRotate/60000102_fire1
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000102_Turrent/60000102_hRotate/Bone009
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000103_Turrent
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000103_Turrent/60000103_hRotate
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000103_Turrent/60000103_hRotate/60000103_fire1
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000103_Turrent/60000103_hRotate/Bone006
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000104_Turrent
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000104_Turrent/60000104_hRotate
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000104_Turrent/60000104_hRotate/60000104_fire1
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000104_Turrent/60000104_hRotate/60000104_fire2
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000104_Turrent/60000104_hRotate/60000104_fire3
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000105_Turrent
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000105_Turrent/60000105_hRotate
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000105_Turrent/60000105_hRotate/60000105_fire1
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000105_Turrent/60000105_hRotate/60000105_fire2
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000105_Turrent/60000105_hRotate/60000105_fire3
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/Bone007
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/Bone008
+        weight: 1
+      - path: root/Bone010
+        weight: 1
+      - path: root/Bone010/Bone011
+        weight: 1
+      - path: root/Bone010/Bone011/Bone012
+        weight: 1
+      - path: root/Bone010/Bone011/Bone012/Bone013
+        weight: 1
+      - path: root/Bone014
+        weight: 1
+      - path: root/Bone014/Bone015
+        weight: 1
+      - path: root/Bone014/Bone015/Bone016
+        weight: 1
+      - path: root/Bone014/Bone015/Bone016/Bone017
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death
+      takeName: Take 001
+      firstFrame: 148
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: IK Chain001
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      - path: polySurface7
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/60000101_Turrent
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000102_Turrent
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000102_Turrent/60000102_hRotate
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000102_Turrent/60000102_hRotate/60000102_fire1
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000102_Turrent/60000102_hRotate/Bone009
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000103_Turrent
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000103_Turrent/60000103_hRotate
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000103_Turrent/60000103_hRotate/60000103_fire1
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000103_Turrent/60000103_hRotate/Bone006
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000104_Turrent
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000104_Turrent/60000104_hRotate
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000104_Turrent/60000104_hRotate/60000104_fire1
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000104_Turrent/60000104_hRotate/60000104_fire2
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000104_Turrent/60000104_hRotate/60000104_fire3
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000105_Turrent
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000105_Turrent/60000105_hRotate
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000105_Turrent/60000105_hRotate/60000105_fire1
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000105_Turrent/60000105_hRotate/60000105_fire2
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/60000105_Turrent/60000105_hRotate/60000105_fire3
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/Bone007
+        weight: 1
+      - path: root/60000101_Turrent/60000101_hRotate/Bone005/Bone008
+        weight: 1
+      - path: root/Bone010
+        weight: 1
+      - path: root/Bone010/Bone011
+        weight: 1
+      - path: root/Bone010/Bone011/Bone012
+        weight: 1
+      - path: root/Bone010/Bone011/Bone012/Bone013
+        weight: 1
+      - path: root/Bone014
+        weight: 1
+      - path: root/Bone014/Bone015
+        weight: 1
+      - path: root/Bone014/Bone015/Bone016
+        weight: 1
+      - path: root/Bone014/Bone015/Bone016/Bone017
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.08
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

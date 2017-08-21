@@ -1,0 +1,712 @@
+fileFormatVersion: 2
+guid: 94f3ac9ecd166d646aa2a5e8af1a9902
+timeCreated: 1502179593
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 30002201_fire1
+    100002: 30002201_hRotate
+    100004: 30002201_Turrent
+    100006: 30002202_fire1
+    100008: 30002202_fire2
+    100010: 30002202_fire3
+    100012: 30002202_fire4
+    100014: 30002202_hRotate
+    100016: 30002202_Turrent
+    100018: 30002203_fire1
+    100020: 30002203_fire2
+    100022: 30002203_fire3
+    100024: 30002203_fire4
+    100026: 30002203_hRotate
+    100028: 30002203_Turrent
+    100030: //RootNode
+    100032: heroFly01
+    100034: heroFly010
+    100036: heroFly011
+    100038: heroFly012
+    100040: heroFly013
+    100042: heroFly014
+    100044: heroFly015
+    100046: heroFly015 1
+    100048: heroFly016
+    100050: heroFly017
+    100052: heroFly02
+    100054: heroFly03
+    100056: heroFly04
+    100058: heroFly05
+    100060: heroFly06
+    100062: heroFly07
+    100064: heroFly08
+    100066: heroFly09
+    100068: heroFly18
+    100070: root
+    400000: 30002201_fire1
+    400002: 30002201_hRotate
+    400004: 30002201_Turrent
+    400006: 30002202_fire1
+    400008: 30002202_fire2
+    400010: 30002202_fire3
+    400012: 30002202_fire4
+    400014: 30002202_hRotate
+    400016: 30002202_Turrent
+    400018: 30002203_fire1
+    400020: 30002203_fire2
+    400022: 30002203_fire3
+    400024: 30002203_fire4
+    400026: 30002203_hRotate
+    400028: 30002203_Turrent
+    400030: //RootNode
+    400032: heroFly01
+    400034: heroFly010
+    400036: heroFly011
+    400038: heroFly012
+    400040: heroFly013
+    400042: heroFly014
+    400044: heroFly015
+    400046: heroFly015 1
+    400048: heroFly016
+    400050: heroFly017
+    400052: heroFly02
+    400054: heroFly03
+    400056: heroFly04
+    400058: heroFly05
+    400060: heroFly06
+    400062: heroFly07
+    400064: heroFly08
+    400066: heroFly09
+    400068: heroFly18
+    400070: root
+    2300000: heroFly01
+    2300002: heroFly010
+    2300004: heroFly011
+    2300006: heroFly012
+    2300008: heroFly013
+    2300010: heroFly014
+    2300012: heroFly015
+    2300014: heroFly015 1
+    2300016: heroFly016
+    2300018: heroFly017
+    2300020: heroFly02
+    2300022: heroFly03
+    2300024: heroFly04
+    2300026: heroFly05
+    2300028: heroFly06
+    2300030: heroFly07
+    2300032: heroFly08
+    2300034: heroFly09
+    2300036: heroFly18
+    3300000: heroFly01
+    3300002: heroFly010
+    3300004: heroFly011
+    3300006: heroFly012
+    3300008: heroFly013
+    3300010: heroFly014
+    3300012: heroFly015
+    3300014: heroFly015 1
+    3300016: heroFly016
+    3300018: heroFly017
+    3300020: heroFly02
+    3300022: heroFly03
+    3300024: heroFly04
+    3300026: heroFly05
+    3300028: heroFly06
+    3300030: heroFly07
+    3300032: heroFly08
+    3300034: heroFly09
+    3300036: heroFly18
+    4300000: heroFly02
+    4300002: heroFly18
+    4300004: heroFly017
+    4300006: heroFly05
+    4300008: heroFly04
+    4300010: heroFly09
+    4300012: heroFly015
+    4300014: heroFly011
+    4300016: heroFly014
+    4300018: heroFly06
+    4300020: heroFly01
+    4300022: heroFly015
+    4300024: heroFly016
+    4300026: heroFly03
+    4300028: heroFly08
+    4300030: heroFly013
+    4300032: heroFly07
+    4300034: heroFly010
+    4300036: heroFly012
+    7400000: anim
+    7400002: idle
+    7400004: attack
+    7400006: death
+    7400008: death_down
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: anim
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 95
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/heroFly01
+        weight: 1
+      - path: root/heroFly01/30002201_Turrent
+        weight: 1
+      - path: root/heroFly01/30002201_Turrent/30002201_hRotate
+        weight: 1
+      - path: root/heroFly01/30002201_Turrent/30002201_hRotate/30002201_fire1
+        weight: 1
+      - path: root/heroFly01/heroFly015
+        weight: 1
+      - path: root/heroFly02
+        weight: 1
+      - path: root/heroFly04
+        weight: 1
+      - path: root/heroFly04/heroFly06
+        weight: 1
+      - path: root/heroFly04/heroFly09
+        weight: 1
+      - path: root/heroFly04/heroFly09/heroFly015 1
+        weight: 1
+      - path: root/heroFly04/heroFly011
+        weight: 1
+      - path: root/heroFly04/heroFly011/heroFly014
+        weight: 1
+      - path: root/heroFly05
+        weight: 1
+      - path: root/heroFly016
+        weight: 1
+      - path: root/heroFly016/heroFly03
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08/30002203_Turrent
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08/30002203_Turrent/30002203_hRotate
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08/30002203_Turrent/30002203_hRotate/30002203_fire1
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08/30002203_Turrent/30002203_hRotate/30002203_fire2
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08/30002203_Turrent/30002203_hRotate/30002203_fire3
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08/30002203_Turrent/30002203_hRotate/30002203_fire4
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08/heroFly013
+        weight: 1
+      - path: root/heroFly016/heroFly07
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010/30002202_Turrent
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010/30002202_Turrent/30002202_hRotate
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010/30002202_Turrent/30002202_hRotate/30002202_fire1
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010/30002202_Turrent/30002202_hRotate/30002202_fire2
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010/30002202_Turrent/30002202_hRotate/30002202_fire3
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010/30002202_Turrent/30002202_hRotate/30002202_fire4
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010/heroFly012
+        weight: 1
+      - path: root/heroFly017
+        weight: 1
+      - path: root/heroFly18
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 95
+      lastFrame: 115
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/heroFly01
+        weight: 1
+      - path: root/heroFly01/30002201_Turrent
+        weight: 1
+      - path: root/heroFly01/30002201_Turrent/30002201_hRotate
+        weight: 1
+      - path: root/heroFly01/30002201_Turrent/30002201_hRotate/30002201_fire1
+        weight: 1
+      - path: root/heroFly01/heroFly015
+        weight: 1
+      - path: root/heroFly02
+        weight: 1
+      - path: root/heroFly04
+        weight: 1
+      - path: root/heroFly04/heroFly06
+        weight: 1
+      - path: root/heroFly04/heroFly09
+        weight: 1
+      - path: root/heroFly04/heroFly09/heroFly015 1
+        weight: 1
+      - path: root/heroFly04/heroFly011
+        weight: 1
+      - path: root/heroFly04/heroFly011/heroFly014
+        weight: 1
+      - path: root/heroFly05
+        weight: 1
+      - path: root/heroFly016
+        weight: 1
+      - path: root/heroFly016/heroFly03
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08/30002203_Turrent
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08/30002203_Turrent/30002203_hRotate
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08/30002203_Turrent/30002203_hRotate/30002203_fire1
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08/30002203_Turrent/30002203_hRotate/30002203_fire2
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08/30002203_Turrent/30002203_hRotate/30002203_fire3
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08/30002203_Turrent/30002203_hRotate/30002203_fire4
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08/heroFly013
+        weight: 1
+      - path: root/heroFly016/heroFly07
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010/30002202_Turrent
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010/30002202_Turrent/30002202_hRotate
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010/30002202_Turrent/30002202_hRotate/30002202_fire1
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010/30002202_Turrent/30002202_hRotate/30002202_fire2
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010/30002202_Turrent/30002202_hRotate/30002202_fire3
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010/30002202_Turrent/30002202_hRotate/30002202_fire4
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010/heroFly012
+        weight: 1
+      - path: root/heroFly017
+        weight: 1
+      - path: root/heroFly18
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack
+      takeName: Take 001
+      firstFrame: 115
+      lastFrame: 125
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/heroFly01
+        weight: 1
+      - path: root/heroFly01/30002201_Turrent
+        weight: 1
+      - path: root/heroFly01/30002201_Turrent/30002201_hRotate
+        weight: 1
+      - path: root/heroFly01/30002201_Turrent/30002201_hRotate/30002201_fire1
+        weight: 1
+      - path: root/heroFly01/heroFly015
+        weight: 1
+      - path: root/heroFly02
+        weight: 1
+      - path: root/heroFly04
+        weight: 1
+      - path: root/heroFly04/heroFly06
+        weight: 1
+      - path: root/heroFly04/heroFly09
+        weight: 1
+      - path: root/heroFly04/heroFly09/heroFly015 1
+        weight: 1
+      - path: root/heroFly04/heroFly011
+        weight: 1
+      - path: root/heroFly04/heroFly011/heroFly014
+        weight: 1
+      - path: root/heroFly05
+        weight: 1
+      - path: root/heroFly016
+        weight: 1
+      - path: root/heroFly016/heroFly03
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08/30002203_Turrent
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08/30002203_Turrent/30002203_hRotate
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08/30002203_Turrent/30002203_hRotate/30002203_fire1
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08/30002203_Turrent/30002203_hRotate/30002203_fire2
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08/30002203_Turrent/30002203_hRotate/30002203_fire3
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08/30002203_Turrent/30002203_hRotate/30002203_fire4
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08/heroFly013
+        weight: 1
+      - path: root/heroFly016/heroFly07
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010/30002202_Turrent
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010/30002202_Turrent/30002202_hRotate
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010/30002202_Turrent/30002202_hRotate/30002202_fire1
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010/30002202_Turrent/30002202_hRotate/30002202_fire2
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010/30002202_Turrent/30002202_hRotate/30002202_fire3
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010/30002202_Turrent/30002202_hRotate/30002202_fire4
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010/heroFly012
+        weight: 1
+      - path: root/heroFly017
+        weight: 1
+      - path: root/heroFly18
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death
+      takeName: Take 001
+      firstFrame: 125
+      lastFrame: 128
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/heroFly01
+        weight: 1
+      - path: root/heroFly01/30002201_Turrent
+        weight: 1
+      - path: root/heroFly01/30002201_Turrent/30002201_hRotate
+        weight: 1
+      - path: root/heroFly01/30002201_Turrent/30002201_hRotate/30002201_fire1
+        weight: 1
+      - path: root/heroFly01/heroFly015
+        weight: 1
+      - path: root/heroFly02
+        weight: 1
+      - path: root/heroFly04
+        weight: 1
+      - path: root/heroFly04/heroFly06
+        weight: 1
+      - path: root/heroFly04/heroFly09
+        weight: 1
+      - path: root/heroFly04/heroFly09/heroFly015 1
+        weight: 1
+      - path: root/heroFly04/heroFly011
+        weight: 1
+      - path: root/heroFly04/heroFly011/heroFly014
+        weight: 1
+      - path: root/heroFly05
+        weight: 1
+      - path: root/heroFly016
+        weight: 1
+      - path: root/heroFly016/heroFly03
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08/30002203_Turrent
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08/30002203_Turrent/30002203_hRotate
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08/30002203_Turrent/30002203_hRotate/30002203_fire1
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08/30002203_Turrent/30002203_hRotate/30002203_fire2
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08/30002203_Turrent/30002203_hRotate/30002203_fire3
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08/30002203_Turrent/30002203_hRotate/30002203_fire4
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08/heroFly013
+        weight: 1
+      - path: root/heroFly016/heroFly07
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010/30002202_Turrent
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010/30002202_Turrent/30002202_hRotate
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010/30002202_Turrent/30002202_hRotate/30002202_fire1
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010/30002202_Turrent/30002202_hRotate/30002202_fire2
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010/30002202_Turrent/30002202_hRotate/30002202_fire3
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010/30002202_Turrent/30002202_hRotate/30002202_fire4
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010/heroFly012
+        weight: 1
+      - path: root/heroFly017
+        weight: 1
+      - path: root/heroFly18
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death_down
+      takeName: Take 001
+      firstFrame: 128
+      lastFrame: 148
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/heroFly01
+        weight: 1
+      - path: root/heroFly01/30002201_Turrent
+        weight: 1
+      - path: root/heroFly01/30002201_Turrent/30002201_hRotate
+        weight: 1
+      - path: root/heroFly01/30002201_Turrent/30002201_hRotate/30002201_fire1
+        weight: 1
+      - path: root/heroFly01/heroFly015
+        weight: 1
+      - path: root/heroFly02
+        weight: 1
+      - path: root/heroFly04
+        weight: 1
+      - path: root/heroFly04/heroFly06
+        weight: 1
+      - path: root/heroFly04/heroFly09
+        weight: 1
+      - path: root/heroFly04/heroFly09/heroFly015 1
+        weight: 1
+      - path: root/heroFly04/heroFly011
+        weight: 1
+      - path: root/heroFly04/heroFly011/heroFly014
+        weight: 1
+      - path: root/heroFly05
+        weight: 1
+      - path: root/heroFly016
+        weight: 1
+      - path: root/heroFly016/heroFly03
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08/30002203_Turrent
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08/30002203_Turrent/30002203_hRotate
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08/30002203_Turrent/30002203_hRotate/30002203_fire1
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08/30002203_Turrent/30002203_hRotate/30002203_fire2
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08/30002203_Turrent/30002203_hRotate/30002203_fire3
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08/30002203_Turrent/30002203_hRotate/30002203_fire4
+        weight: 1
+      - path: root/heroFly016/heroFly03/heroFly08/heroFly013
+        weight: 1
+      - path: root/heroFly016/heroFly07
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010/30002202_Turrent
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010/30002202_Turrent/30002202_hRotate
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010/30002202_Turrent/30002202_hRotate/30002202_fire1
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010/30002202_Turrent/30002202_hRotate/30002202_fire2
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010/30002202_Turrent/30002202_hRotate/30002202_fire3
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010/30002202_Turrent/30002202_hRotate/30002202_fire4
+        weight: 1
+      - path: root/heroFly016/heroFly07/heroFly010/heroFly012
+        weight: 1
+      - path: root/heroFly017
+        weight: 1
+      - path: root/heroFly18
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.08
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

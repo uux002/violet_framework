@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1011 &101100000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: allies_plane_factory_Mask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: allies_plane_factory
+    m_Weight: 0
+  - m_Path: Root
+    m_Weight: 0
+  - m_Path: Root/Bone01
+    m_Weight: 0
+  - m_Path: Root/Bone01/Bone11
+    m_Weight: 0
+  - m_Path: Root/Bone01/Bone11/Bone12
+    m_Weight: 0
+  - m_Path: Root/Bone01/Bone13
+    m_Weight: 0
+  - m_Path: Root/Bone01/Bone14
+    m_Weight: 0
+  - m_Path: Root/Bone02
+    m_Weight: 0
+  - m_Path: Root/Bone03
+    m_Weight: 0
+  - m_Path: Root/Bone04
+    m_Weight: 0
+  - m_Path: Root/Bone04/Bone15
+    m_Weight: 0
+  - m_Path: Root/Bone05
+    m_Weight: 0
+  - m_Path: Root/Bone06
+    m_Weight: 0
+  - m_Path: Root/Bone06/Bone16
+    m_Weight: 1
+  - m_Path: Root/Bone06/Bone16/Bone17
+    m_Weight: 1
+  - m_Path: Root/Bone06/Bone16/Bone17/Bone18
+    m_Weight: 1
+  - m_Path: Root/Bone07
+    m_Weight: 0
+  - m_Path: Root/Bone08
+    m_Weight: 0
+  - m_Path: Root/Bone09
+    m_Weight: 0
+  - m_Path: Root/Bone09/Bone19
+    m_Weight: 1
+  - m_Path: Root/Bone09/Bone19/Bone20
+    m_Weight: 1
+  - m_Path: Root/Bone09/Bone19/Bone20/Bone21
+    m_Weight: 1
+  - m_Path: Root/Bone10
+    m_Weight: 0
+  - m_Path: Root/Bone10/Bone22
+    m_Weight: 0

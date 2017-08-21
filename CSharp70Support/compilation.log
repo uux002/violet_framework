@@ -1,488 +1,133 @@
 ********************************************************************************
-*                             2017年8月19日 15:16:41                              *
+*                             2017年8月21日 15:28:48                              *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 2.2.1.77
 Platform: Windows
 Target assembly: Assembly-CSharp.dll
-Project directory: D:\TreaslandGames\violet_framework
+Project directory: C:\Treasland\violet_framework
 Target profile directory: C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api
 Unity Mono directory: C:/Program Files/Unity2017.1.0p1/Editor/Data/MonoBleedingEdge
 Compiler: Microsoft C# 7.1 (2.3.1.61919)
 
 - Compilation -----------------------------------------------
 
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -langversion:latest -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\mscorlib.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Core.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Facades/System.Runtime.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Microsoft.CSharp.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Xml.dll" @Temp/UnityTempFile-e6b0fe1ccb767204ea9643f4d16cf522 
+Process: C:\Treasland\violet_framework\CSharp70Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -langversion:latest -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\mscorlib.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Core.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Facades/System.Runtime.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Microsoft.CSharp.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Xml.dll" @Temp/UnityTempFile-d5780f954245eec44aa7ae084b4fb151 
 Exit code: 0
-Elapsed time: 1.29 sec
+Elapsed time: 3.75 sec
 
 - Compiler output (0 lines):
 
-- Compiler errors (1 line):
-0: Assets\VioletFramework\ConfigModule\ConfigManager.cs(14,25): warning CS0414: The field 'ConfigManager._init' is assigned but its value is never used
+- Compiler errors (66 lines):
+0: Assets\Res\EffectScripts\NcEffect\NcParticleSystem.cs(611,40): warning CS0618: 'Particle' is obsolete: 'This is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+1: Assets\Res\EffectScripts\NcEffect\NcParticleSystem.cs(611,9): warning CS0618: 'Particle' is obsolete: 'This is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+2: Assets\Res\EffectScripts\NcEffect\NcParticleSystem.cs(67,12): warning CS0618: 'ParticleEmitter' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+3: Assets\Res\EffectScripts\NcEffect\NcParticleSystem.cs(68,12): warning CS0618: 'ParticleAnimator' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+4: Assets\Res\EffectScripts\NcEffect\NcParticleSystem.cs(69,12): warning CS0618: 'ParticleRenderer' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+5: Assets\Res\EffectScripts\NcEffect\Common\NsSharedManager.cs(59,31): warning CS0618: 'ParticleEmitter' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+6: Assets\Res\EffectScripts\NcEffect\Common\NsSharedManager.cs(61,28): warning CS0618: 'ParticleEmitter' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+7: Assets\Res\EffectScripts\NcEffect\Common\NsSharedManager.cs(62,28): warning CS0618: 'ParticleEmitter' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+8: Assets\Res\EffectScripts\NcEffect\Common\NsSharedManager.cs(63,5): warning CS0618: 'ParticleAnimator' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+9: Assets\Res\EffectScripts\NcEffect\Common\NsSharedManager.cs(63,53): warning CS0618: 'ParticleAnimator' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+10: Assets\Res\EffectScripts\NcEffect\Common\NsSharedManager.cs(73,5): warning CS0618: 'ParticleSystem.enableEmission' is obsolete: 'enableEmission property is deprecated. Use emission.enabled instead.'
+11: Assets\Res\EffectScripts\NcEffect\Common\NcEffectBehaviour.cs(218,5): warning CS0618: 'ParticleSystem.enableEmission' is obsolete: 'enableEmission property is deprecated. Use emission.enabled instead.'
+12: Assets\Res\EffectScripts\NcEffect\Common\NcEffectBehaviour.cs(219,3): warning CS0618: 'ParticleEmitter' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+13: Assets\Res\EffectScripts\NcEffect\Common\NcEffectBehaviour.cs(219,62): warning CS0618: 'ParticleEmitter' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+14: Assets\Res\EffectScripts\NcEffect\Common\NcEffectBehaviour.cs(220,12): warning CS0618: 'ParticleEmitter' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+15: Assets\Res\EffectScripts\NcEffect\Common\NsSharedManager.cs(88,30): warning CS0618: 'ParticleEmitter' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+16: Assets\Res\EffectScripts\NcEffect\Common\NsSharedManager.cs(89,28): warning CS0618: 'ParticleEmitter' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+17: Assets\Res\EffectScripts\NcEffect\Common\NcEffectBehaviour.cs(228,32): warning CS0618: 'Application.isLoadingLevel' is obsolete: 'This property is deprecated, please use LoadLevelAsync to detect if a specific scene is currently loading.'
+18: Assets\Res\EffectScripts\NcEffect\NcParticleEmit.cs(38,66): warning CS0618: 'ParticleEmitter' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+19: Assets\Res\EffectScripts\NcEffect\NcParticleSpiral.cs(166,66): warning CS0618: 'ParticleEmitter' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+20: Assets\Res\EffectScripts\NcEffect\NcParticleSpiral.cs(166,111): warning CS0618: 'ParticleEmitter' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+21: Assets\Res\EffectScripts\NcEffect\NcParticleSystem.cs(90,23): warning CS0618: 'ParticleEmitter' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+22: Assets\Res\EffectScripts\NcEffect\NcParticleSystem.cs(90,66): warning CS0618: 'ParticleEmitter' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+23: Assets\Res\EffectScripts\NcEffect\NcParticleSystem.cs(99,62): warning CS0618: 'ParticleEmitter' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+24: Assets\Res\EffectScripts\NcEffect\NcParticleSpiral.cs(203,4): warning CS0618: 'ParticleEmitter' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+25: Assets\Res\EffectScripts\NcEffect\NcParticleSpiral.cs(203,43): warning CS0618: 'ParticleEmitter' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+26: Assets\Res\EffectScripts\NcEffect\NcParticleEmit.cs(162,39): warning CS0618: 'ParticleEmitter' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+27: Assets\Res\EffectScripts\NcEffect\NcParticleEmit.cs(163,37): warning CS0618: 'ParticleEmitter' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+28: Assets\Res\EffectScripts\NcEffect\NcParticleSystem.cs(167,24): warning CS0618: 'ParticleEmitter' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+29: Assets\Res\EffectScripts\NcEffect\NcParticleSystem.cs(168,24): warning CS0618: 'ParticleAnimator' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+30: Assets\Res\EffectScripts\NcEffect\NcParticleSystem.cs(169,24): warning CS0618: 'ParticleRenderer' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+31: Assets\Res\EffectScripts\NcEffect\NcParticleSpiral.cs(234,3): warning CS0618: 'ParticleEmitter' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+32: Assets\Res\EffectScripts\NcEffect\NcParticleSpiral.cs(234,55): warning CS0618: 'ParticleEmitter' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+33: Assets\Res\EffectScripts\NcEffect\NcParticleSpiral.cs(242,3): warning CS0618: 'ParticleAnimator' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+34: Assets\Res\EffectScripts\NcEffect\NcParticleSpiral.cs(242,62): warning CS0618: 'ParticleAnimator' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+35: Assets\Res\EffectScripts\NcEffect\NcParticleSpiral.cs(250,3): warning CS0618: 'Particle' is obsolete: 'This is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+36: Assets\Res\EffectScripts\NcEffect\NcParticleSpiral.cs(410,3): warning CS0618: 'ParticleEmitter' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+37: Assets\Res\EffectScripts\NcEffect\NcParticleSpiral.cs(410,71): warning CS0618: 'ParticleEmitter' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+38: Assets\Res\EffectScripts\NcEffect\NcParticleSpiral.cs(411,12): warning CS0618: 'ParticleEmitter' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+39: Assets\Res\EffectScripts\NcEffect\NcParticleSpiral.cs(415,4): warning CS0618: 'ParticleAnimator' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+40: Assets\Res\EffectScripts\NcEffect\NcParticleSpiral.cs(415,63): warning CS0618: 'ParticleAnimator' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+41: Assets\Res\EffectScripts\NcEffect\NcParticleSpiral.cs(422,4): warning CS0618: 'Particle' is obsolete: 'This is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+42: Assets\Res\EffectScripts\NcEffect\NcParticleSystem.cs(334,32): warning CS0618: 'ParticleSystem.Particle.size' is obsolete: 'size property is deprecated. Use startSize or GetCurrentSize() instead.'
+43: Assets\Res\EffectScripts\NcEffect\NcParticleSystem.cs(343,6): warning CS0618: 'Particle' is obsolete: 'This is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+44: Assets\Res\EffectScripts\NcEffect\NcParticleSystem.cs(344,6): warning CS0618: 'Particle' is obsolete: 'This is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+45: Assets\Res\EffectScripts\NcEffect\NcParticleSystem.cs(466,4): warning CS0618: 'ParticleSystem.enableEmission' is obsolete: 'enableEmission property is deprecated. Use emission.enabled instead.'
+46: Assets\Res\EffectScripts\NcEffect\NcParticleSystem.cs(498,3): warning CS0618: 'ParticleEmitter' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+47: Assets\Res\EffectScripts\NcEffect\NcParticleSystem.cs(499,3): warning CS0618: 'ParticleAnimator' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+48: Assets\Res\EffectScripts\NcEffect\NcParticleSystem.cs(500,3): warning CS0618: 'ParticleRenderer' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+49: Assets\Res\EffectScripts\NcEffect\NcParticleSystem.cs(570,3): warning CS0618: 'ParticleEmitter' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+50: Assets\Res\EffectScripts\NcEffect\NcParticleSystem.cs(571,3): warning CS0618: 'ParticleAnimator' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+51: Assets\Res\EffectScripts\NcEffect\NcParticleSystem.cs(572,3): warning CS0618: 'ParticleRenderer' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+52: Assets\Res\EffectScripts\NcEffect\NcParticleSystem.cs(606,4): warning CS0618: 'Particle' is obsolete: 'This is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+53: Assets\Res\EffectScripts\NcEffect\NcParticleSystem.cs(651,4): warning CS0618: 'ParticleSystem.startSize' is obsolete: 'startSize property is deprecated. Use main.startSize or main.startSizeMultiplier instead.'
+54: Assets\Res\EffectScripts\NcEffect\NcParticleSystem.cs(652,4): warning CS0618: 'ParticleSystem.startLifetime' is obsolete: 'startLifetime property is deprecated. Use main.startLifetime or main.startLifetimeMultiplier instead.'
+55: Assets\Res\EffectScripts\NcEffect\NcParticleSystem.cs(653,4): warning CS0618: 'ParticleSystem.emissionRate' is obsolete: 'emissionRate property is deprecated. Use emission.rateOverTime, emission.rateOverDistance, emission.rateOverTimeMultiplier or emission.rateOverDistanceMultiplier instead.'
+56: Assets\Res\EffectScripts\NcEffect\NcParticleSystem.cs(654,4): warning CS0618: 'ParticleSystem.startSpeed' is obsolete: 'startSpeed property is deprecated. Use main.startSpeed or main.startSpeedMultiplier instead.'
+57: Assets\Res\EffectScripts\NcEffect\NcParticleSystem.cs(709,4): warning CS0618: 'ParticleSystem.Particle.size' is obsolete: 'size property is deprecated. Use startSize or GetCurrentSize() instead.'
+58: Assets\Res\EffectScripts\NcEffect\NcParticleSystem.cs(740,23): warning CS0618: 'ParticleEmitter' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+59: Assets\Res\EffectScripts\NcEffect\NcParticleSystem.cs(741,23): warning CS0618: 'ParticleAnimator' is obsolete: 'This component is part of the legacy particle system, which is deprecated and will be removed in a future release. Use the ParticleSystem component instead.'
+60: Assets\Res\EffectScripts\Standard Assets\Effects\ImageEffects\Scripts\SunShafts.cs(93,29): warning CS0618: 'Camera.hdr' is obsolete: 'use Camera.allowHDR instead.'
+61: Assets\Res\EffectScripts\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs(97,54): warning CS0618: 'SystemInfo.supportsRenderTextures' is obsolete: 'supportsRenderTextures always returns true, no need to call it'
+62: Assets\Res\EffectScripts\Standard Assets\Effects\ImageEffects\Scripts\MotionBlur.cs(24,18): warning CS0618: 'SystemInfo.supportsRenderTextures' is obsolete: 'supportsRenderTextures always returns true, no need to call it'
+63: Assets\Res\EffectScripts\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs(112,74): warning CS0618: 'Camera.hdr' is obsolete: 'use Camera.allowHDR instead.'
+64: Assets\Res\EffectScripts\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs(109,74): warning CS0618: 'Camera.hdr' is obsolete: 'use Camera.allowHDR instead.'
+65: Assets\VioletFramework\ConfigModule\ConfigManager.cs(14,25): warning CS0414: The field 'ConfigManager._init' is assigned but its value is never used
 
 - PDB to MDB conversion --------------------------------------
 
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\pdb2mdb.exe
+Process: C:\Treasland\violet_framework\CSharp70Support\Roslyn\pdb2mdb.exe
 Arguments: Temp\Assembly-CSharp.dll
 Exit code: 0
-Elapsed time: 0.06 sec
+Elapsed time: 0.17 sec
 
 - pdb2mdb.exe output (0 lines):
 ********************************************************************************
-*                             2017年8月19日 15:16:43                              *
+*                             2017年8月21日 15:28:53                              *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 2.2.1.77
 Platform: Windows
 Target assembly: Assembly-CSharp-Editor.dll
-Project directory: D:\TreaslandGames\violet_framework
+Project directory: C:\Treasland\violet_framework
 Target profile directory: C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api
 Unity Mono directory: C:/Program Files/Unity2017.1.0p1/Editor/Data/MonoBleedingEdge
 Compiler: Microsoft C# 7.1 (2.3.1.61919)
 
 - Compilation -----------------------------------------------
 
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -langversion:latest -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\mscorlib.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Core.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Facades/System.Runtime.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Microsoft.CSharp.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Xml.dll" @Temp/UnityTempFile-93e8141ea7c389b4b81a350e91f906c7 
+Process: C:\Treasland\violet_framework\CSharp70Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -langversion:latest -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\mscorlib.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Core.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Facades/System.Runtime.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Microsoft.CSharp.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Xml.dll" @Temp/UnityTempFile-951d084316c17f445853a00f07173366 
 Exit code: 0
-Elapsed time: 0.79 sec
+Elapsed time: 3.02 sec
 
 - Compiler output (0 lines):
 
-- Compiler errors (0 lines):
+- Compiler errors (7 lines):
+0: Assets\Res\EffectScripts\Standard Assets\Editor\ImageEffects\TonemappingEditor.cs(45,22): warning CS0618: 'Camera.hdr' is obsolete: 'use Camera.allowHDR instead.'
+1: Assets\Res\EffectScripts\Standard Assets\Editor\ImageEffects\BloomAndFlaresEditor.cs(80,60): warning CS0618: 'Camera.hdr' is obsolete: 'use Camera.allowHDR instead.'
+2: Assets\Res\EffectScripts\Standard Assets\Editor\ImageEffects\BloomEditor.cs(88,60): warning CS0618: 'Camera.hdr' is obsolete: 'use Camera.allowHDR instead.'
+3: Assets\Res\EffectScripts\Standard Assets\Editor\ImageEffects\ColorCorrectionLookupEditor.cs(54,25): warning CS0618: 'TextureImporter.textureFormat' is obsolete: 'textureFormat is no longer accessible at the TextureImporter level. For old 'simple' formats use the textureCompression property for the equivalent automatic choice (Uncompressed for TrueColor, Compressed and HQCommpressed for 16 bits). For platform specific formats use the [[PlatformTextureSettings]] API. Using this setter will setup various parameters to match the new automatic system as well as possible. Getter will return the last value set.'
+4: Assets\Res\EffectScripts\Standard Assets\Editor\ImageEffects\ColorCorrectionLookupEditor.cs(54,58): warning CS0618: 'TextureImporterFormat.AutomaticTruecolor' is obsolete: 'Use textureCompression property instead'
+5: Assets\Res\EffectScripts\Standard Assets\Editor\ImageEffects\ColorCorrectionLookupEditor.cs(62,25): warning CS0618: 'TextureImporter.textureFormat' is obsolete: 'textureFormat is no longer accessible at the TextureImporter level. For old 'simple' formats use the textureCompression property for the equivalent automatic choice (Uncompressed for TrueColor, Compressed and HQCommpressed for 16 bits). For platform specific formats use the [[PlatformTextureSettings]] API. Using this setter will setup various parameters to match the new automatic system as well as possible. Getter will return the last value set.'
+6: Assets\Res\EffectScripts\Standard Assets\Editor\ImageEffects\ColorCorrectionLookupEditor.cs(62,57): warning CS0618: 'TextureImporterFormat.AutomaticTruecolor' is obsolete: 'Use textureCompression property instead'
 
 - PDB to MDB conversion --------------------------------------
 
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\pdb2mdb.exe
+Process: C:\Treasland\violet_framework\CSharp70Support\Roslyn\pdb2mdb.exe
 Arguments: Temp\Assembly-CSharp-Editor.dll
 Exit code: 0
-Elapsed time: 0.05 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                             2017年8月19日 15:18:24                              *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.2.1.77
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: D:\TreaslandGames\violet_framework
-Target profile directory: C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api
-Unity Mono directory: C:/Program Files/Unity2017.1.0p1/Editor/Data/MonoBleedingEdge
-Compiler: Microsoft C# 7.1 (2.3.1.61919)
-
-- Compilation -----------------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -langversion:latest -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\mscorlib.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Core.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Facades/System.Runtime.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Microsoft.CSharp.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Xml.dll" @Temp/UnityTempFile-b9325dc34614df2449c2a22ec997cd49 
-Exit code: 0
-Elapsed time: 1.31 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (1 line):
-0: Assets\VioletFramework\ConfigModule\ConfigManager.cs(14,25): warning CS0414: The field 'ConfigManager._init' is assigned but its value is never used
-
-- PDB to MDB conversion --------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp.dll
-Exit code: 0
-Elapsed time: 0.07 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                             2017年8月19日 15:18:26                              *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.2.1.77
-Platform: Windows
-Target assembly: Assembly-CSharp-Editor.dll
-Project directory: D:\TreaslandGames\violet_framework
-Target profile directory: C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api
-Unity Mono directory: C:/Program Files/Unity2017.1.0p1/Editor/Data/MonoBleedingEdge
-Compiler: Microsoft C# 7.1 (2.3.1.61919)
-
-- Compilation -----------------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -langversion:latest -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\mscorlib.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Core.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Facades/System.Runtime.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Microsoft.CSharp.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Xml.dll" @Temp/UnityTempFile-ce862e0c160ee8c449868217978130ff 
-Exit code: 0
-Elapsed time: 0.81 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (0 lines):
-
-- PDB to MDB conversion --------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp-Editor.dll
-Exit code: 0
-Elapsed time: 0.05 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                             2017年8月19日 15:20:36                              *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.2.1.77
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: D:\TreaslandGames\violet_framework
-Target profile directory: C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api
-Unity Mono directory: C:/Program Files/Unity2017.1.0p1/Editor/Data/MonoBleedingEdge
-Compiler: Microsoft C# 7.1 (2.3.1.61919)
-
-- Compilation -----------------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -langversion:latest -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\mscorlib.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Core.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Facades/System.Runtime.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Microsoft.CSharp.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Xml.dll" @Temp/UnityTempFile-1d6e4b6b8df8c2e41bb855b7727f0f69 
-Exit code: 0
-Elapsed time: 1.28 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (1 line):
-0: Assets\VioletFramework\ConfigModule\ConfigManager.cs(14,25): warning CS0414: The field 'ConfigManager._init' is assigned but its value is never used
-
-- PDB to MDB conversion --------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp.dll
-Exit code: 0
-Elapsed time: 0.06 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                             2017年8月19日 15:20:38                              *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.2.1.77
-Platform: Windows
-Target assembly: Assembly-CSharp-Editor.dll
-Project directory: D:\TreaslandGames\violet_framework
-Target profile directory: C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api
-Unity Mono directory: C:/Program Files/Unity2017.1.0p1/Editor/Data/MonoBleedingEdge
-Compiler: Microsoft C# 7.1 (2.3.1.61919)
-
-- Compilation -----------------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -langversion:latest -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\mscorlib.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Core.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Facades/System.Runtime.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Microsoft.CSharp.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Xml.dll" @Temp/UnityTempFile-eef6318e987cd2342a908962890a2b61 
-Exit code: 0
-Elapsed time: 0.80 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (0 lines):
-
-- PDB to MDB conversion --------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp-Editor.dll
-Exit code: 0
-Elapsed time: 0.05 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                             2017年8月19日 15:22:35                              *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.2.1.77
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: D:\TreaslandGames\violet_framework
-Target profile directory: C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api
-Unity Mono directory: C:/Program Files/Unity2017.1.0p1/Editor/Data/MonoBleedingEdge
-Compiler: Microsoft C# 7.1 (2.3.1.61919)
-
-- Compilation -----------------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -langversion:latest -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\mscorlib.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Core.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Facades/System.Runtime.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Microsoft.CSharp.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Xml.dll" @Temp/UnityTempFile-05b7a9f1cc626c14a993333959fb8916 
-Exit code: 0
-Elapsed time: 1.24 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (1 line):
-0: Assets\VioletFramework\ConfigModule\ConfigManager.cs(14,25): warning CS0414: The field 'ConfigManager._init' is assigned but its value is never used
-
-- PDB to MDB conversion --------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp.dll
-Exit code: 0
-Elapsed time: 0.06 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                             2017年8月19日 15:22:37                              *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.2.1.77
-Platform: Windows
-Target assembly: Assembly-CSharp-Editor.dll
-Project directory: D:\TreaslandGames\violet_framework
-Target profile directory: C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api
-Unity Mono directory: C:/Program Files/Unity2017.1.0p1/Editor/Data/MonoBleedingEdge
-Compiler: Microsoft C# 7.1 (2.3.1.61919)
-
-- Compilation -----------------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -langversion:latest -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\mscorlib.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Core.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Facades/System.Runtime.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Microsoft.CSharp.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Xml.dll" @Temp/UnityTempFile-eeedede8bc620364cb81253581013ae4 
-Exit code: 0
-Elapsed time: 0.78 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (0 lines):
-
-- PDB to MDB conversion --------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp-Editor.dll
-Exit code: 0
-Elapsed time: 0.04 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                             2017年8月19日 15:24:45                              *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.2.1.77
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: D:\TreaslandGames\violet_framework
-Target profile directory: C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api
-Unity Mono directory: C:/Program Files/Unity2017.1.0p1/Editor/Data/MonoBleedingEdge
-Compiler: Microsoft C# 7.1 (2.3.1.61919)
-
-- Compilation -----------------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -langversion:latest -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\mscorlib.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Core.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Facades/System.Runtime.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Microsoft.CSharp.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Xml.dll" @Temp/UnityTempFile-7715754fa74692e44aba22722808e10b 
-Exit code: 0
-Elapsed time: 1.24 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (1 line):
-0: Assets\VioletFramework\ConfigModule\ConfigManager.cs(14,25): warning CS0414: The field 'ConfigManager._init' is assigned but its value is never used
-
-- PDB to MDB conversion --------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp.dll
-Exit code: 0
-Elapsed time: 0.06 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                             2017年8月19日 15:24:47                              *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.2.1.77
-Platform: Windows
-Target assembly: Assembly-CSharp-Editor.dll
-Project directory: D:\TreaslandGames\violet_framework
-Target profile directory: C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api
-Unity Mono directory: C:/Program Files/Unity2017.1.0p1/Editor/Data/MonoBleedingEdge
-Compiler: Microsoft C# 7.1 (2.3.1.61919)
-
-- Compilation -----------------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -langversion:latest -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\mscorlib.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Core.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Facades/System.Runtime.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Microsoft.CSharp.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Xml.dll" @Temp/UnityTempFile-327b3b27f751ddd4ca7189e8b9bde157 
-Exit code: 0
-Elapsed time: 0.79 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (0 lines):
-
-- PDB to MDB conversion --------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp-Editor.dll
-Exit code: 0
-Elapsed time: 0.05 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                             2017年8月19日 15:25:48                              *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.2.1.77
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: D:\TreaslandGames\violet_framework
-Target profile directory: C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api
-Unity Mono directory: C:/Program Files/Unity2017.1.0p1/Editor/Data/MonoBleedingEdge
-Compiler: Microsoft C# 7.1 (2.3.1.61919)
-
-- Compilation -----------------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -langversion:latest -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\mscorlib.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Core.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Facades/System.Runtime.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Microsoft.CSharp.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Xml.dll" @Temp/UnityTempFile-8e62d12ebbc07e541957e2e8fc9796a5 
-Exit code: 0
-Elapsed time: 1.29 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (1 line):
-0: Assets\VioletFramework\ConfigModule\ConfigManager.cs(14,25): warning CS0414: The field 'ConfigManager._init' is assigned but its value is never used
-
-- PDB to MDB conversion --------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp.dll
-Exit code: 0
-Elapsed time: 0.06 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                             2017年8月19日 15:25:50                              *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.2.1.77
-Platform: Windows
-Target assembly: Assembly-CSharp-Editor.dll
-Project directory: D:\TreaslandGames\violet_framework
-Target profile directory: C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api
-Unity Mono directory: C:/Program Files/Unity2017.1.0p1/Editor/Data/MonoBleedingEdge
-Compiler: Microsoft C# 7.1 (2.3.1.61919)
-
-- Compilation -----------------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -langversion:latest -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\mscorlib.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Core.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Facades/System.Runtime.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Microsoft.CSharp.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Xml.dll" @Temp/UnityTempFile-8de6199a9f0359d4d8c877904f6f34c0 
-Exit code: 0
-Elapsed time: 0.81 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (0 lines):
-
-- PDB to MDB conversion --------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp-Editor.dll
-Exit code: 0
-Elapsed time: 0.05 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                             2017年8月19日 15:27:09                              *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.2.1.77
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: D:\TreaslandGames\violet_framework
-Target profile directory: C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api
-Unity Mono directory: C:/Program Files/Unity2017.1.0p1/Editor/Data/MonoBleedingEdge
-Compiler: Microsoft C# 7.1 (2.3.1.61919)
-
-- Compilation -----------------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -langversion:latest -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\mscorlib.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Core.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Facades/System.Runtime.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Microsoft.CSharp.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Xml.dll" @Temp/UnityTempFile-c327669337897f74c97b7d0775689644 
-Exit code: 0
-Elapsed time: 1.25 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (1 line):
-0: Assets\VioletFramework\ConfigModule\ConfigManager.cs(14,25): warning CS0414: The field 'ConfigManager._init' is assigned but its value is never used
-
-- PDB to MDB conversion --------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp.dll
-Exit code: 0
-Elapsed time: 0.06 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                             2017年8月19日 15:27:11                              *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.2.1.77
-Platform: Windows
-Target assembly: Assembly-CSharp-Editor.dll
-Project directory: D:\TreaslandGames\violet_framework
-Target profile directory: C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api
-Unity Mono directory: C:/Program Files/Unity2017.1.0p1/Editor/Data/MonoBleedingEdge
-Compiler: Microsoft C# 7.1 (2.3.1.61919)
-
-- Compilation -----------------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -langversion:latest -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\mscorlib.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Core.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Facades/System.Runtime.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Microsoft.CSharp.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Xml.dll" @Temp/UnityTempFile-261f3c8acac483941a36a8b1fa4fe5b2 
-Exit code: 0
-Elapsed time: 0.80 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (0 lines):
-
-- PDB to MDB conversion --------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp-Editor.dll
-Exit code: 0
-Elapsed time: 0.05 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                             2017年8月19日 15:27:43                              *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.2.1.77
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: D:\TreaslandGames\violet_framework
-Target profile directory: C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api
-Unity Mono directory: C:/Program Files/Unity2017.1.0p1/Editor/Data/MonoBleedingEdge
-Compiler: Microsoft C# 7.1 (2.3.1.61919)
-
-- Compilation -----------------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -langversion:latest -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\mscorlib.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Core.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Facades/System.Runtime.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Microsoft.CSharp.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Xml.dll" @Temp/UnityTempFile-952d068abf74c834cbb72db062e60d7e 
-Exit code: 0
-Elapsed time: 1.29 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (1 line):
-0: Assets\VioletFramework\ConfigModule\ConfigManager.cs(14,25): warning CS0414: The field 'ConfigManager._init' is assigned but its value is never used
-
-- PDB to MDB conversion --------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp.dll
-Exit code: 0
-Elapsed time: 0.06 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                             2017年8月19日 15:27:45                              *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.2.1.77
-Platform: Windows
-Target assembly: Assembly-CSharp-Editor.dll
-Project directory: D:\TreaslandGames\violet_framework
-Target profile directory: C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api
-Unity Mono directory: C:/Program Files/Unity2017.1.0p1/Editor/Data/MonoBleedingEdge
-Compiler: Microsoft C# 7.1 (2.3.1.61919)
-
-- Compilation -----------------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -langversion:latest -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\mscorlib.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Core.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Facades/System.Runtime.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\Microsoft.CSharp.dll" -r:"C:\Program Files\Unity2017.1.0p1\Editor\Data\MonoBleedingEdge\lib\mono\4.5-api\System.Xml.dll" @Temp/UnityTempFile-3fc759c6d7923434fa8bf9668b415a4c 
-Exit code: 0
-Elapsed time: 0.80 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (0 lines):
-
-- PDB to MDB conversion --------------------------------------
-
-Process: D:\TreaslandGames\violet_framework\CSharp70Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp-Editor.dll
-Exit code: 0
-Elapsed time: 0.04 sec
+Elapsed time: 0.13 sec
 
 - pdb2mdb.exe output (0 lines):

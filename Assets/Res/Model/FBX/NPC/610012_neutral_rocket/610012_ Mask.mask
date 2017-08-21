@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 610012_ Mask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Cylinder009
+    m_Weight: 0
+  - m_Path: door01
+    m_Weight: 0
+  - m_Path: door02
+    m_Weight: 0
+  - m_Path: door03
+    m_Weight: 0
+  - m_Path: jing
+    m_Weight: 0
+  - m_Path: neutral_rocket
+    m_Weight: 0
+  - m_Path: root
+    m_Weight: 0
+  - m_Path: root/61001201_Turrent
+    m_Weight: 0
+  - m_Path: root/61001201_Turrent/61001201_hRotate
+    m_Weight: 0
+  - m_Path: root/61001201_Turrent/61001201_hRotate/cang01
+    m_Weight: 0
+  - m_Path: root/61001201_Turrent/61001201_hRotate/cang01/61001201_fire1
+    m_Weight: 0
+  - m_Path: root/61001201_Turrent/61001201_hRotate/cang01/cang02
+    m_Weight: 0
+  - m_Path: root/61001201_Turrent/61001201_hRotate/cang01/jian
+    m_Weight: 0
+  - m_Path: root/61001201_Turrent/61001201_hRotate/cang03
+    m_Weight: 0
+  - m_Path: root/61001202_Turrent
+    m_Weight: 0
+  - m_Path: root/61001202_Turrent/61001202_hRotate
+    m_Weight: 0
+  - m_Path: root/61001202_Turrent/61001202_hRotate/cang005
+    m_Weight: 0
+  - m_Path: root/61001202_Turrent/61001202_hRotate/cang006
+    m_Weight: 0
+  - m_Path: root/61001202_Turrent/61001202_hRotate/cang006/61001202_fire1
+    m_Weight: 0
+  - m_Path: root/61001202_Turrent/61001202_hRotate/cang006/cang004
+    m_Weight: 0
+  - m_Path: root/61001202_Turrent/61001202_hRotate/cang006/jian001
+    m_Weight: 0
+  - m_Path: root/61001203_Turrent
+    m_Weight: 0
+  - m_Path: root/61001203_Turrent/61001203_hRotate
+    m_Weight: 0
+  - m_Path: root/61001203_Turrent/61001203_hRotate/cang008
+    m_Weight: 0
+  - m_Path: root/61001203_Turrent/61001203_hRotate/cang009
+    m_Weight: 0
+  - m_Path: root/61001203_Turrent/61001203_hRotate/cang009/61001203_fire1
+    m_Weight: 0
+  - m_Path: root/61001203_Turrent/61001203_hRotate/cang009/cang007
+    m_Weight: 0
+  - m_Path: root/61001203_Turrent/61001203_hRotate/cang009/jian002
+    m_Weight: 0
+  - m_Path: root/61001204_Turrent
+    m_Weight: 0
+  - m_Path: root/61001204_Turrent/61001204_hRotate
+    m_Weight: 0
+  - m_Path: root/61001204_Turrent/61001204_hRotate/cang011
+    m_Weight: 0
+  - m_Path: root/61001204_Turrent/61001204_hRotate/cang012
+    m_Weight: 0
+  - m_Path: root/61001204_Turrent/61001204_hRotate/cang012/61001204_fire1
+    m_Weight: 0
+  - m_Path: root/61001204_Turrent/61001204_hRotate/cang012/cang010
+    m_Weight: 0
+  - m_Path: root/61001204_Turrent/61001204_hRotate/cang012/jian003
+    m_Weight: 0
+  - m_Path: root/61001205_Turrent
+    m_Weight: 0
+  - m_Path: root/61001205_Turrent/61001205_hRotate
+    m_Weight: 0
+  - m_Path: root/61001205_Turrent/61001205_hRotate/cang014
+    m_Weight: 0
+  - m_Path: root/61001205_Turrent/61001205_hRotate/cang015
+    m_Weight: 0
+  - m_Path: root/61001205_Turrent/61001205_hRotate/cang015/61001205_fire1
+    m_Weight: 0
+  - m_Path: root/61001205_Turrent/61001205_hRotate/cang015/cang013
+    m_Weight: 0
+  - m_Path: root/61001205_Turrent/61001205_hRotate/cang015/jian004
+    m_Weight: 0
+  - m_Path: root/61001206_Turrent
+    m_Weight: 0
+  - m_Path: root/61001206_Turrent/61001206_hRotate
+    m_Weight: 0
+  - m_Path: root/61001206_Turrent/61001206_hRotate/cang017
+    m_Weight: 0
+  - m_Path: root/61001206_Turrent/61001206_hRotate/cang018
+    m_Weight: 0
+  - m_Path: root/61001206_Turrent/61001206_hRotate/cang018/61001206_fire1
+    m_Weight: 0
+  - m_Path: root/61001206_Turrent/61001206_hRotate/cang018/cang016
+    m_Weight: 0
+  - m_Path: root/61001206_Turrent/61001206_hRotate/cang018/jian005
+    m_Weight: 0
+  - m_Path: window01
+    m_Weight: 1
+  - m_Path: window02
+    m_Weight: 1

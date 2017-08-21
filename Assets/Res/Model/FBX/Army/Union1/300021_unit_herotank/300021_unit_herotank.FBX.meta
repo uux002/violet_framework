@@ -1,0 +1,914 @@
+fileFormatVersion: 2
+guid: 936606fe901b2084c904af8e33b2454c
+timeCreated: 1502763772
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 30002101_fire1
+    100002: 30002101_fire2
+    100004: 30002101_fire3
+    100006: 30002101_hRotate
+    100008: 30002101_Turrent
+    100010: 30002102_fire1
+    100012: 30002102_fire2
+    100014: 30002102_hRotate
+    100016: 30002102_Turrent
+    100018: 30002103_fire1
+    100020: 30002103_fire2
+    100022: 30002103_hRotate
+    100024: 30002103_Turrent
+    100026: //RootNode
+    100028: Bone001
+    100030: Bone002
+    100032: Bone003
+    100034: Bone004
+    100036: Bone006
+    100038: Bone007
+    100040: Bone008
+    100042: Bone009
+    100044: herotank01
+    100046: herotank02
+    100048: herotank03
+    100050: herotank04
+    100052: herotank05
+    100054: herotank06
+    100056: herotank07
+    100058: herotank08
+    100060: herotank09
+    100062: herotank10
+    100064: herotank11
+    100066: herotank12
+    100068: herotank13
+    100070: herotank14
+    100072: root
+    400000: 30002101_fire1
+    400002: 30002101_fire2
+    400004: 30002101_fire3
+    400006: 30002101_hRotate
+    400008: 30002101_Turrent
+    400010: 30002102_fire1
+    400012: 30002102_fire2
+    400014: 30002102_hRotate
+    400016: 30002102_Turrent
+    400018: 30002103_fire1
+    400020: 30002103_fire2
+    400022: 30002103_hRotate
+    400024: 30002103_Turrent
+    400026: //RootNode
+    400028: Bone001
+    400030: Bone002
+    400032: Bone003
+    400034: Bone004
+    400036: Bone006
+    400038: Bone007
+    400040: Bone008
+    400042: Bone009
+    400044: herotank01
+    400046: herotank02
+    400048: herotank03
+    400050: herotank04
+    400052: herotank05
+    400054: herotank06
+    400056: herotank07
+    400058: herotank08
+    400060: herotank09
+    400062: herotank10
+    400064: herotank11
+    400066: herotank12
+    400068: herotank13
+    400070: herotank14
+    400072: root
+    2300000: herotank02
+    2300002: herotank03
+    2300004: herotank04
+    2300006: herotank05
+    2300008: herotank06
+    2300010: herotank07
+    2300012: herotank08
+    2300014: herotank09
+    2300016: herotank10
+    2300018: herotank11
+    2300020: herotank12
+    2300022: herotank13
+    2300024: herotank14
+    3300000: herotank02
+    3300002: herotank03
+    3300004: herotank04
+    3300006: herotank05
+    3300008: herotank06
+    3300010: herotank07
+    3300012: herotank08
+    3300014: herotank09
+    3300016: herotank10
+    3300018: herotank11
+    3300020: herotank12
+    3300022: herotank13
+    3300024: herotank14
+    4300000: herotank01
+    4300002: herotank02
+    4300004: herotank03
+    4300006: herotank08
+    4300008: herotank09
+    4300010: herotank10
+    4300012: herotank11
+    4300014: herotank14
+    4300016: herotank12
+    4300018: herotank13
+    4300020: herotank04
+    4300022: herotank05
+    4300024: herotank06
+    4300026: herotank07
+    7400000: move
+    7400002: anim
+    7400004: idle
+    7400006: move02
+    7400008: attack01
+    7400010: attack02
+    7400012: death
+    9500000: //RootNode
+    13700000: herotank01
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: move
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: herotank01
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/herotank02
+        weight: 1
+      - path: root/herotank02/30002101_Turrent
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank04
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank05
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank06
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank06/herotank07
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank06/herotank07/30002101_fire1
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank06/herotank07/30002101_fire2
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank06/herotank07/30002101_fire3
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank09
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank09/herotank10
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002102_Turrent
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002102_Turrent/30002102_hRotate
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002102_Turrent/30002102_hRotate/30002102_fire1
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002102_Turrent/30002102_hRotate/30002102_fire2
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002103_Turrent
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002103_Turrent/30002103_hRotate
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002103_Turrent/30002103_hRotate/30002103_fire1
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002103_Turrent/30002103_hRotate/30002103_fire2
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/herotank14
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank12
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank12/herotank13
+        weight: 1
+      - path: root/herotank02/Bone001
+        weight: 1
+      - path: root/herotank02/Bone001/Bone002
+        weight: 1
+      - path: root/herotank02/Bone003
+        weight: 1
+      - path: root/herotank02/Bone003/Bone004
+        weight: 1
+      - path: root/herotank02/Bone007
+        weight: 1
+      - path: root/herotank02/Bone007/Bone008
+        weight: 1
+      - path: root/herotank02/Bone009
+        weight: 1
+      - path: root/herotank02/Bone009/Bone006
+        weight: 1
+      - path: root/herotank02/herotank03
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: anim
+      takeName: Take 001
+      firstFrame: 20
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: herotank01
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/herotank02
+        weight: 1
+      - path: root/herotank02/30002101_Turrent
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank04
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank05
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank06
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank06/herotank07
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank06/herotank07/30002101_fire1
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank06/herotank07/30002101_fire2
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank06/herotank07/30002101_fire3
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank09
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank09/herotank10
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002102_Turrent
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002102_Turrent/30002102_hRotate
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002102_Turrent/30002102_hRotate/30002102_fire1
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002102_Turrent/30002102_hRotate/30002102_fire2
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002103_Turrent
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002103_Turrent/30002103_hRotate
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002103_Turrent/30002103_hRotate/30002103_fire1
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002103_Turrent/30002103_hRotate/30002103_fire2
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/herotank14
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank12
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank12/herotank13
+        weight: 1
+      - path: root/herotank02/Bone001
+        weight: 1
+      - path: root/herotank02/Bone001/Bone002
+        weight: 1
+      - path: root/herotank02/Bone003
+        weight: 1
+      - path: root/herotank02/Bone003/Bone004
+        weight: 1
+      - path: root/herotank02/Bone007
+        weight: 1
+      - path: root/herotank02/Bone007/Bone008
+        weight: 1
+      - path: root/herotank02/Bone009
+        weight: 1
+      - path: root/herotank02/Bone009/Bone006
+        weight: 1
+      - path: root/herotank02/herotank03
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 121
+      lastFrame: 141
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: herotank01
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/herotank02
+        weight: 1
+      - path: root/herotank02/30002101_Turrent
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank04
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank05
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank06
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank06/herotank07
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank06/herotank07/30002101_fire1
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank06/herotank07/30002101_fire2
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank06/herotank07/30002101_fire3
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank09
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank09/herotank10
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002102_Turrent
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002102_Turrent/30002102_hRotate
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002102_Turrent/30002102_hRotate/30002102_fire1
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002102_Turrent/30002102_hRotate/30002102_fire2
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002103_Turrent
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002103_Turrent/30002103_hRotate
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002103_Turrent/30002103_hRotate/30002103_fire1
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002103_Turrent/30002103_hRotate/30002103_fire2
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/herotank14
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank12
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank12/herotank13
+        weight: 1
+      - path: root/herotank02/Bone001
+        weight: 1
+      - path: root/herotank02/Bone001/Bone002
+        weight: 1
+      - path: root/herotank02/Bone003
+        weight: 1
+      - path: root/herotank02/Bone003/Bone004
+        weight: 1
+      - path: root/herotank02/Bone007
+        weight: 1
+      - path: root/herotank02/Bone007/Bone008
+        weight: 1
+      - path: root/herotank02/Bone009
+        weight: 1
+      - path: root/herotank02/Bone009/Bone006
+        weight: 1
+      - path: root/herotank02/herotank03
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: move02
+      takeName: Take 001
+      firstFrame: 142
+      lastFrame: 162
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: herotank01
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/herotank02
+        weight: 1
+      - path: root/herotank02/30002101_Turrent
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank04
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank05
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank06
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank06/herotank07
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank06/herotank07/30002101_fire1
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank06/herotank07/30002101_fire2
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank06/herotank07/30002101_fire3
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank09
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank09/herotank10
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002102_Turrent
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002102_Turrent/30002102_hRotate
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002102_Turrent/30002102_hRotate/30002102_fire1
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002102_Turrent/30002102_hRotate/30002102_fire2
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002103_Turrent
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002103_Turrent/30002103_hRotate
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002103_Turrent/30002103_hRotate/30002103_fire1
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002103_Turrent/30002103_hRotate/30002103_fire2
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/herotank14
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank12
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank12/herotank13
+        weight: 1
+      - path: root/herotank02/Bone001
+        weight: 1
+      - path: root/herotank02/Bone001/Bone002
+        weight: 1
+      - path: root/herotank02/Bone003
+        weight: 1
+      - path: root/herotank02/Bone003/Bone004
+        weight: 1
+      - path: root/herotank02/Bone007
+        weight: 1
+      - path: root/herotank02/Bone007/Bone008
+        weight: 1
+      - path: root/herotank02/Bone009
+        weight: 1
+      - path: root/herotank02/Bone009/Bone006
+        weight: 1
+      - path: root/herotank02/herotank03
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack01
+      takeName: Take 001
+      firstFrame: 160
+      lastFrame: 189
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: herotank01
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/herotank02
+        weight: 1
+      - path: root/herotank02/30002101_Turrent
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank04
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank05
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank06
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank06/herotank07
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank06/herotank07/30002101_fire1
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank06/herotank07/30002101_fire2
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank06/herotank07/30002101_fire3
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank09
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank09/herotank10
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002102_Turrent
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002102_Turrent/30002102_hRotate
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002102_Turrent/30002102_hRotate/30002102_fire1
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002102_Turrent/30002102_hRotate/30002102_fire2
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002103_Turrent
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002103_Turrent/30002103_hRotate
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002103_Turrent/30002103_hRotate/30002103_fire1
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002103_Turrent/30002103_hRotate/30002103_fire2
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/herotank14
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank12
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank12/herotank13
+        weight: 1
+      - path: root/herotank02/Bone001
+        weight: 1
+      - path: root/herotank02/Bone001/Bone002
+        weight: 1
+      - path: root/herotank02/Bone003
+        weight: 1
+      - path: root/herotank02/Bone003/Bone004
+        weight: 1
+      - path: root/herotank02/Bone007
+        weight: 1
+      - path: root/herotank02/Bone007/Bone008
+        weight: 1
+      - path: root/herotank02/Bone009
+        weight: 1
+      - path: root/herotank02/Bone009/Bone006
+        weight: 1
+      - path: root/herotank02/herotank03
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack02
+      takeName: Take 001
+      firstFrame: 190
+      lastFrame: 206
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: herotank01
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/herotank02
+        weight: 1
+      - path: root/herotank02/30002101_Turrent
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank04
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank05
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank06
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank06/herotank07
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank06/herotank07/30002101_fire1
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank06/herotank07/30002101_fire2
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank06/herotank07/30002101_fire3
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank09
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank09/herotank10
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002102_Turrent
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002102_Turrent/30002102_hRotate
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002102_Turrent/30002102_hRotate/30002102_fire1
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002102_Turrent/30002102_hRotate/30002102_fire2
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002103_Turrent
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002103_Turrent/30002103_hRotate
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002103_Turrent/30002103_hRotate/30002103_fire1
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002103_Turrent/30002103_hRotate/30002103_fire2
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/herotank14
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank12
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank12/herotank13
+        weight: 1
+      - path: root/herotank02/Bone001
+        weight: 1
+      - path: root/herotank02/Bone001/Bone002
+        weight: 1
+      - path: root/herotank02/Bone003
+        weight: 1
+      - path: root/herotank02/Bone003/Bone004
+        weight: 1
+      - path: root/herotank02/Bone007
+        weight: 1
+      - path: root/herotank02/Bone007/Bone008
+        weight: 1
+      - path: root/herotank02/Bone009
+        weight: 1
+      - path: root/herotank02/Bone009/Bone006
+        weight: 1
+      - path: root/herotank02/herotank03
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death
+      takeName: Take 001
+      firstFrame: 206
+      lastFrame: 230
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: herotank01
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/herotank02
+        weight: 1
+      - path: root/herotank02/30002101_Turrent
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank04
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank05
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank06
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank06/herotank07
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank06/herotank07/30002101_fire1
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank06/herotank07/30002101_fire2
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank06/herotank07/30002101_fire3
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank09
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank09/herotank10
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002102_Turrent
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002102_Turrent/30002102_hRotate
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002102_Turrent/30002102_hRotate/30002102_fire1
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002102_Turrent/30002102_hRotate/30002102_fire2
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002103_Turrent
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002103_Turrent/30002103_hRotate
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002103_Turrent/30002103_hRotate/30002103_fire1
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/30002103_Turrent/30002103_hRotate/30002103_fire2
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank11/herotank14
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank12
+        weight: 1
+      - path: root/herotank02/30002101_Turrent/30002101_hRotate/herotank08/herotank12/herotank13
+        weight: 1
+      - path: root/herotank02/Bone001
+        weight: 1
+      - path: root/herotank02/Bone001/Bone002
+        weight: 1
+      - path: root/herotank02/Bone003
+        weight: 1
+      - path: root/herotank02/Bone003/Bone004
+        weight: 1
+      - path: root/herotank02/Bone007
+        weight: 1
+      - path: root/herotank02/Bone007/Bone008
+        weight: 1
+      - path: root/herotank02/Bone009
+        weight: 1
+      - path: root/herotank02/Bone009/Bone006
+        weight: 1
+      - path: root/herotank02/herotank03
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.22
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

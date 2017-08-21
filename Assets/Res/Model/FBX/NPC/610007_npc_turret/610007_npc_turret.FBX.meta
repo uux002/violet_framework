@@ -1,0 +1,601 @@
+fileFormatVersion: 2
+guid: fd3d0107ed290134d8c05cf07bf8a843
+timeCreated: 1502884253
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 61000701_fire1
+    100002: 61000701_fire2
+    100004: 61000701_fire3
+    100006: 61000701_hRotate
+    100008: 61000701_Turrent
+    100010: 61000702_fire1
+    100012: 61000702_fire2
+    100014: 61000702_fire3
+    100016: 61000702_fire4
+    100018: 61000702_fire5
+    100020: 61000702_fire6
+    100022: 61000702_hRotate
+    100024: 61000702_Turrent
+    100026: //RootNode
+    100028: npc_turret01
+    100030: npc_turret02
+    100032: npc_turret03
+    100034: npc_turret04
+    100036: npc_turret05
+    100038: npc_turret06
+    100040: npc_turret07
+    100042: npc_turret08
+    100044: npc_turret09
+    100046: npc_turret10
+    100048: npc_turret11
+    100050: npc_turret12
+    100052: npc_turret13
+    100054: npc_turret14
+    400000: 61000701_fire1
+    400002: 61000701_fire2
+    400004: 61000701_fire3
+    400006: 61000701_hRotate
+    400008: 61000701_Turrent
+    400010: 61000702_fire1
+    400012: 61000702_fire2
+    400014: 61000702_fire3
+    400016: 61000702_fire4
+    400018: 61000702_fire5
+    400020: 61000702_fire6
+    400022: 61000702_hRotate
+    400024: 61000702_Turrent
+    400026: //RootNode
+    400028: npc_turret01
+    400030: npc_turret02
+    400032: npc_turret03
+    400034: npc_turret04
+    400036: npc_turret05
+    400038: npc_turret06
+    400040: npc_turret07
+    400042: npc_turret08
+    400044: npc_turret09
+    400046: npc_turret10
+    400048: npc_turret11
+    400050: npc_turret12
+    400052: npc_turret13
+    400054: npc_turret14
+    2300000: npc_turret01
+    2300002: npc_turret02
+    2300004: npc_turret03
+    2300006: npc_turret04
+    2300008: npc_turret05
+    2300010: npc_turret06
+    2300012: npc_turret07
+    2300014: npc_turret08
+    2300016: npc_turret09
+    2300018: npc_turret10
+    2300020: npc_turret11
+    2300022: npc_turret12
+    2300024: npc_turret13
+    2300026: npc_turret14
+    3300000: npc_turret01
+    3300002: npc_turret02
+    3300004: npc_turret03
+    3300006: npc_turret04
+    3300008: npc_turret05
+    3300010: npc_turret06
+    3300012: npc_turret07
+    3300014: npc_turret08
+    3300016: npc_turret09
+    3300018: npc_turret10
+    3300020: npc_turret11
+    3300022: npc_turret12
+    3300024: npc_turret13
+    3300026: npc_turret14
+    4300000: npc_turret01
+    4300002: npc_turret02
+    4300004: npc_turret03
+    4300006: npc_turret07
+    4300008: npc_turret10
+    4300010: npc_turret11
+    4300012: npc_turret09
+    4300014: npc_turret04
+    4300016: npc_turret08
+    4300018: npc_turret12
+    4300020: npc_turret13
+    4300022: npc_turret14
+    4300024: npc_turret05
+    4300026: npc_turret06
+    7400000: idle
+    7400002: anim
+    7400004: attack02
+    7400006: attack01
+    7400008: anim01
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 5
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 61000701_Turrent
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/61000701_fire1
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/61000701_fire2
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/61000701_fire3
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret03
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret03/npc_turret07
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret03/npc_turret07/npc_turret09
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret03/npc_turret07/npc_turret10
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret03/npc_turret07/npc_turret11
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate/61000702_fire1
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate/61000702_fire2
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate/61000702_fire3
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate/61000702_fire4
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate/61000702_fire5
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate/61000702_fire6
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/npc_turret08
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/npc_turret08/npc_turret12
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/npc_turret08/npc_turret13
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/npc_turret08/npc_turret14
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret05
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret06
+        weight: 1
+      - path: npc_turret01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: anim
+      takeName: Take 001
+      firstFrame: 5
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 61000701_Turrent
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/61000701_fire1
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/61000701_fire2
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/61000701_fire3
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret03
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret03/npc_turret07
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret03/npc_turret07/npc_turret09
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret03/npc_turret07/npc_turret10
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret03/npc_turret07/npc_turret11
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate/61000702_fire1
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate/61000702_fire2
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate/61000702_fire3
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate/61000702_fire4
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate/61000702_fire5
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate/61000702_fire6
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/npc_turret08
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/npc_turret08/npc_turret12
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/npc_turret08/npc_turret13
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/npc_turret08/npc_turret14
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret05
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret06
+        weight: 1
+      - path: npc_turret01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack02
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 61000701_Turrent
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/61000701_fire1
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/61000701_fire2
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/61000701_fire3
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret03
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret03/npc_turret07
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret03/npc_turret07/npc_turret09
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret03/npc_turret07/npc_turret10
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret03/npc_turret07/npc_turret11
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate/61000702_fire1
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate/61000702_fire2
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate/61000702_fire3
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate/61000702_fire4
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate/61000702_fire5
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate/61000702_fire6
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/npc_turret08
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/npc_turret08/npc_turret12
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/npc_turret08/npc_turret13
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/npc_turret08/npc_turret14
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret05
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret06
+        weight: 1
+      - path: npc_turret01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack01
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 61000701_Turrent
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/61000701_fire1
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/61000701_fire2
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/61000701_fire3
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret03
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret03/npc_turret07
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret03/npc_turret07/npc_turret09
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret03/npc_turret07/npc_turret10
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret03/npc_turret07/npc_turret11
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate/61000702_fire1
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate/61000702_fire2
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate/61000702_fire3
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate/61000702_fire4
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate/61000702_fire5
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate/61000702_fire6
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/npc_turret08
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/npc_turret08/npc_turret12
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/npc_turret08/npc_turret13
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/npc_turret08/npc_turret14
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret05
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret06
+        weight: 1
+      - path: npc_turret01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: anim01
+      takeName: Take 001
+      firstFrame: 45
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 61000701_Turrent
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/61000701_fire1
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/61000701_fire2
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/61000701_fire3
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret03
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret03/npc_turret07
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret03/npc_turret07/npc_turret09
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret03/npc_turret07/npc_turret10
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret03/npc_turret07/npc_turret11
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate/61000702_fire1
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate/61000702_fire2
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate/61000702_fire3
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate/61000702_fire4
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate/61000702_fire5
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/61000702_Turrent/61000702_hRotate/61000702_fire6
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/npc_turret08
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/npc_turret08/npc_turret12
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/npc_turret08/npc_turret13
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret04/npc_turret08/npc_turret14
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret05
+        weight: 1
+      - path: 61000701_Turrent/61000701_hRotate/npc_turret02/npc_turret06
+        weight: 1
+      - path: npc_turret01
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.6
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
